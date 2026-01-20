@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+# Disable Luna Surface Manager
+systemctl disable luna-surfacemanager.service 2>/dev/null || true
+
+# Remove symlink
+rm -f /etc/systemd/system/graphical.target.wants/luna-surfacemanager.service 2>/dev/null || true
+
+# Unmask and re-enable GDM if it exists
+if [ -f /usr/lib/systemd/system/gdm3.service ]; then
+    systemctl unmask gdm3.service 2>/dev/null || true
+    systemctl unmask gdm.service 2>/dev/null || true
+    systemctl enable gdm3.service 2>/dev/null || true
+fi
+
+# Re-enable NetworkManager
+systemctl enable NetworkManager.service 2>/dev/null || true
+
+# Disable ConnMan
+systemctl disable connman.service 2>/dev/null || true
+
+systemctl daemon-reload
+
+exit 0

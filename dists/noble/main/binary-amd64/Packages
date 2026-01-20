@@ -2343,10 +2343,10 @@ Maintainer: LuneOS Team <luneos@webosports.org>
 Depends: luna-surfacemanager, luna-surfacemanager-conf, systemd
 Conflicts: gdm3, lightdm, sddm
 Filename: pool/main/luneos-session.deb
-Size: 2188
-MD5sum: 2e7f98f613e8ded2e5e5d73496f2638e
-SHA1: 2c10ad5d5319875ca0ef5556eaa68bb878ab2e9d
-SHA256: 79e76a484f4ec05f58065949f3813c60ba486c41cdf0daf76889e9da0200e395
+Size: 2258
+MD5sum: af24ba626634ebda48028f157c4b7b16
+SHA1: 3f48c5d7cc75dfd793ea4165b01ad249a3775b9f
+SHA256: cb22da07df7f1195dc61fae3daa9e261ce462006f61330520c4c5e3c7e3cc4be
 Section: misc
 Priority: optional
 Description: LuneOS Session and Display Manager

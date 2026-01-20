@@ -8,8 +8,8 @@ Components: main
 Description: LuneOS Ubuntu PPA - Package repository for LuneOS on Ubuntu
 Date: Sun, 19 Jan 2026 12:00:00 +0000
 MD5Sum:
- b17c9d96060975ac309efe7ca8398a16           143658 main/binary-amd64/Packages
- 3de81957f975a6f74ad7f4617d3c46fc            38350 main/binary-amd64/Packages.gz
+ d979e13e0fa75cae20549aafbd3ea7f3           143658 main/binary-amd64/Packages
+ 9fcb11a6b27784e447aca766560bf431            38349 main/binary-amd64/Packages.gz
 SHA256:
- 102f6e02ba91e0f15c87e4f5fa0e0f7afbba911b3d5364277cbf60543db059af           143658 main/binary-amd64/Packages
- 39fd9502f92724cc213ac6d8cbf6830b6eaf8565174665953f015dbdf3fafb95            38350 main/binary-amd64/Packages.gz
+ 590bd5665b3a33dde82acce7838dce48d3b76ea4108288a9152a058b30637867           143658 main/binary-amd64/Packages
+ d8a1d4d8c0e6fbc36c475718c680856a20457ff54015c96f5a362d0cbd3fb47a            38349 main/binary-amd64/Packages.gz

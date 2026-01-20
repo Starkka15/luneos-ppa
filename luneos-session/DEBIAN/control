@@ -1,0 +1,12 @@
+Package: luneos-session
+Version: 1.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: LuneOS Team <luneos@webosports.org>
+Depends: luna-surfacemanager, luna-surfacemanager-conf, systemd
+Conflicts: gdm3, lightdm, sddm
+Description: LuneOS Session and Display Manager
+ Provides systemd service files to start the Luna Surface Manager
+ compositor directly at boot, replacing traditional display managers
+ like GDM. This package makes LuneOS the default desktop environment.
