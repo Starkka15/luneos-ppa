@@ -6,7 +6,7 @@ Version: 24.04
 Architectures: amd64
 Components: main
 Description: LuneOS Ubuntu PPA - Package repository for LuneOS on Ubuntu
-Date: Mon, 20 Jan 2025 12:00:00 +0000
+Date: Sun, 19 Jan 2026 12:00:00 +0000
 MD5Sum:
  b17c9d96060975ac309efe7ca8398a16           143658 main/binary-amd64/Packages
  3de81957f975a6f74ad7f4617d3c46fc            38350 main/binary-amd64/Packages.gz
