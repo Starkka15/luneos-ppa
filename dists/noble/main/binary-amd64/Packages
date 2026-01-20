@@ -1,0 +1,3559 @@
+Package: activitymanager
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 1148
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.14.0), libmojodb (>= 3.2.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libsystemd0
+Filename: pool/main/activitymanager_3.0.0-1ubuntu1_amd64.deb
+Size: 364642
+MD5sum: aeb1c5484f0b2e84da49b77addd5e978
+SHA1: c636eb47b43aa865c0578e6c11a0267fc1349736
+SHA256: c3230f63aa29ebde6c38ed58743d5925062ee8135a15f574cc185e1d6772fc23
+Section: misc
+Priority: optional
+Description: webOS Activity Manager
+ Activity lifecycle management service for webOS/LuneOS. Manages
+ background activities, scheduling, and system requirements via
+ Luna Service Bus.
+
+Package: app-services
+Version: 3.0.1-5+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 1042
+Filename: pool/main/app-services_3.0.1-5+git_all.deb
+Size: 121796
+MD5sum: bd976a28028bd8903f1659320be87caf
+SHA1: 92d01c99162abe444d74a74762da2b516d427920
+SHA256: d0fb25aedff668d4cc5367d1cfc3311656559aaf8d8538feafde1de6b3e18754
+Section: misc
+Priority: optional
+Description: Application Services Framework for webOS
+ Application services framework providing core service
+ functionality for webOS applications including accounts,
+ contacts, calendar, and other data services.
+
+Package: appinstalld2
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 1174
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libicu74 (>= 74.1-1~), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/appinstalld2_1.0.0-1ubuntu1_amd64.deb
+Size: 258654
+MD5sum: f4a41f637f52221da0e1fcb190fdeefe
+SHA1: ebe5c378ad1b81c3839b9cd97e29cb1f71025eb2
+SHA256: f895c8729140ecf4c50e026e56f397c65c6c41e2fe8fa5d52a6ac336042fa703
+Section: misc
+Priority: optional
+Description: webOS Application Installer Daemon
+ Application installer daemon for webOS/LuneOS. Handles installation,
+ removal, and management of applications via Luna Service Bus.
+
+Package: applicationinstallerutility
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 59
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.14.0), libstdc++6 (>= 13.1)
+Filename: pool/main/applicationinstallerutility_3.0.0-1ubuntu1_amd64.deb
+Size: 17504
+MD5sum: c443ad5eb18dbd2c7a35a90c6bafe9e7
+SHA1: 17e62dfd124181f6072db258f6a2196b2cc6603c
+SHA256: 03e5a5018cc6cd0dfe1daebf0816b0ba605c8875139959e2f5f5a4f8337508a3
+Section: misc
+Priority: optional
+Description: webOS Application Installer Utility
+ Utility for installing and managing webOS/LuneOS applications.
+ Provides support scripts and tools for application management.
+
+Package: bareapp
+Version: 1.0.0-25
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 1327
+Filename: pool/main/bareapp_1.0.0-25_all.deb
+Size: 1256120
+MD5sum: 0235d00fcbcc80e8864d099e8f6cf8b2
+SHA1: df7f0beb0d652c84b2fd5cefa50d6f26670d4536
+SHA256: a4f5369e5bab43bcd1298c56e0ddbe52885dcfc7c774ce4e17a04336dad8f6ff
+Section: misc
+Priority: optional
+Description: Bare webOS application template
+ A minimal bare application template for LuneOS/webOS.
+ Useful as a starting point for developing new applications.
+
+Package: bluetooth-sil-api-dev
+Source: bluetooth-sil-api
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 312
+Filename: pool/main/bluetooth-sil-api-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 41366
+MD5sum: 08ebc26580c34ff91da64fb72d13bb90
+SHA1: e025995433392a2ecb0f05b8a4c1172b4f00e106
+SHA256: a6587a877059393b66aa6dcde27ff9271d4a35bf7f64e9890a07da233fce1a46
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/nicofrand/bluetooth-sil-api
+Description: Bluetooth SIL (Service Integration Layer) API - development files
+ Header files defining the Bluetooth Service Integration Layer API
+ for webOS/LuneOS bluetooth services.
+
+Package: bluetooth-sil-bluez5
+Version: 0.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1916
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.79.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libuuid1 (>= 2.16), bluez
+Filename: pool/main/bluetooth-sil-bluez5_0.1.0-1ubuntu1_amd64.deb
+Size: 508524
+MD5sum: 548210486fe193339d2efbf7dc869c3b
+SHA1: 8b2e24e97037d776bdcdc7fc3952c1921939c01e
+SHA256: 47bbd5811eb95fc15e6585a813a2389deb69f4ebdbd2745274e791079ae97147
+Section: libs
+Priority: optional
+Homepage: https://github.com/nicofrand/bluetooth-sil-bluez5
+Description: Bluetooth SIL BlueZ5 implementation
+ BlueZ5 implementation of the Bluetooth Service Integration Layer (SIL)
+ for webOS/LuneOS bluetooth services.
+
+Package: bootd
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 390
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.16.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/bootd_2.0.0-1ubuntu1_amd64.deb
+Size: 66652
+MD5sum: c41f3cec6bfb71454fa390afe73e353f
+SHA1: 6059f55a69fc9a2067f8d57274fb37554aa30ae4
+SHA256: db6e8fadd646c5d4504b1f2744e3f800ee24f31331dbe091f0066d30fd8c06e2
+Section: misc
+Priority: optional
+Description: webOS Boot Management Daemon
+ Boot management daemon for webOS/LuneOS. Manages the system boot
+ process and provides boot status via Luna Service Bus.
+
+Package: certmgrd
+Version: 0.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 50
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.14.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmcertificatemgr (>= 2.0.0)
+Filename: pool/main/certmgrd_0.1.0-1ubuntu1_amd64.deb
+Size: 9774
+MD5sum: 385efe7af4641d71f09182a38f1170e4
+SHA1: 8472d8b9266157756f08fee4d6572a7eb2101f10
+SHA256: 7b7ce8c9bd7944cc62370f4ca7e167ec359e847a5ed90f7f7fc17d16029dfe03
+Section: misc
+Priority: optional
+Description: webOS Certificate Manager Daemon
+ Certificate management daemon for webOS/LuneOS. Provides certificate
+ operations via Luna Service Bus interface.
+
+Package: cmake-modules-webos
+Version: 1.6.5-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 133
+Depends: cmake
+Filename: pool/main/cmake-modules-webos_1.6.5-1ubuntu1_all.deb
+Size: 30670
+MD5sum: 3e4a920688379766fbb61b6d2ebcd6e1
+SHA1: 96ee5cc2c3dc097975f60be886a7f88b70fc7632
+SHA256: 0d586d60048f897c81ac0b50d1d59a51726af8991b2fa5c761e96b7c421c9678
+Section: devel
+Priority: optional
+Description: CMake modules for webOS components
+ This package provides CMake modules used to build webOS/LuneOS
+ components. It defines standard installation paths and build
+ helpers for the webOS ecosystem.
+
+Package: com.palm.keymanager
+Version: 0.1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 75
+Depends: nodejs
+Filename: pool/main/com.palm.keymanager_0.1.0+git_all.deb
+Size: 9172
+MD5sum: 6a15ac2f40df2c3715ae8fe1d07b8d60
+SHA1: d75aafaaad56fc79d86bff0a8bfe99dde5671e3a
+SHA256: 68f681c25aaca3cc6a4a02efc80c5ece500a0d274c690b5067054e578c87669d
+Section: misc
+Priority: optional
+Description: Palm Key Manager Service
+ Key and credential management service for webOS/LuneOS.
+ Provides secure storage and retrieval of encryption keys
+ and credentials for applications.
+
+Package: com.webos.app.camera
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4737
+Filename: pool/main/com.webos.app.camera_0.0.1-1ubuntu1_all.deb
+Size: 890266
+MD5sum: 90a27381daa4105bbe7ec9e46de63a4e
+SHA1: ef94d8c4b36e729f3dfc0778378b3436cc84e36e
+SHA256: aeeaedeebe7021953fd19f9178da71fb3b7a0b9dc6d0cac0e00dba9d9aaa3971
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.camera
+Description: webOS Camera application
+ Camera application for webOS/LuneOS providing photo and video capture.
+
+Package: com.webos.app.enactbrowser
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 16483
+Filename: pool/main/com.webos.app.enactbrowser_1.0.0-1ubuntu1_all.deb
+Size: 4238176
+MD5sum: 55fc3ecc4bd65441795b424dc249bb8a
+SHA1: 2ac8b6e57b2efbd6b6274e9be960807ef154ceaa
+SHA256: 62d2f36d674883d60c110fe692f6d7b1caed3089f7f1dcd386b9e93b063a0159
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.enactbrowser
+Description: webOS Enact Browser application
+
+Package: com.webos.app.imageviewer
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4986
+Filename: pool/main/com.webos.app.imageviewer_0.0.1-1ubuntu1_all.deb
+Size: 935726
+MD5sum: 1a2058d53b707ae079e4a68672f55303
+SHA1: e2c241e324930ca8be668084dffd40a573a84e35
+SHA256: 8e40f338632710ffcd6354051ee644ded6d51191ccfa9cc3c4bb2812ec8757a8
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.imageviewer
+Description: webOS Image Viewer application
+
+Package: com.webos.app.mediagallery
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 648
+Filename: pool/main/com.webos.app.mediagallery_1.0.0-1ubuntu1_all.deb
+Size: 462334
+MD5sum: 674428416a864584104482785c653f91
+SHA1: 3903c1c8bb66a5080921c57446066b9a87b05625
+SHA256: 58c87d3bb5d2ea26f235b4d0a3aba68d6b3ad04a1c7fae0cb44e882bcf3220fa
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.mediagallery
+Description: webOS Media Gallery application
+
+Package: com.webos.app.notification
+Version: 0.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 3897
+Filename: pool/main/com.webos.app.notification_0.1.0-1ubuntu1_all.deb
+Size: 794720
+MD5sum: b08dc9e447653fa95b61cccc617fdaaf
+SHA1: 805f6827b207f8ed8e0e33a2703ef8ccdc744435
+SHA256: b454a64dc085a01abd0dfd337c0c3e24f93f15db4930db07390a0d02dbb0cb64
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.notification
+Description: webOS Notification application
+
+Package: com.webos.app.statusbar
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4795
+Filename: pool/main/com.webos.app.statusbar_0.0.1-1ubuntu1_all.deb
+Size: 912052
+MD5sum: 9c75fc701671c7173cb1ed64577e3dbc
+SHA1: c507670149e2bb2b2d41e85c1aa798158806e73c
+SHA256: 365f1ec487b99d991ca2d30195887fe847e0b167607cad0a1b75a50b469297cc
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.statusbar
+Description: webOS Status Bar application
+
+Package: com.webos.app.videocall
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4031
+Filename: pool/main/com.webos.app.videocall_0.0.1-1ubuntu1_all.deb
+Size: 823726
+MD5sum: 09adf49b7d1119271e37160ec07c44b5
+SHA1: 60d69d3a70662e72f1913a437184f9c4697c6b06
+SHA256: 976144d9012af6f0c9a090bffb0abcf638c29238abf73cdf831975c17ced1ae7
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.videocall
+Description: webOS Video Call application
+
+Package: com.webos.app.videoplayer
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 5164
+Filename: pool/main/com.webos.app.videoplayer_0.0.1-1ubuntu1_all.deb
+Size: 963586
+MD5sum: 38d920487ab2c52a8c9ddb122e38d7c8
+SHA1: 0b50f0711bb90ace97184a0cc98a6ca720c33b7a
+SHA256: b268e32110a2be87e147e822059e4c28f85c341e33c8aaffcac80872e5b72354
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.videoplayer
+Description: webOS Video Player application
+
+Package: com.webos.app.volume
+Version: 0.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4786
+Filename: pool/main/com.webos.app.volume_0.1.0-1ubuntu1_all.deb
+Size: 909268
+MD5sum: db2be6f6e0965bf3e9c1214b48826bd8
+SHA1: e47f4bc4d6d7e5cf62c9c34163e29303fffa3019
+SHA256: f97a53d2d60d547395b864789b3ad70862e308459b4f638aae96422c1eb1097d
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.app.volume
+Description: webOS Volume Control application
+
+Package: com.webos.service.audiofocusmanager
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 148
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.audiofocusmanager_1.0.0-1ubuntu1_amd64.deb
+Size: 41060
+MD5sum: ae787ad1a3394aca2a36b9d3113c50d1
+SHA1: 48e3997bf046f711867bb03f1a1e50c5a8083893
+SHA256: bbe56afeb893c223da09310b2ac617cf3d25a544ddaa2f3856e47a454ef46d68
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.audiofocusmanager
+Description: webOS audio focus manager service
+ Service that manages audio focus for webOS applications,
+ handling audio session priorities and focus requests.
+
+Package: com.webos.service.audiooutput
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 98
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libumi1 (>= 1.0.0)
+Filename: pool/main/com.webos.service.audiooutput_1.0.0-1ubuntu1_amd64.deb
+Size: 27922
+MD5sum: 90ffeffbbb8b292cadddc1fb164007dd
+SHA1: e1f67b9d581b001011acd3d58da078d55dcad600
+SHA256: d8f88b6d2a0a8674a53fa91decee233cd95a549be8162dd9f40fc4c8cf87958c
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.audiooutput
+Description: webOS audio output service
+ Service that controls audio output for webOS applications.
+
+Package: com.webos.service.battery
+Version: 4.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 134
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.75.3), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0)
+Filename: pool/main/com.webos.service.battery_4.0.0-1ubuntu1_amd64.deb
+Size: 29962
+MD5sum: 692686dfafa842634a3a93c1c6ea1099
+SHA1: 6741adc5fdc7075e62fbc64ea4ccf2a3644af7e1
+SHA256: 89cb2489dfde3f73f332eba80d0ee1b8135121c6aac0e370dec08ae68220883b
+Section: misc
+Priority: optional
+Homepage: https://github.com/webos-ports/com.webos.service.battery
+Description: webOS battery and charger daemon
+ Service that manages battery status and charging for webOS.
+
+Package: com.webos.service.bluetooth2
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 2216
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.16.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), bluetooth-sil-bluez5
+Filename: pool/main/com.webos.service.bluetooth2_1.0.0-1ubuntu1_amd64.deb
+Size: 690514
+MD5sum: 8a0c9daea5f89e24e90bba57e58748dc
+SHA1: d865ea71342ece849c0b96e71707fb441aefe882
+SHA256: 412c8e90bb9c194c0433be85bff107b75d30c6ade02ee8febe6483757443a77f
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.bluetooth2
+Description: webOS Bluetooth management service
+ Service that manages Bluetooth functionality for webOS.
+
+Package: com.webos.service.camera
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 2320
+Depends: libc6 (>= 2.38), libcamera-utils1 (>= 1.0.0), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.28.0), libgstreamer1.0-0 (>= 1.0.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.camera_1.0.0-1ubuntu1_amd64.deb
+Size: 639400
+MD5sum: 1f5c123b09143e852c90902799c5aa7a
+SHA1: 74ce363db7a9c0c646ecb331f5d56e5aba8bc453
+SHA256: 5e241772cdd2eea91f8ef9f90ddb9d8d891989f67c01ed9307210a0095412967
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.camera
+Description: webOS camera service
+ Service that manages camera functionality for webOS.
+
+Package: com.webos.service.intent
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 394
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.58.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.intent_1.0.0-1ubuntu1_amd64.deb
+Size: 130536
+MD5sum: dbd840789f644db2280d604addf9912b
+SHA1: 73750d3cb144330334fedfe3eac059729d91e407
+SHA256: 706c32a675aaadd4df2ba82ba98b099515a84546acc584dd6f0d7ccdfe3a61b7
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.intent
+Description: webOS intent service
+ Service that manages intents for webOS applications.
+
+Package: com.webos.service.mediacontroller
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 397
+Depends: libc6 (>= 2.34), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.mediacontroller_1.0.0-1ubuntu1_amd64.deb
+Size: 109802
+MD5sum: 6e7d5bc6c11faad800a7e99f7700de7a
+SHA1: 1c6b92de1fabb3abce9dd60193dbba5f309072a0
+SHA256: d1e025a7593b9df620a1caab729e3e222e65077b8c535610c035d9f10d9e8faf
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.mediacontroller
+Description: webOS media controller service
+ Service that manages media playback control for webOS.
+
+Package: com.webos.service.mediaindexer
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 925
+Depends: libc6 (>= 2.38), libexif12 (>= 0.6.21-1~), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.32.0), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.4.0), libjpeg8 (>= 8c), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libpng16-16t64 (>= 1.6.2), libstdc++6 (>= 13.1), libtag1v5 (>= 1.11), libturbojpeg (>= 1.2.90)
+Filename: pool/main/com.webos.service.mediaindexer_1.0.0-1ubuntu1_amd64.deb
+Size: 294192
+MD5sum: e0c35e9a1ac92e076b94cb34d575cd37
+SHA1: 40c6738fe1d5dce6766ed595c5ab4eeaa9924cdf
+SHA256: 6ed9e0568f3b70c8d0023f24bd8ce8f8e345bca8a960c1fb8d594ae13ba41ff1
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.mediaindexer
+Description: webOS media indexer service
+ Service that indexes media files on storage devices and provides
+ metadata information for webOS applications.
+
+Package: com.webos.service.mediarecorder
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 506
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.16.0), libgstreamer1.0-0 (>= 1.6.0), libluna-service2 (>= 3.21.2), libmedia-resource-calculator1 (>= 1.0.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.mediarecorder_1.0.0-1ubuntu1_amd64.deb
+Size: 158844
+MD5sum: cf664331058f80da46b512e31a8cf88d
+SHA1: 9733d3dfab88311a91e86692eae8d95dac2fe4fc
+SHA256: 2b7b0883f5b14b3880d79b45142284dbfb6339979875a13db828ffcc2940b80a
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.mediarecorder
+Description: webOS media recorder service
+ Service that provides media recording functionality for webOS.
+
+Package: com.webos.service.memorymanager
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 325
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.79.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.memorymanager_1.0.0-1ubuntu1_amd64.deb
+Size: 100456
+MD5sum: 7117ff8f34960723d7cf6d7ef4d4e7c7
+SHA1: fcfed82578503d9e4226178ad744617fb2862e8c
+SHA256: 5782b8690e77a32f255159beb39353621350c5caa7341c3ef3daac91f314cb84
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.memorymanager
+Description: webOS memory manager service
+ Service that manages memory for webOS applications.
+
+Package: com.webos.service.pdm
+Version: 1.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1693
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.9), libwebosi18n (>= 1.0.1)
+Filename: pool/main/com.webos.service.pdm_1.0.1-1ubuntu1_amd64.deb
+Size: 407330
+MD5sum: 546fdf8aeaba4ba73830c8f1ee8fb41c
+SHA1: f03452f2ed2e0720a80e18bf4c695223e616a7a9
+SHA256: 5eea56d6714a67c465dfb7113099d593c6e9c082c6ece0b6c28c17834b18d162
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.pdm
+Description: webOS physical device manager
+ Service that manages physical devices using netlink events.
+
+Package: com.webos.service.power2
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 146
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libpms-support (>= 1.0.0), libpmscore (>= 1.0.0), libstdc++6 (>= 13.1)
+Filename: pool/main/com.webos.service.power2_1.0.0-1ubuntu1_amd64.deb
+Size: 41572
+MD5sum: 829e851a3a814f10ad02fb097d532d4e
+SHA1: fb22e3349abd337636a8b93ba89509f676e45b4e
+SHA256: ee76af2c391009917e8a5ca5811b6627ed1c545331bc9d71f86aed0f2d2eb3a5
+Section: misc
+Priority: optional
+Homepage: https://github.com/webosose/com.webos.service.power2
+Description: webOS power management service
+ Service that provides power management functionality for webOS,
+ including power states, sleep/wake management, and system power control.
+
+Package: configd
+Version: 1.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 806
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.32.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/configd_1.2.0-1ubuntu1_amd64.deb
+Size: 236634
+MD5sum: 73e0663c7104645c0142a3e070a2182d
+SHA1: d518d2ff8cd89062a3b29530d896f0fbe971daff
+SHA256: c4129c1b0962978d1649434ed80a49a4a86c46e3bbf6b122b782109a5fdaa768
+Section: admin
+Priority: optional
+Description: webOS dynamic configuration service
+ Configd provides dynamic configuration management for webOS.
+
+Package: cordova
+Version: 2.3.0-1+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 251
+Filename: pool/main/cordova_2.3.0-1+git_all.deb
+Size: 46094
+MD5sum: c77326546f6e8da2556dd849f38af092
+SHA1: 6aa03d04e25279e917667115a66f1fa0905b8a37
+SHA256: 26670ac55c7b488a57545c49766c69c2f7c2e034e4a329f9e523f86994771913
+Section: misc
+Priority: optional
+Description: Apache Cordova Framework for webOS
+ Apache Cordova framework integration for webOS, enabling
+ hybrid web applications to access native device features
+ through JavaScript APIs.
+
+Package: core-apps
+Version: 3.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 13264
+Filename: pool/main/core-apps_3.0.0-1ubuntu1_all.deb
+Size: 5696758
+MD5sum: 4dcf8990115cba953d3765b00d4135b1
+SHA1: 15b547a6812c2dfad840649511483493d7100e80
+SHA256: 849662cba4e000038dcb2d5576d6f61ee8a8889543cb870de8b79a53603a7346
+Section: misc
+Priority: optional
+Description: Core LuneOS applications bundle
+
+Package: db8
+Version: 3.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 566
+Depends: libc6 (>= 2.34), libleveldb1d (>= 1.23), libmojodb (>= 3.2.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/db8_3.2.0-1ubuntu1_amd64.deb
+Size: 111478
+MD5sum: 586461dde472bb63d697f89f04fb2511
+SHA1: 15ae6de4356f5c349ca1c87cd80a64fb726cb71a
+SHA256: 86195bef0ba61e5d20dfb7a7bbcc1d3e6c501874f5b1805c7814903b1c03dcb4
+Section: database
+Priority: optional
+Description: webOS database service
+ DB8 is the webOS database service providing JSON document storage
+ with Luna Service bus interface.
+
+Package: enact-framework
+Version: 4.5.3+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 100676
+Filename: pool/main/enact-framework_4.5.3+git_all.deb
+Size: 24760904
+MD5sum: 021f42e7926d8dbcd5ff578e354a46b3
+SHA1: ef4bf6b7e9540cbc85d659a62325545b679f386b
+SHA256: be5d116f186f5dcd6e965edbd635cbaafec95a4bf9f568edac66106f562a2621
+Section: misc
+Priority: optional
+Description: Modern webOS UI Framework (React-based)
+ Enact is a React-based JavaScript framework for building
+ high-performance, maintainable apps for webOS devices.
+
+Package: enact-sandstone
+Version: 2.9.4+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 102020
+Depends: enact-framework
+Filename: pool/main/enact-sandstone_2.9.4+git_all.deb
+Size: 26347668
+MD5sum: 693d0e49fb3fb6740a63598f8db07e86
+SHA1: 332c0cf650c5e5ad7c00dbdb9e5686f59b3243da
+SHA256: 987c9cb833653435154924085b6163ac3c05decd44341afabe63cb3b3dc0262b
+Section: misc
+Priority: optional
+Description: Sandstone Theme for Enact Framework
+ Sandstone is the modern webOS UI theme for the Enact framework,
+ providing components and styles for webOS applications.
+
+Package: enyo-1.0
+Version: 1.0-128.2+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 9199
+Filename: pool/main/enyo-1.0_1.0-128.2+git_all.deb
+Size: 2101508
+MD5sum: 8a59d4e3eff1551820c4b7f94e6d3731
+SHA1: 0c2fcd9ee9322e89e25e37e228fd95f66316d559
+SHA256: f8c385850d3040c2fa63d9872ae6463a9c66bf0cbfb99d1a67389aeaea62bf36
+Section: misc
+Priority: optional
+Description: Legacy Enyo 1.0 JavaScript Framework
+ Enyo 1.0 is the original webOS JavaScript framework used
+ by Palm/HP webOS applications. Provided for compatibility
+ with legacy webOS apps.
+
+Package: event-monitor
+Version: 1.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 146
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/event-monitor_1.1.0-1ubuntu1_amd64.deb
+Size: 47724
+MD5sum: 1fe6de246e75ef285f97d3f04c231936
+SHA1: e24ece337a33a4ce68b9020a01a7401f50b06b53
+SHA256: 3438ddf8989330179243ede38807650ad9c97030142148da72ba91e41810e6ab
+Section: misc
+Priority: optional
+Description: webOS Event Monitor
+ System event monitoring service for webOS/LuneOS. Monitors and
+ responds to various system events via Luna Service Bus.
+
+Package: event-monitor-dev
+Source: event-monitor
+Version: 1.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 26
+Depends: event-monitor (= 1.1.0-1ubuntu1)
+Filename: pool/main/event-monitor-dev_1.1.0-1ubuntu1_amd64.deb
+Size: 5028
+MD5sum: 064716bf1deb74a890a67aa5980a9459
+SHA1: 3869f0c10a6a3d978a7eedfd6af554adff6e716d
+SHA256: 568646d1871b7960bd3f3da30c133f0ba2f0f50216fe6d0630ec9872baa035d4
+Section: misc
+Priority: optional
+Description: webOS Event Monitor - Development files
+ Development headers for creating event-monitor plugins.
+
+Package: event-monitor-network
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 44
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libwebosi18n (>= 1.0.1), event-monitor
+Filename: pool/main/event-monitor-network_1.0.0-1ubuntu1_amd64.deb
+Size: 10376
+MD5sum: b3d4a7e26eac15f1bf91b6f95416d868
+SHA1: 8b68edc7ec7f256cef6827799365017d7b907ad3
+SHA256: c82f2c29a27b4639bb28d5f1650bffb5fb045df9994707dae4d06d82d2ea7e23
+Section: misc
+Priority: optional
+Description: webOS Event Monitor - Network Plugin
+ Network event monitoring plugin for webOS/LuneOS event-monitor.
+ Monitors network connectivity events and state changes.
+
+Package: filecache
+Version: 2.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 230
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.14.0), libglibmm-2.4-1t64 (>= 2.66.7), libjemalloc2 (>= 5.0.0), libluna-service2 (>= 3.21.2), libmojodb (>= 3.2.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 13.1)
+Filename: pool/main/filecache_2.0.1-1ubuntu1_amd64.deb
+Size: 75916
+MD5sum: cbc00d0db311509174c50376319fe4b3
+SHA1: 90f25703f074c207366bbb979d7d84165e6dd8b9
+SHA256: b7eab3d7f67aaafbc688450a00dd710047c41c743ddf912939d705b7d877c3ee
+Section: misc
+Priority: optional
+Description: webOS File Caching Service
+ File caching service for webOS/LuneOS. Manages file caching and
+ provides access to cached files via Luna Service Bus.
+
+Package: foundation-frameworks
+Version: 1.1-3+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 600
+Filename: pool/main/foundation-frameworks_1.1-3+git_all.deb
+Size: 77458
+MD5sum: 6cf61892cd36ed55d646b17b6cacdbd4
+SHA1: a764aa306fd4c0b86e6bcf91cc5187a0ffe01d70
+SHA256: 7b745a6cdfb03695184797f39ad70e978c269175cc113421c749902f71e02e2f
+Section: misc
+Priority: optional
+Description: Foundation JavaScript Frameworks for webOS
+ Core JavaScript frameworks providing foundation libraries
+ for webOS applications and services.
+
+Package: g-camera-pipeline
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.34), libcmp-player1 (>= 1.0.0), libgcc-s1 (>= 3.0), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/g-camera-pipeline_1.0.0-1ubuntu1_amd64.deb
+Size: 5190
+MD5sum: f660f9e19419692078679bfc76ca8983
+SHA1: c951237152cd1e6a5b2dce5091e8afa3cdd882f8
+SHA256: cad3b9d886165c812161268652e87261f55084c84070b83de43e7d48f56d4f16
+Section: video
+Priority: optional
+Description: webOS Camera Pipeline
+ GStreamer-based camera pipeline for webOS.
+
+Package: gstreamer1.0-plugins-webosrs
+Version: 1.18.5-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.79.0), libgstreamer1.0-0 (>= 1.0.0)
+Filename: pool/main/gstreamer1.0-plugins-webosrs_1.18.5-1ubuntu1_amd64.deb
+Size: 10550
+MD5sum: 62abd03279502b33e1d747f8ec00ab1c
+SHA1: 786edbf8ab78e0009a9151ef2c4b22f6c4eff6d3
+SHA256: d3ef1486712d035d3f5e1940130a976a626b9d2b5aa48e007992c670fbe8b93d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: webOS GStreamer plugins
+ GStreamer plugins for webOS.
+
+Package: ilib-qml-plugin
+Version: 11.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 66
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: pool/main/ilib-qml-plugin_11.0.0-1ubuntu1_amd64.deb
+Size: 17436
+MD5sum: fa51589317532e4d2baea77a213d3469
+SHA1: a4f54f3b68d4d7a80690f4c0c7950576a029baf5
+SHA256: b33cba76dac2005af4f0e413b4edd256e9d05973a27e5d1bf6006f85c970bcf1
+Section: libs
+Priority: optional
+Description: iLib QML plugin for internationalization
+ QML plugin providing file reading capabilities for the iLib
+ internationalization library in webOS/LuneOS applications.
+
+Package: ilib-webapp
+Version: 14.21.0-33+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 53835
+Filename: pool/main/ilib-webapp_14.21.0-33+git_all.deb
+Size: 3967298
+MD5sum: 632519ddea4fd1072cc5269edaea30aa
+SHA1: f149bcce60225e9bd9d3c9402aa1267c62f29f92
+SHA256: cccfbc48cd69b1d4f67fc226c52ae464ae22ca979f7da4b6d065f0e29f5f0875
+Section: misc
+Priority: optional
+Description: Internationalization Library for webOS Web Apps
+ iLib is a comprehensive internationalization (i18n) library
+ for JavaScript web applications, providing locale-aware
+ formatting for dates, times, numbers, and strings.
+
+Package: imaccountvalidator
+Version: 3.0.5-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 784
+Filename: pool/main/imaccountvalidator_3.0.5-1ubuntu1_all.deb
+Size: 255442
+MD5sum: c23d3d620e018b0cc6e3d52d4d61000b
+SHA1: 3e6447637c9bc404ab1a4b542a20f82df318406e
+SHA256: 1b842b7181df78c06a734c06e7529ea2c35eb6b0222edee652a197af53a57274
+Section: misc
+Priority: optional
+Description: webOS IM account validator service
+
+Package: imemanager
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 11322
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5), libwebos-platform-interface (>= 6.0.0), maliit-framework-webos (>= 0.99.0), qt6-base-abi (= 6.4.2)
+Filename: pool/main/imemanager_1.0.0-1ubuntu1_amd64.deb
+Size: 3542812
+MD5sum: 38b4153d34782136124db242bef5bf9d
+SHA1: f3f20dde4a6e8b690682462fb7caecf601f217ec
+SHA256: d6b8cc09e0f8feb7ec31536a56832365662cdc794668c092d8c8f89b7cc76d8f
+Section: misc
+Priority: optional
+Description: WebOS Input Method Manager
+ Input Method Manager for LuneOS providing global keyboard
+ functionality with support for multiple languages.
+
+Package: imlibpurpleservice
+Version: 3.0.5-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4116
+Filename: pool/main/imlibpurpleservice_3.0.5-1ubuntu1_all.deb
+Size: 1179286
+MD5sum: 8d6852ecb02604ff5d9afb244494ba16
+SHA1: c24232ef0478cc4ef5ea4566cd00881a316153c5
+SHA256: 489f429d47e0c7d4b1f8dd10b426182d70206a93a1c3336efaca36906c70a0ad
+Section: misc
+Priority: optional
+Description: webOS libpurple IM service
+
+Package: leveldb-tl
+Version: 1.0.6-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 63
+Depends: libleveldb1d
+Filename: pool/main/leveldb-tl_1.0.6-1ubuntu1_amd64.deb
+Size: 9918
+MD5sum: a5c8212d78e6ceed381dd1de50bc7b8b
+SHA1: a674ea8d0a181092b6678ac67c1bab48b8dbc1e8
+SHA256: d9acf7f5c06f9b2a947f76be02228ce2d161c847e8ddf8513c6f7524e4165da2
+Section: libs
+Priority: optional
+Description: LevelDB with transaction logging extensions
+ Header-only library extending LevelDB with transaction logging,
+ sandwich database, and other features for webOS.
+
+Package: libcamera-utils-dev
+Source: camera-utils
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 63
+Depends: libcamera-utils1 (= 1.0.0-1ubuntu1)
+Filename: pool/main/libcamera-utils-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 11184
+MD5sum: c3f144619f242a99b44e7a3a69e1b35a
+SHA1: 783a17b799289e956110cd27fd2c5089eddda58d
+SHA256: 1f790de94c91103862bbd507b4e91bd8bfd99b224b3e0713637eec82f03510ef
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: webOS Camera Utilities Libraries (development)
+ Development files for camera utilities.
+
+Package: libcamera-utils1
+Source: camera-utils
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 108
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libcamera-utils1_1.0.0-1ubuntu1_amd64.deb
+Size: 30904
+MD5sum: d31c97da0f20c93d57dacdfb3eea5dca
+SHA1: 4efbb18b099fc02b93bb30e8e2135ea8bffc8a66
+SHA256: 3f728da3ef2e855f267b074cbca26613b8f3d0d1d30eca936413b2a39c1b7c1f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: webOS Camera Utilities Libraries
+ Camera utility libraries for webOS, including luna_client and camera_shared_memory.
+
+Package: libcmp-player-dev
+Source: g-camera-pipeline
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 36
+Depends: libcmp-player1 (= 1.0.0-1ubuntu1)
+Filename: pool/main/libcmp-player-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 6114
+MD5sum: b7ab4b4aed7111942b2d38c4a3221d0a
+SHA1: 94291cac114c61f252d675c433f1d38f43504289
+SHA256: 2be8584e29097d212e601546fcd2c357d1795c676774516f9229d07589fdb8b3
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: webOS Camera Pipeline Player Library (development)
+ Development files for camera player library.
+
+Package: libcmp-player1
+Source: g-camera-pipeline
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 372
+Depends: libc6 (>= 2.34), libcamera-utils1 (>= 1.0.0), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libluna-service2 (>= 3.21.2), libmedia-resource-calculator1 (>= 1.0.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libwayland-webos-client (>= 1.0.0)
+Filename: pool/main/libcmp-player1_1.0.0-1ubuntu1_amd64.deb
+Size: 116068
+MD5sum: 8cd22b12365723ef71bf96211b30527a
+SHA1: 2aa1145d34d194cadfc7892f2f9f1a5e137f0d0f
+SHA256: c8d4721aa581263aef7b38330dd5729ddb56759dc1acb74866694ea5d95fbf63
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: webOS Camera Pipeline Player Library
+ Camera player library for webOS.
+
+Package: libconfigd
+Source: configd
+Version: 1.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 38
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.32.0)
+Filename: pool/main/libconfigd_1.2.0-1ubuntu1_amd64.deb
+Size: 9666
+MD5sum: 31912aad97661f00fa4cfb2266c3bdc6
+SHA1: 0a5661948c04b2c301bf94f2338973fa5ecc82b9
+SHA256: 7090add33ca9177d3a49cacabd25d49f46f5f4288942065d5db1a80f2a798b28
+Section: admin
+Priority: optional
+Description: webOS configuration library
+ Library for accessing configd services.
+
+Package: libconfigd-dev
+Source: configd
+Version: 1.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 27
+Depends: libconfigd (= 1.2.0-1ubuntu1)
+Filename: pool/main/libconfigd-dev_1.2.0-1ubuntu1_amd64.deb
+Size: 5034
+MD5sum: 0d1965a3af0e178e5348029ef2b144a9
+SHA1: f5a1bff445cc6ad7a467b96bf0e6ec6a9a5c6361
+SHA256: 6716633c963d137618778146f4ae881c95c8e37f88d238aa7a09a988614667b7
+Section: libdevel
+Priority: optional
+Description: webOS configuration library - development files
+ Development headers and pkg-config files for libconfigd.
+
+Package: libconnman-qt6-1
+Source: libconnman-qt
+Version: 1.3.3-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1046
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.4.0), libqt6network6t64 (>= 6.1.2), libstdc++6 (>= 5)
+Filename: pool/main/libconnman-qt6-1_1.3.3-1ubuntu1_amd64.deb
+Size: 269226
+MD5sum: 08f6a00fae1030c01e8d54fd0e753f62
+SHA1: 9dbbe327153f868575a9944be79e9bf6a75e6af9
+SHA256: df3909043c1265fc46cd9ea40c5874be5316f3c2b09e9f4308a020f2454d366f
+Section: libs
+Priority: optional
+Homepage: https://github.com/nicofrand/libconnman-qt
+Description: Qt ConnMan library
+ Qt library for managing network connections through ConnMan.
+ .
+ This package contains the shared library.
+
+Package: libconnman-qt6-dev
+Source: libconnman-qt
+Version: 1.3.3-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 81
+Depends: libconnman-qt6-1 (= 1.3.3-1ubuntu1), qt6-base-dev
+Filename: pool/main/libconnman-qt6-dev_1.3.3-1ubuntu1_amd64.deb
+Size: 11626
+MD5sum: f0da39b5aeb8099e66d28a79beb9fbc0
+SHA1: cc5e37a5e738a92a3e775f3a172f9fdabaf39898
+SHA256: 0d1738f2d42a6138e578541fc55b19ecefccb5616ecd778225c20c4d969bf66e
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/nicofrand/libconnman-qt
+Description: Qt ConnMan library - development files
+ Qt library for managing network connections through ConnMan.
+ .
+ This package contains development files.
+
+Package: libluna-prefs
+Source: luna-prefs
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 46
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.22.0), libjson-c5 (>= 0.15), libnyx (>= 7.3.0), libsqlite3-0 (>= 3.5.9)
+Filename: pool/main/libluna-prefs_3.0.0-1ubuntu1_amd64.deb
+Size: 12002
+MD5sum: 1a2a06bf16f1cd571cfc26c9ba53f2cd
+SHA1: 87bb210cb4ee2ece4f3ddc21f94459c4eda2f1b9
+SHA256: 40aaae0733999e7959842512add535c972ad9a68f5242182cf819d149eec8481
+Section: admin
+Priority: optional
+Description: webOS preferences library
+ Library for accessing Luna Prefs service.
+
+Package: libluna-prefs-dev
+Source: luna-prefs
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 19
+Depends: libluna-prefs (= 3.0.0-1ubuntu1)
+Filename: pool/main/libluna-prefs-dev_3.0.0-1ubuntu1_amd64.deb
+Size: 3696
+MD5sum: b8d4fcb7f525b55361bb062298181729
+SHA1: a7cd143a18d0a1c909c74d2b6321fdf25b84335d
+SHA256: cf2a1bb456a60eb37481e170a3fb23a0c5f45688791e8eae348baff09b546392
+Section: libdevel
+Priority: optional
+Description: webOS preferences library - development files
+ Development headers and pkg-config files for libluna-prefs.
+
+Package: libluna-service2
+Source: luna-service2
+Version: 3.21.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 430
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.75.3), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libluna-service2_3.21.2-1ubuntu1_amd64.deb
+Size: 134048
+MD5sum: 678f08130115531525b9e18ff13d6c12
+SHA1: 5a2a75c50c337237e7cfe1cc36dde7846147c988
+SHA256: b793a3c83971288cb66a39a6f6c6ce326c922948cebd19b0c17e3b4b39d8f598
+Section: libs
+Priority: optional
+Description: webOS Luna Service Bus library
+ libluna-service2 is the Luna Service Bus library for webOS IPC.
+
+Package: libluna-service2-dev
+Source: luna-service2
+Version: 3.21.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 102
+Depends: libluna-service2 (= 3.21.2-1ubuntu1)
+Filename: pool/main/libluna-service2-dev_3.21.2-1ubuntu1_amd64.deb
+Size: 16736
+MD5sum: c4c94e596b2a436b22fb9f6a83cf7262
+SHA1: 5d2b7e8e7f2a3ef26135174002e6e5e5e2026125
+SHA256: 6608e56736c5aa540e1af9a75ce7f172cddf2e9d7f314fd9b2012823f699c014
+Section: libdevel
+Priority: optional
+Description: webOS Luna Service Bus - development files
+ Development headers and pkg-config files for luna-service2.
+
+Package: libluna-sysmgr-common
+Source: luna-sysmgr-common
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 409
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.32.0), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1)
+Filename: pool/main/libluna-sysmgr-common_3.0.0-1ubuntu1_amd64.deb
+Size: 124192
+MD5sum: 118dc4839d0fe5ead0162245985ddd7a
+SHA1: b435f131bc3a9776ff11ce9999bc9e5ffef2db80
+SHA256: 4b4803e6b1396c38d8284b896f7b91112ea7eebafceef55de270b0d7119d4a96
+Section: libs
+Priority: optional
+Description: webOS System Manager Common Library
+ Common library for webOS System Manager components.
+ Provides shared functionality for system manager services.
+
+Package: libluna-sysmgr-common-dev
+Source: luna-sysmgr-common
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 188
+Depends: libluna-sysmgr-common (= 3.0.0-1ubuntu1)
+Filename: pool/main/libluna-sysmgr-common-dev_3.0.0-1ubuntu1_amd64.deb
+Size: 29052
+MD5sum: 886f442506652b2d82ed998f929a1a1e
+SHA1: 7f8c2028c4a638e2272ab66a73a3ac8bb4f997c2
+SHA256: 4f46e7d9523d0ac767c375f4bcddb4f6c5fd023ad70a132300c6ded59b08252e
+Section: libs
+Priority: optional
+Description: webOS System Manager Common Library - development files
+ Common library for webOS System Manager components.
+ This package contains headers and pkg-config files for development.
+
+Package: libluna-sysmgr-ipc
+Source: luna-sysmgr-ipc
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 59
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libstdc++6 (>= 11)
+Filename: pool/main/libluna-sysmgr-ipc_2.0.0-1ubuntu1_amd64.deb
+Size: 19132
+MD5sum: a0a4d6270b9fbf35a4acc68f7f64a628
+SHA1: 30b721f5ac982338eb25da2fa7c451fc3f5ec09c
+SHA256: 98045890f5035e5e2107b04dffe91c38df592a107fd0b09d41f286828a7382fe
+Section: libs
+Priority: optional
+Description: webOS System Manager IPC Library
+ IPC (Inter-Process Communication) library for webOS System Manager.
+ Provides communication mechanisms between system components.
+
+Package: libluna-sysmgr-ipc-dev
+Source: luna-sysmgr-ipc
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 147
+Depends: libluna-sysmgr-ipc (= 2.0.0-1ubuntu1)
+Filename: pool/main/libluna-sysmgr-ipc-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 18772
+MD5sum: b575da611f25f8e91ddad98a6b79c9c5
+SHA1: 8a3f71b63d3bace2d5b0fecbcf7c881d3a6c2f96
+SHA256: f287790637ba5708e98d5428c9fb46dbddf818bad561ea8390552aba8571cd38
+Section: libs
+Priority: optional
+Description: webOS System Manager IPC Library - development files
+ IPC library for webOS System Manager. This package contains
+ headers and pkg-config files for development.
+
+Package: libluna-sysmgr-ipc-messages-dev
+Source: luna-sysmgr-ipc-messages
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 80
+Filename: pool/main/libluna-sysmgr-ipc-messages-dev_2.0.0-1ubuntu1_all.deb
+Size: 14346
+MD5sum: 6e10eb8474201f595a9cbcc9dd723d8a
+SHA1: aca7d30a4ebe6801bca4c1fd54a6617d9a289a9c
+SHA256: 103560240b42ead3b1389f7cf1326d48639fb4f0e32e225e52fff28e6d4862d6
+Section: libs
+Priority: optional
+Description: webOS System Manager IPC Messages - development files
+ Header files for IPC message definitions used by webOS System Manager.
+ Provides SysMgrEvent and related message structures.
+
+Package: libmedia-resource-calculator-dev
+Source: media-resource-calculator
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 30
+Depends: libmedia-resource-calculator1 (= 1.0.0-1ubuntu1)
+Filename: pool/main/libmedia-resource-calculator-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 3914
+MD5sum: 0c6ac72a9dcbf645aa7978c47c664bd0
+SHA1: d3d5302a7e76d097b322abe97c1e7e5ddd1acc63
+SHA256: b8b897a61eb10dbaa534f5271fe15a3fe160e07c82084f82a3491e4eb380d6cf
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: webOS Media Resource Calculator Library (development)
+ Development files for media-resource-calculator library.
+
+Package: libmedia-resource-calculator1
+Source: media-resource-calculator
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpbnjson (>= 2.15.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libmedia-resource-calculator1_1.0.0-1ubuntu1_amd64.deb
+Size: 28606
+MD5sum: c5d5821f384bc57e25f8025db39807aa
+SHA1: 000c3bbcdda1b35be1431f65ea4baef8153af21f
+SHA256: 0249598d8433d92c7cacf5839e68e9ff4896a8ca502dfe29b46b2872d1da411b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: webOS Media Resource Calculator Library
+ Library for calculating media resource requirements on webOS.
+
+Package: libmojodb
+Source: db8
+Version: 3.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 1140
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libicu74 (>= 74.1-1~), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libstdc++6 (>= 11)
+Filename: pool/main/libmojodb_3.2.0-1ubuntu1_amd64.deb
+Size: 388352
+MD5sum: 00e09710e5aed20a7b7f5f9405c8fff9
+SHA1: 54bdc9404d57ffd486a6e231444a3e33419dbd76
+SHA256: 59df103e24ec8a4824b04b63c5db53fd8c14dd811b854cfd4d15dd1d4deee9d4
+Section: database
+Priority: optional
+Description: webOS database library
+ Client library for accessing the DB8 database service.
+
+Package: libmojodb-dev
+Source: db8
+Version: 3.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 666
+Depends: libmojodb (= 3.2.0-1ubuntu1)
+Filename: pool/main/libmojodb-dev_3.2.0-1ubuntu1_amd64.deb
+Size: 80490
+MD5sum: f7fff1a2c6905fe578020190d7d18f2f
+SHA1: 7554549f9e328998253b93974af52557477070ad
+SHA256: d1a04cc5906005c6f8c53eba344b274770aa65b09be3f5fe90efea4f4ff4f25b
+Section: libdevel
+Priority: optional
+Description: webOS database library - development files
+ Development headers and pkg-config files for libmojodb.
+
+Package: libnyx
+Source: nyx-lib
+Version: 7.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 90
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.12.0), libpmloglib (>= 3.3.0)
+Filename: pool/main/libnyx_7.3.0-1ubuntu1_amd64.deb
+Size: 20540
+MD5sum: 827a892aac69f7e4290eb677c0b181b0
+SHA1: c1695b55a1ee8c5974a48b0392a515668611b646
+SHA256: d8368d05cc1bcc5572ca40105edc31c1eb3423334e6e9592549a63620ec76119
+Section: libs
+Priority: optional
+Description: webOS hardware abstraction library
+ NYX is the webOS hardware abstraction library providing a consistent
+ interface for accessing hardware features across different devices.
+
+Package: libnyx-dev
+Source: nyx-lib
+Version: 7.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 292
+Depends: libnyx (= 7.3.0-1ubuntu1)
+Filename: pool/main/libnyx-dev_7.3.0-1ubuntu1_amd64.deb
+Size: 34166
+MD5sum: 00e877f721c2e3412873c0084d69989b
+SHA1: 43fa11649e64ea52c905f3a4d81c91265b2ca1de
+SHA256: 62b3cab785eb919adf5dcea25d9c16e3262a6240cda53905f6550aad38b2f8a9
+Section: libdevel
+Priority: optional
+Description: webOS hardware abstraction library - development files
+ Development headers and pkg-config files for nyx-lib.
+
+Package: libpalmsocket
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 191
+Depends: libc6 (>= 2.17), libcares2 (>= 1.7.0), libglib2.0-0t64 (>= 2.16.0), libpmloglib (>= 3.3.0), libpmstatemachineengine (>= 2.0.0), libssl3t64 (>= 3.0.0)
+Filename: pool/main/libpalmsocket_2.0.0-1ubuntu1_amd64.deb
+Size: 63044
+MD5sum: 0634d5ef866b3513b9b278ecefd05315
+SHA1: f4c205e0f25bac8a259623d866741c166a7023e6
+SHA256: 43b5bca6fe97fbb81ba61a29de35fbc85c3ab247f4cf2bee7da38220b7802c0a
+Section: libs
+Priority: optional
+Description: webOS Palm socket library
+ libpalmsocket provides socket handling functionality for webOS services.
+
+Package: libpalmsocket-dev
+Source: libpalmsocket
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 119
+Depends: libpalmsocket (= 2.0.0-1ubuntu1)
+Filename: pool/main/libpalmsocket-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 23110
+MD5sum: 0b6ce995df81bf1f63c7e9a68ccbc17e
+SHA1: d39ec91c22a056e3babe9aabe80bd04b680df403
+SHA256: fe2418b9a13e5e2421d8c05d200c18552a35d46d3c44d36fad0ae6b3ee2b38da
+Section: libdevel
+Priority: optional
+Description: webOS Palm socket library - development files
+ Development headers and pkg-config files for libpalmsocket.
+
+Package: libpbnjson
+Version: 2.15.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 379
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.30.0), libgmp10 (>= 2:6.3.0+dfsg), libstdc++6 (>= 13.1), liburiparser1 (>= 0.6.0), libyajl2 (>= 2.0.4)
+Filename: pool/main/libpbnjson_2.15.0-1ubuntu1_amd64.deb
+Size: 112822
+MD5sum: d2c7f1496550f83e1ff67d582b0ba57f
+SHA1: 58f596f36c0c20c59db973ff315ab513dde6292b
+SHA256: 3d2d943c7210bba5eb5c8088e12d644bc935ff94a9d8928fcc486b37411d4efe
+Section: libs
+Priority: optional
+Description: Palm's Better Native JSON library
+ libpbnjson provides JSON parsing and generation for webOS components.
+ Includes both C (pbnjson_c) and C++ (pbnjson_cpp) interfaces.
+
+Package: libpbnjson-dev
+Source: libpbnjson
+Version: 2.15.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 278
+Depends: libpbnjson (= 2.15.0-1ubuntu1)
+Filename: pool/main/libpbnjson-dev_2.15.0-1ubuntu1_amd64.deb
+Size: 42538
+MD5sum: 8bea9e13d40904ab436a46b8615940f1
+SHA1: 04e2242a49c15acaa664bbd7bda18a22b65db0eb
+SHA256: 156847f4463c9e98c7d43a5a0f450942c02dfc08b8dcdb943adf7a6b5b63c989
+Section: libdevel
+Priority: optional
+Description: Palm's Better Native JSON library - development files
+ Development headers and pkg-config files for libpbnjson.
+
+Package: libpmcertificatemgr
+Source: pmcertificatemgr
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 92
+Depends: libc6 (>= 2.33), libglib2.0-0t64 (>= 2.12.0), libssl3t64 (>= 3.0.0)
+Filename: pool/main/libpmcertificatemgr_2.0.0-1ubuntu1_amd64.deb
+Size: 23996
+MD5sum: f7a9c5562e1f71b7a4e738cbdf0fece7
+SHA1: 5d5fa54006189cb3d2e7b1c7a23bd3e677032a99
+SHA256: 6b2166512a817ce0344c2d9339ecf68547dc528782609f116c3d92391b402fb1
+Section: libs
+Priority: optional
+Description: webOS Certificate Manager Library
+ Certificate management library for webOS/LuneOS. Provides X.509
+ certificate handling and PKCS operations.
+
+Package: libpmcertificatemgr-dev
+Source: pmcertificatemgr
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 72
+Depends: libpmcertificatemgr (= 2.0.0-1ubuntu1)
+Filename: pool/main/libpmcertificatemgr-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 12678
+MD5sum: 625169fee661a875ae4fc32da5317c4e
+SHA1: 4fd923abf72c022f70559e0ee500cef05eef8b90
+SHA256: 966c20dae75aac5f916f4c0004cc73bc51d2c89c2d678cb74d63b66c096236c3
+Section: libdevel
+Priority: optional
+Description: webOS Certificate Manager Library - Development files
+ Development headers and pkgconfig file for libpmcertificatemgr.
+
+Package: libpmloglib
+Source: pmloglib
+Version: 3.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 97
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.16.0), libpbnjson (>= 2.15.0), libstdc++6 (>= 5.2)
+Filename: pool/main/libpmloglib_3.3.0-1ubuntu1_amd64.deb
+Size: 20634
+MD5sum: 7752166aa97ed9b680f5d1d0d78dc148
+SHA1: ffd555df7c9214dbf6e0d43451d08cc79ce72bad
+SHA256: bc6cfea60f011b30d23db6dfcab116cfffb73fe57c4f487d33fc19b4d4727773
+Section: libs
+Priority: optional
+Description: webOS logging library
+ PmLogLib is the logging library used by webOS components.
+
+Package: libpmloglib-dev
+Source: pmloglib
+Version: 3.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 71
+Depends: libpmloglib (= 3.3.0-1ubuntu1)
+Filename: pool/main/libpmloglib-dev_3.3.0-1ubuntu1_amd64.deb
+Size: 10904
+MD5sum: c321a90117d909709ba8b2a392e7e2d9
+SHA1: 2d0a4fae5f0eb13bb21a0af2e599f52d9f794e60
+SHA256: cc5989a18ab976dd745f4bc88612cdbd76d4d9d5ae73cd3af5647b874fe93be7
+Section: libdevel
+Priority: optional
+Description: webOS logging library - development files
+ Development headers and pkg-config files for PmLogLib.
+
+Package: libpmloglib-private-dev
+Source: pmloglib
+Version: 3.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 15
+Filename: pool/main/libpmloglib-private-dev_3.3.0-1ubuntu1_amd64.deb
+Size: 3030
+MD5sum: 81bbde70a30d94e25b8bb73eb95751a9
+SHA1: 3a8cbf1c80528e21595d0a116a18866c164ffe74
+SHA256: b4944603531ee9b8fe61149abb6153c454530ba752ad9343ddee18b6c61cefbe
+Section: libdevel
+Priority: optional
+Description: webOS logging library - private development files
+ Private development headers for PmLogLib internal use.
+
+Package: libpms-support
+Source: pms-support
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 100
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libpmscore (>= 1.0.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libpms-support_1.0.0-1ubuntu1_amd64.deb
+Size: 23380
+MD5sum: 08dfbba8fdef609fa639bd7e1e0d0164
+SHA1: 3e3fd8b382bee94a4cce3c88bfc02d0c0acddaa4
+SHA256: 3255645894785e282610920c1517d69e59dc3cf04efb55b55f6915d3e7ca8319
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/pms-support-reference
+Description: webOS power management support library
+ Library providing power management support functions for webOS services.
+
+Package: libpms-support-dev
+Source: pms-support
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 45
+Depends: libpms-support (= 1.0.0-1ubuntu1)
+Filename: pool/main/libpms-support-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 4316
+MD5sum: 352d5e8f649aab42ffb447c6e72bf24e
+SHA1: 6acf516165cb32f3e5bd302333235ce377e08374
+SHA256: 939807f4bd47052cc50b220cafdc79a2fb24ee6e6a1bc5d146c0aba466c83068
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/pms-support-reference
+Description: webOS power management support library - development files
+ Development files for the webOS power management support library.
+
+Package: libpmscore
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 171
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libpmscore_1.0.0-1ubuntu1_amd64.deb
+Size: 48738
+MD5sum: b22279398629292c8aec653497607172
+SHA1: 87c067983dbc409af2a7c53d0eaa138aa53a78d8
+SHA256: 362208c9db2beeb2f8925e533daf1b9c259f0358bf7bb9c318ba544ee5525dc8
+Section: libs
+Priority: optional
+Description: webOS power management core library
+ Library providing power management state machine functionality for webOS.
+
+Package: libpmscore-dev
+Source: libpmscore
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 150
+Depends: libpmscore (= 1.0.0-1ubuntu1)
+Filename: pool/main/libpmscore-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 22760
+MD5sum: 2dfbbfbcc8560f16bbc47e6547a83fee
+SHA1: 630a62ef581bee8525e7a3710f4389f893287354
+SHA256: 1d91e975e45dce45329223e7b31d97d819915d1b12689956f99ba6b32d4c7550
+Section: libdevel
+Priority: optional
+Description: webOS power management core library - development files
+ Development headers and pkg-config files for libpmscore.
+
+Package: libpmstatemachineengine
+Source: pmstatemachineengine
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 30
+Depends: libc6 (>= 2.4), libpmloglib (>= 3.3.0)
+Filename: pool/main/libpmstatemachineengine_2.0.0-1ubuntu1_amd64.deb
+Size: 7394
+MD5sum: de62704da5888c9cbb28cc00d6259d3e
+SHA1: 6c1156f34e30a1d9bb8f7404df522dd4058ef066
+SHA256: a080bad1277396edfdada1c54a6cb6b11222581f5211e09eff0ba59b430e99b7
+Section: libs
+Priority: optional
+Description: webOS state machine engine library
+ PmStateMachineEngine provides finite state machine functionality
+ for webOS services.
+
+Package: libpmstatemachineengine-dev
+Source: pmstatemachineengine
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 55
+Depends: libpmstatemachineengine (= 2.0.0-1ubuntu1)
+Filename: pool/main/libpmstatemachineengine-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 11196
+MD5sum: 6cd15310ddb51badae5d444405f5dd7b
+SHA1: c0a728aecee7ecfe26dbfbc1ca09431266f4b2e7
+SHA256: 47c19f6731c4e1c1747edb646ddc28aef43758f277892f28837fd20110df021b
+Section: libdevel
+Priority: optional
+Description: webOS state machine engine - development files
+ Development headers and pkg-config files for PmStateMachineEngine.
+
+Package: libpmtrace-dev
+Source: pmtrace
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 26
+Filename: pool/main/libpmtrace-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 4926
+MD5sum: 5d5980e38229d6ec91c5194219234119
+SHA1: 8f76c04cb515898ebf75691e1346345c404c0603
+SHA256: a7b06ca327940a840e8116888946b0135d47b13baa00b42ee05f9c21d42d5e09
+Section: libs
+Priority: optional
+Description: webOS Performance Tracing Library - development files
+ PmTrace provides system utilities and instrumentation for
+ performance tracing on webOS/LuneOS. This package contains
+ headers and pkg-config files for development.
+
+Package: libqofono-qt6-0
+Source: libqofono
+Version: 0.123-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1166
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.4.0), libstdc++6 (>= 5)
+Filename: pool/main/libqofono-qt6-0_0.123-1ubuntu1_amd64.deb
+Size: 281514
+MD5sum: 7bcc70b518a4a04e4b74c68c3b5d255f
+SHA1: 3b28517defeb838f5f72b51f30873c1a7915bf9c
+SHA256: 43e1371fa2a6f91d85b8e6cadfdae70cff7023c80e5f3b50d6cfb746007299d5
+Section: libs
+Priority: optional
+Homepage: https://github.com/nicofrand/libqofono
+Description: Qt6 library for oFono
+ Qt6 library providing Qt bindings for the oFono telephony stack.
+ .
+ This package contains the shared library.
+
+Package: libqofono-qt6-dev
+Source: libqofono
+Version: 0.123-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 179
+Depends: libqofono-qt6-0 (= 0.123-1ubuntu1), qt6-base-dev
+Filename: pool/main/libqofono-qt6-dev_0.123-1ubuntu1_amd64.deb
+Size: 17416
+MD5sum: 3059cb9c7be01006f9f6ce725a9dba38
+SHA1: 29441edc338f6afde8831a2004ba1e44a9ccb54c
+SHA256: 2c7fe8061f3e09832a90bd89fefbbdc89793ba582343fde397629fc424a0eeba
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/nicofrand/libqofono
+Description: Qt6 library for oFono - development files
+ Qt6 library providing Qt bindings for the oFono telephony stack.
+ .
+ This package contains development files.
+
+Package: librolegen
+Version: 2.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libstdc++6 (>= 5.2)
+Filename: pool/main/librolegen_2.1.0-1ubuntu1_amd64.deb
+Size: 10188
+MD5sum: d33928181c37b54814e2f864e866f9ce
+SHA1: 4febbb7355301e00c2679948082addb5a3a10ac9
+SHA256: fdf92588868e182d005e2c11a49cc2066db6423b4e5f0347320c839a4be4b781
+Section: libs
+Priority: optional
+Description: webOS Luna Service role file generator library
+ Library for generating Luna Service role files.
+
+Package: librolegen-dev
+Source: librolegen
+Version: 2.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 14
+Depends: librolegen (= 2.1.0-1ubuntu1)
+Filename: pool/main/librolegen-dev_2.1.0-1ubuntu1_amd64.deb
+Size: 2036
+MD5sum: 3469407dc0d881ad9a2c5062fb5ed03e
+SHA1: 39405946e9488ad8331985b4c2605a3aaab07e40
+SHA256: 78a43bf267359612975bd2ad6d7202f6052735cc41e02f5d1f94fa97ef448faa
+Section: libdevel
+Priority: optional
+Description: webOS Luna Service role file generator - development files
+ Development headers and pkg-config files for librolegen.
+
+Package: libsandbox-dev
+Source: libsandbox
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 23
+Filename: pool/main/libsandbox-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 4864
+MD5sum: 098ecf59619769e53cc71f3332282396
+SHA1: fbf773f6561e8968449e6d4fe71b4261da3c3bf1
+SHA256: 43a31386180f5d01091da271ab4bb368e5cba111e9b949113b64b19b44e98f44
+Section: libdevel
+Priority: optional
+Description: webOS sandboxing library - development files
+ Static library and headers for webOS sandboxing functionality.
+
+Package: libserviceinstaller-dev
+Source: serviceinstaller
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 45
+Filename: pool/main/libserviceinstaller-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 11622
+MD5sum: 36047b1c3ee9f142377dfd8293dad756
+SHA1: cf6f4626af308aad95cc9197fc187cb77d01a2cc
+SHA256: 29b39db9faff8159eaf40a28f4229ed19339d925a362ddd77106758d8220f4cb
+Section: libdevel
+Priority: optional
+Description: webOS Service Installer Library - Development files
+ Static library and headers for installing webOS services.
+ Used by application installation utilities.
+
+Package: libumediaserver-dev
+Source: umediaserver
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 71
+Depends: umediaserver (= 1.0.0-1ubuntu1)
+Filename: pool/main/libumediaserver-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 12872
+MD5sum: 5993e61a4a75855b50bb10da5b5957e0
+SHA1: 3cbe50c219a0b66f90f02eb7acd455494bc1bbf2
+SHA256: 5dfbab3b0f76380b8ad7a67e2a3ca4d44ef07892002dd9d2ae82c550fe930697
+Section: misc
+Priority: optional
+Description: WebOS Universal Media Server - development files
+ Development headers and libraries for umediaserver.
+
+Package: libumi-dev
+Source: umi
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 23
+Depends: libumi1 (= 1.0.0-1ubuntu1)
+Filename: pool/main/libumi-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 3310
+MD5sum: c5346d4a16f2c63819a9993e1a970899
+SHA1: dcd70a1d532e8d08fc0831ffc2811ce74f11d964
+SHA256: 7cff108622d3b88c09ecbbc43647d40699491faabe704d06f1b662882ab8f63d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: UMI - Universal Media Interface Library (development)
+ Development files for UMI library.
+
+Package: libumi1
+Source: umi
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 78
+Depends: libasound2t64 (>= 1.0.24.1), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libumi1_1.0.0-1ubuntu1_amd64.deb
+Size: 21110
+MD5sum: 0d3deb7bb3d85e8ba594504b2eb2944b
+SHA1: 5c47aab7cd0aab6d469d02ae8155cda6cf8b0b8a
+SHA256: 77fb192f67a6a8b91873d80bd15325a3fe43e84005427d146fc2cb43646f8f8b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: UMI - Universal Media Interface Library
+ UMI provides a universal media interface for webOS applications.
+
+Package: libvoicecall-dev
+Source: voicecall
+Version: 0.7.14-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 10
+Depends: libvoicecall0 (= 0.7.14-1ubuntu1)
+Filename: pool/main/libvoicecall-dev_0.7.14-1ubuntu1_amd64.deb
+Size: 1062
+MD5sum: 95d9fb8215ffcc96b2af4ae8e99824e5
+SHA1: 813a6d485e1a08c7d58546f9530d5712026a1e62
+SHA256: b913722e8a56651927df8a338cfe2105e11eb80aba63b799ca19858fa2e0ef3d
+Section: comm
+Priority: optional
+Homepage: https://github.com/nicofrand/voicecall
+Description: Voice call library - development files
+ Development files for the voice call library.
+
+Package: libvoicecall0
+Source: voicecall
+Version: 0.7.14-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 191
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.1.2), libstdc++6 (>= 5)
+Filename: pool/main/libvoicecall0_0.7.14-1ubuntu1_amd64.deb
+Size: 40752
+MD5sum: a732d1c8b635d2699a727914da40d3df
+SHA1: 9c94ff2958087c2ecbbcbc8b376227829fdfd5b9
+SHA256: 1748605ffede9d349a3d11db31d94b8fc720d2d97e9773377b0e9911fa8e7da4
+Section: comm
+Priority: optional
+Homepage: https://github.com/nicofrand/voicecall
+Description: Voice call library
+ Shared library for voice call management.
+
+Package: libwayland-webos-client
+Source: webos-wayland-extensions
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 43
+Depends: libwayland-client0 (>= 1.0.2)
+Filename: pool/main/libwayland-webos-client_1.0.0-1ubuntu1_amd64.deb
+Size: 6780
+MD5sum: 75db28ac44ebf8c2678386542ebbcc16
+SHA1: ec4e34921dedc1bdc7633b2f6e2373d245c8ffa1
+SHA256: 9f376455444009f406da882583a52cf505f800eff5cb78905b9980a8997368b3
+Section: libs
+Priority: optional
+Description: webOS Wayland Protocol Extensions - client library
+ Wayland protocol extensions for webOS surface management,
+ input handling, and system integration. Client-side library.
+
+Package: libwayland-webos-dev
+Source: webos-wayland-extensions
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 269
+Depends: libwayland-webos-server (= 1.0.0-1ubuntu1), libwayland-webos-client (= 1.0.0-1ubuntu1)
+Filename: pool/main/libwayland-webos-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 26480
+MD5sum: 188cb5b3253ffad9e2bc9c03fd08d0f5
+SHA1: 732c084a7d78194682a800949aa0fb598cdfc0fb
+SHA256: ea7479efc45c9122c8e9f9c85a73034e4d74b2e9cc415713d6a62d71ade03d93
+Section: libs
+Priority: optional
+Description: webOS Wayland Protocol Extensions - development files
+ Wayland protocol extensions for webOS. This package contains
+ headers and pkg-config files for development.
+
+Package: libwayland-webos-server
+Source: webos-wayland-extensions
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 43
+Depends: libwayland-server0 (>= 1.0.2)
+Filename: pool/main/libwayland-webos-server_1.0.0-1ubuntu1_amd64.deb
+Size: 6784
+MD5sum: 6e69f6d36f805a5756e5267261408c52
+SHA1: 18c4b6c99396ee093d9a252579ff3a98fa39ad5e
+SHA256: 0988086b6756259cf538d8e3dfddc12ceb8e0b5642c5be1debe8a317de2fe954
+Section: libs
+Priority: optional
+Description: webOS Wayland Protocol Extensions - server library
+ Wayland protocol extensions for webOS surface management,
+ input handling, and system integration. Server-side library.
+
+Package: libwca-support-dev
+Source: wca-support
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 13
+Depends: libwca-support1 (= 1.0.0-1ubuntu1), wca-support-api-dev
+Filename: pool/main/libwca-support-dev_1.0.0-1ubuntu1_amd64.deb
+Size: 1864
+MD5sum: 273c0d4e192599e56f01c56d3a477b1e
+SHA1: 972be8c698fd6fc2c58639189245ae6512dba1a8
+SHA256: 25e235f356a2097ed348be70fe969ff3579913190d5efbb051b2c11803b337d2
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: webOS Connectivity Adapter Support Library (development)
+ Development files for wca-support library.
+
+Package: libwca-support1
+Source: wca-support
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 27
+Filename: pool/main/libwca-support1_1.0.0-1ubuntu1_amd64.deb
+Size: 2844
+MD5sum: 1c07790a43afebf9dc358a96b7eab914
+SHA1: 84bef7e396e7ddf20904349a68dd373bb972b338
+SHA256: f3361ac70dd487c9936ee4ef023197262a36016da36975fde47d09a5d89a5f6e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: webOS Connectivity Adapter Support Library
+ Support library for webOS Connectivity Adapter.
+
+Package: libwebos-application
+Version: 0.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 34
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.16.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0)
+Filename: pool/main/libwebos-application_0.1.0-1ubuntu1_amd64.deb
+Size: 6006
+MD5sum: 23159fa21bc69826d858253ad679e6ea
+SHA1: 125ad584a6d9246fd217327456ea1d4a9da0624b
+SHA256: 5dc1651f68caeac3887671d5ecf550ab41cb49d33e65cd2d5f580443746a2c1d
+Section: libs
+Priority: optional
+Description: webOS Application Framework Library
+ Application framework library for webOS/LuneOS providing common
+ functionality for application lifecycle management.
+
+Package: libwebos-application-dev
+Source: libwebos-application
+Version: 0.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 15
+Depends: libwebos-application (= 0.1.0-1ubuntu1)
+Filename: pool/main/libwebos-application-dev_0.1.0-1ubuntu1_amd64.deb
+Size: 2442
+MD5sum: fa0fc69d08f7ed34433b296df51ca1a0
+SHA1: 73e2e3ea5bec60c2ec96ff4f4f9b5c2cb73dac76
+SHA256: a5233336f5226d25cd21fdbc8c2f7889fbfc36be33cbfc78dc11d329e74d0ca2
+Section: libdevel
+Priority: optional
+Description: webOS Application Framework Library - Development files
+ Development headers and pkgconfig file for libwebos-application.
+
+Package: libwebos-platform-interface
+Source: qtwayland-webos
+Version: 6.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 332
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6waylandclient6 (>= 6.3.0), libqt6waylandcompositor6 (>= 6.2.2), libqt6waylandeglcompositorhwintegration6 (>= 6.2.2), libqt6wlshellintegration6 (>= 6.2.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libwayland-webos-client (>= 1.0.0), qt6-base-abi (= 6.4.2)
+Filename: pool/main/libwebos-platform-interface_6.0.0-1ubuntu1_amd64.deb
+Size: 80316
+MD5sum: d5ad0033474f0777717ff80da0f9c3be
+SHA1: c26f255334adc2215f21fb0e0319854d8a953674
+SHA256: dafb76b2194a15c23da3440d212ac2037ecf17bb96a2cdd168f7e7f9e20d74da
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/qtwayland-webos
+Description: Qt webOS platform interface library
+ Library providing native Qt interface for webOS clients, including
+ shell surface management, input handling, and wayland protocol extensions.
+
+Package: libwebos-platform-interface-dev
+Source: qtwayland-webos
+Version: 6.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 127
+Depends: libwebos-platform-interface (= 6.0.0-1ubuntu1), qt6-base-dev, qt6-wayland-dev
+Filename: pool/main/libwebos-platform-interface-dev_6.0.0-1ubuntu1_amd64.deb
+Size: 13358
+MD5sum: 790e350370ba5edb737123fb17e4b8ee
+SHA1: 5a14578a47cb48fdd59205a1630f6e1f947a5d71
+SHA256: b2e792543939c0aeac7531068a0be8b44d52f2d18c996546ea65ef5b26eb6504
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/webosose/qtwayland-webos
+Description: Qt webOS platform interface - development files
+ Development files for the webOS platform interface library.
+
+Package: libweboscompositor
+Source: luna-surfacemanager
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 1359
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libopengl0, libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6waylandcompositor6 (>= 6.2.2), libstdc++6 (>= 5.2), libwayland-server0 (>= 1.2.0), libwayland-webos-server (>= 1.0.0), libweboscompositorextension (= 2.0.0-1ubuntu1), libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.4.2)
+Filename: pool/main/libweboscompositor_2.0.0-1ubuntu1_amd64.deb
+Size: 379128
+MD5sum: d1a4530fae2cc4bb5a54ae5826f97130
+SHA1: 2728d4bf951c144f01b7a2af54dbc9e22adfdbb3
+SHA256: 1792eb519bf85095323b6e823dda3d89ab146d9b18c869c46427c28adb08515a
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/luna-surfacemanager
+Description: webOS Core Compositor library
+ Core library for the webOS Wayland compositor providing window management,
+ input handling, and Wayland protocol integration.
+
+Package: libweboscompositor-dev
+Source: luna-surfacemanager
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 119
+Depends: libweboscompositor (= 2.0.0-1ubuntu1), libweboscompositorextension (= 2.0.0-1ubuntu1), qt6-base-dev, qt6-wayland-dev
+Filename: pool/main/libweboscompositor-dev_2.0.0-1ubuntu1_amd64.deb
+Size: 18318
+MD5sum: 66627630cc738184932ded0968e52623
+SHA1: 0ecda0b09f6f688acd839f0995790cb5a429db19
+SHA256: b4dcc1c74c3a369ea301f906814b641667490f625a6b4ca1b5125ebf894d713e
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/webosose/luna-surfacemanager
+Description: webOS Compositor - development files
+ Development files for the webOS compositor libraries.
+
+Package: libweboscompositorextension
+Source: luna-surfacemanager
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 53
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6waylandcompositor6 (>= 6.2.2), libstdc++6 (>= 5)
+Filename: pool/main/libweboscompositorextension_2.0.0-1ubuntu1_amd64.deb
+Size: 10318
+MD5sum: 0bc51aba3dedb2908db078c45d04d949
+SHA1: c4835eeba017846b39a3281c6f227dcd49f6c3ab
+SHA256: 9030e1fc8a1d4cce16dd6f8a701d90364142f62b229f48639129669653ac17db
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/luna-surfacemanager
+Description: webOS Compositor Extension library
+ Extension interface library for the webOS Wayland compositor.
+
+Package: libwebosi18n
+Version: 1.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 350
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpbnjson (>= 2.15.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libwebosi18n_1.0.1-1ubuntu1_amd64.deb
+Size: 120172
+MD5sum: 9b8cde52264573438fa864780c47025e
+SHA1: e363b141c555fc9cd9f305909cbc33ec563ad84f
+SHA256: e0d9670f7ac8b3244b8410012eee66d55847ff505ee8cf4f2c391eabc1797b76
+Section: libs
+Priority: optional
+Description: webOS internationalization library
+ Library providing localization and internationalization features for webOS.
+
+Package: libwebosi18n-dev
+Source: libwebosi18n
+Version: 1.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 51
+Depends: libwebosi18n (= 1.0.1-1ubuntu1)
+Filename: pool/main/libwebosi18n-dev_1.0.1-1ubuntu1_amd64.deb
+Size: 7644
+MD5sum: 552914a961035c69691f0c9558df811d
+SHA1: a0f45c8b45322d9a46368d42c26dcbd03f35496f
+SHA256: 076e5630777560c0a912a81568f4cca88d8df55685df43059c1008b03eda895b
+Section: libdevel
+Priority: optional
+Description: webOS internationalization library - development files
+ Development headers and pkg-config files for libwebosi18n.
+
+Package: loadable-frameworks
+Version: 1.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 8513
+Filename: pool/main/loadable-frameworks_1.0.1-1ubuntu1_all.deb
+Size: 1139848
+MD5sum: 95aeb136f5bc8b357d19e273867129cf
+SHA1: 31e827aa22363eccab59de663e33e7fc836b7629
+SHA256: 59318f9c4279ba045ab871320b257f027c1f70750af4a9fb2669aed5fd482270
+Section: misc
+Priority: optional
+Description: webOS plugin frameworks
+
+Package: loc-utils
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 110
+Depends: libc6 (>= 2.17), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.12.0), libpmloglib (>= 3.3.0)
+Filename: pool/main/loc-utils_1.0.0-1ubuntu1_amd64.deb
+Size: 25456
+MD5sum: 1f5629430d6adc2df359f5d98de7f4e5
+SHA1: 6722af7f9afb0a3814b5bb8208c217dc998a7b69
+SHA256: 3cb51f7166c68f3e218c30f344be85b03cc51e75371bd8b698fdafc568f9b05b
+Section: misc
+Priority: optional
+Description: Location utilities
+
+Package: luna-applauncher
+Version: 4.0.1-2+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 327
+Filename: pool/main/luna-applauncher_4.0.1-2+git_all.deb
+Size: 136394
+MD5sum: 0b60fed16b27d7171ac2e6f28bf4b5b3
+SHA1: d9b247690646d593fc2ef08383163eac7947f751
+SHA256: c40cba379d681facad27d70352629d3c78a51100d28946665d5e79cc9058147d
+Section: misc
+Priority: optional
+Description: LuneOS Application Launcher
+ The webOS-style application launcher for LuneOS.
+ Provides the main launcher interface for browsing and
+ launching installed applications.
+
+Package: luna-appmanager
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 517
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.16.0), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libluna-sysmgr-common (>= 3.0.0), libpbnjson (>= 2.15.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), librolegen (>= 2.1.0), libstdc++6 (>= 13.1)
+Filename: pool/main/luna-appmanager_1.0.0-1ubuntu1_amd64.deb
+Size: 181892
+MD5sum: 7a8882262b79fd25133d800d58e26d78
+SHA1: 0460c79f0b660f1dc08d7749bcef733e580baa51
+SHA256: 9104959c31864fa631d1512ca962ccbd4d147be2a2ff423c2cd1d67e5ffd25db
+Section: misc
+Priority: optional
+Description: webOS Application Manager
+ Application manager for webOS/LuneOS. Manages application
+ lifecycle, launching, mime types, and system integration.
+
+Package: luna-downloadmgr
+Version: 4.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 575
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.14.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), liburiparser1 (>= 0.7.2)
+Filename: pool/main/luna-downloadmgr_4.0.0-1ubuntu1_amd64.deb
+Size: 197018
+MD5sum: f0385f4f7004d3f5c0a308a6d764f99a
+SHA1: 317b5a21766147948f3e627002841964c0a3156d
+SHA256: 1b44f8692900d1501235bdb5e6fe9cb3544ebf948728e29a768212b2ceb44ebb
+Section: misc
+Priority: optional
+Description: webOS Download Manager
+ Download manager daemon for webOS/LuneOS. Handles file downloads
+ and uploads with support for background transfers.
+
+Package: luna-init
+Version: 2.0.1-11
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 5468
+Filename: pool/main/luna-init_2.0.1-11_all.deb
+Size: 776666
+MD5sum: 5833b52343dc0e562bc753bb3d1f53cc
+SHA1: 8cb9ac525d61b68c23e55d1104e91cc93f31c907
+SHA256: 9db21330ee96cbe8cbc592b7d01bb22cbd975007535f0c8530a26bb815b7d132
+Section: misc
+Priority: optional
+Description: LuneOS initialization data and fonts
+ Initialization configuration files and fonts for LuneOS.
+ Includes default preferences, locale settings, timezone data,
+ and the Prelude font family.
+
+Package: luna-next-cardshell
+Version: 0.6.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 4551
+Depends: luneos-components, qml-webos-framework, qml-webos-components, qml-webos-bridge
+Filename: pool/main/luna-next-cardshell_0.6.0-1ubuntu1_all.deb
+Size: 3786112
+MD5sum: 246bb783eb831bc9ba8efd20c44594f6
+SHA1: 3aa8a6fc60e0819e4715f2492fc9ea9c77a6cddf
+SHA256: 890ad1c5f4bdf5208dc122c6dc50c35788f7008a3171cb31141bac0e81d37c4a
+Section: misc
+Priority: optional
+Description: LuneOS Card Shell UI
+ The main user interface shell for LuneOS using a card-based
+ interaction model similar to webOS.
+
+Package: luna-prefs
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.16.0), libjson-c5 (>= 0.15), libluna-prefs (>= 3.0.0), libluna-service2 (>= 3.21.2), libsqlite3-0 (>= 3.5.9)
+Filename: pool/main/luna-prefs_3.0.0-1ubuntu1_amd64.deb
+Size: 20942
+MD5sum: c81d2972e94ea46227ab292942e7f5e8
+SHA1: 72205bd352fb83b7345322fe38e34e4b8701c3c3
+SHA256: 1dc3e96c85050a1063dd5ff90ef5f29339a2dbcd2fca9c56a4073bab07c24ac0
+Section: admin
+Priority: optional
+Description: webOS system preferences service
+ Luna Prefs provides preferences storage and retrieval for webOS.
+
+Package: luna-prefs-data
+Version: 3.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <potalot@gmail.com>
+Installed-Size: 21
+Filename: pool/main/luna-prefs-data_3.0.0-1ubuntu1_all.deb
+Size: 1426
+MD5sum: 65e5171c698ad3f93d9d0363cff49589
+SHA1: 79ca37dec141bf3b0e285fc55baac75bb4470da0
+SHA256: 3e46e90baa27a163c6c0746eb0fd9610a2cd641882b3e3115137b33fb8985630
+Section: misc
+Priority: optional
+Description: Default preferences data for LuneOS
+ Device property files for luna-prefs system, including device name,
+ product class, and other system identification properties.
+
+Package: luna-service2-security-conf
+Version: 1.0.2-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 20
+Filename: pool/main/luna-service2-security-conf_1.0.2-1ubuntu1_all.deb
+Size: 1880
+MD5sum: 770450b1f6598b7f4be969d813bbc77a
+SHA1: 2d837126a80a40c465b96bc887ab304dec49f514
+SHA256: b1fbb7e7b5569c581c327e691016136650edd6ec37cc2a6de24758ab1a520d4b
+Section: admin
+Priority: optional
+Description: webOS Luna Service security configuration
+ Security configuration files for the Luna Service Bus.
+
+Package: luna-service2-utils
+Source: luna-service2
+Version: 3.21.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 642
+Depends: libluna-service2 (= 3.21.2-1ubuntu1), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.75.3), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/luna-service2-utils_3.21.2-1ubuntu1_amd64.deb
+Size: 209032
+MD5sum: 4815d2f70659a639ef48d45dab3be6cc
+SHA1: 4ba1a32fb621835240e1feab4999f25b0dc72ad7
+SHA256: fde8d1c0885813d47c807b4fe3acd92639f4f9344eba7168b59c341012e5d0a5
+Section: libs
+Priority: optional
+Description: webOS Luna Service Bus utilities
+ Command-line utilities for Luna Service Bus (ls-hubd, luna-send, ls-monitor).
+
+Package: luna-surfacemanager
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 354
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5), libweboscompositor (= 2.0.0-1ubuntu1)
+Filename: pool/main/luna-surfacemanager_2.0.0-1ubuntu1_amd64.deb
+Size: 46978
+MD5sum: a606228b898cf69e711c4b0bb586f8cd
+SHA1: be02069a8fec7d26d8c98855d4d688f0a857586d
+SHA256: efaea73e3e5c553842b884cee301a640bf310a156910f168b3d7efdc70f107d4
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/luna-surfacemanager
+Description: webOS Wayland Compositor
+ The webOS Wayland compositor (surface manager) providing desktop
+ composition, window management and input handling for the webOS platform.
+
+Package: luna-surfacemanager-conf
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <potalot@gmail.com>
+Installed-Size: 14
+Depends: luna-surfacemanager
+Filename: pool/main/luna-surfacemanager-conf_1.0.0-1ubuntu1_all.deb
+Size: 1592
+MD5sum: b9ac8b810a9fc1241c38ee17b2f88c83
+SHA1: a879e90a501d2a9c99cb0ec0958d190242319ea6
+SHA256: a637d9b8ceb5fee9f34a83d1c117b904d26293dc819dca5b626c84ff320ee49d
+Section: misc
+Priority: optional
+Description: Configuration for LuneOS Wayland compositor
+ Environment variables and udev rules for luna-surfacemanager,
+ the LuneOS Wayland compositor.
+
+Package: luna-sysmgr
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 304
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.16.0), libjson-c5 (>= 0.15), libluna-prefs (>= 3.0.0), libluna-service2 (>= 3.21.2), libluna-sysmgr-common (>= 3.0.0), libnyx (>= 7.3.0), libpbnjson (>= 2.15.0), libqt6core6t64 (>= 6.4.0), libqt6sensors6 (>= 6.2.1), libstdc++6 (>= 13.1)
+Filename: pool/main/luna-sysmgr_3.0.0-1ubuntu1_amd64.deb
+Size: 87148
+MD5sum: 38efd54c689618a8dc8553c43d7940e7
+SHA1: 13494cf86bb0e15ec36d069bfc04ebb5d274c3eb
+SHA256: d15dcdffde574af89e6c27aa2f0d19b9c9a3c0991a5478fcd04657a6ef7a534d
+Section: misc
+Priority: optional
+Description: LuneOS System Manager
+ The Luna System Manager is responsible for system-level services
+ including display management, power management, input handling,
+ ambient light sensing, and various system service coordination.
+
+Package: luna-sysmgr-conf
+Version: 3.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <potalot@gmail.com>
+Installed-Size: 13
+Filename: pool/main/luna-sysmgr-conf_3.1.0-1ubuntu1_all.deb
+Size: 1730
+MD5sum: c8752f2ef07052c2b843e17a76747939
+SHA1: 48be283d140121fb9945e4fd0b6e3e25f8e7469d
+SHA256: f8bab8620e466a98e35941c719579997532c3826e425479630433b3a26eca000
+Section: misc
+Priority: optional
+Description: Configuration for LuneOS system manager
+ Platform-specific configuration for luna-sysmgr, including display
+ settings, UI preferences, and hardware capabilities.
+
+Package: luna-sysservice
+Version: 4.4.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 684
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.32.0), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), liburiparser1 (>= 0.7.2), libwebosi18n (>= 1.0.1)
+Filename: pool/main/luna-sysservice_4.4.0-1ubuntu1_amd64.deb
+Size: 244888
+MD5sum: 56a979e607091c081197a2113ef213a5
+SHA1: 65d56395a4d0a1196297859e90c10473ee63fb3b
+SHA256: e47f7538b9e1bb3df08b71351ba1d7535234582cf5f7bb2077885e7f4a2d7d2a
+Section: misc
+Priority: optional
+Description: webOS Luna System Service
+ System service for webOS/LuneOS providing locale, time, wallpaper,
+ ringtone, and other system preferences management via Luna Service Bus.
+
+Package: luna-systemui
+Version: 2.0.1-2+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 4946
+Filename: pool/main/luna-systemui_2.0.1-2+git_all.deb
+Size: 4536360
+MD5sum: 92ebe8d747fa5a309a51056bf87d6457
+SHA1: 47fda0ec778b10689b5c087a26c903fe2536ed68
+SHA256: 12cfab8e661a222c5bbcdc4eb2e9c5821f7b546eaa994c9a0be654d9918a3551
+Section: misc
+Priority: optional
+Description: LuneOS System UI overlays
+ System UI application for LuneOS providing volume controls,
+ notifications, battery status, and other system overlays.
+
+Package: luna-universalsearchmgr
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 179
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.32.0), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4)
+Filename: pool/main/luna-universalsearchmgr_2.0.0-1ubuntu1_amd64.deb
+Size: 55318
+MD5sum: ef61ef4ab41a082d189f73a92d51de16
+SHA1: 57f95def7e7c011bec49c65b389f8fc72d3f87cb
+SHA256: 0660a360e016d634c1019d26f0b913372fea301859c033c96845690c21d76431
+Section: misc
+Priority: optional
+Description: webOS Universal Search Manager
+ Universal search manager for webOS/LuneOS. Provides system-wide
+ search functionality across applications and services.
+
+Package: luneos-components
+Version: 0.5.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 1190
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libluna-service2 (>= 3.21.2), libluna-sysmgr-common (>= 3.0.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6sql6t64 (>= 6.1.2), libstdc++6 (>= 5), libwebos-application (>= 0.1.0)
+Filename: pool/main/luneos-components_0.5.0-1ubuntu1_amd64.deb
+Size: 358218
+MD5sum: fdc4afdc5ce5e540e11cbe9df43ed4fb
+SHA1: b70bda38bbd7c73c0bfded4e8510f4d4ca4f1b3a
+SHA256: 935d416f6807979366953bb37f7b2851895aef5c0eac07ad12fb3ef1cfdd40d6
+Section: libs
+Priority: optional
+Description: LuneOS QML Components
+ QML plugins and components for LuneOS including:
+ - LuneOS.Components - Common UI components
+ - LuneOS.Service - Luna Service bridge
+ - LuneOS.Bluetooth - Bluetooth integration
+ - LuneOS.Telephony - Telephony utilities
+ - LunaNext.Common - Common utilities
+ - LunaNext.Shell - Shell components
+ - LunaNext.Shell.Notifications - Notification system
+ - QtQuick.Controls.LuneOS - LuneOS style for Qt Quick Controls
+
+Package: luneos-default-wallpapers
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 6428
+Filename: pool/main/luneos-default-wallpapers_1.0.0-1ubuntu1_all.deb
+Size: 6200640
+MD5sum: 9eb276cb316543b0475553fe9d4cbc1a
+SHA1: baa09f15fa241fc4aff86e39564ce2b488e5f76e
+SHA256: 26d5ad98a0479bc7abe258bf60d9fd4d0a4398f36eb77d33d858dfbfe58efd4e
+Section: misc
+Priority: optional
+Description: LuneOS default wallpapers
+
+Package: maliit-framework-webos
+Version: 0.99.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 697
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: pool/main/maliit-framework-webos_0.99.0-1ubuntu1_amd64.deb
+Size: 216946
+MD5sum: b2b33cee86fe3eaac054d5c34a28b00e
+SHA1: d8197b56deb08f204ac43be534091db1cde8612b
+SHA256: e6f37788c36b1514da2c2e42a968fa98b3e1489165283e941844515aacf31f4b
+Section: libs
+Priority: optional
+Description: Maliit input method framework for webOS
+ Maliit provides a flexible and cross-platform input method framework.
+ This is the webOS-specific version with Luna Service integration.
+
+Package: maliit-framework-webos-dev
+Source: maliit-framework-webos
+Version: 0.99.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 80
+Depends: maliit-framework-webos (= 0.99.0-1ubuntu1)
+Filename: pool/main/maliit-framework-webos-dev_0.99.0-1ubuntu1_amd64.deb
+Size: 13506
+MD5sum: fc3963d58fe3b47f7f61bbdbaa4c8662
+SHA1: 313f070861b11024fdec761bce809a913334d3e3
+SHA256: fbbf26b0284aa0a3abf6a90f373afdf341dea066b387968af453185e034e8229
+Section: libs
+Priority: optional
+Description: Maliit framework development files
+ Development files for creating Maliit input method plugins.
+
+Package: mojoloader
+Version: 1.1-3+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 35
+Filename: pool/main/mojoloader_1.1-3+git_all.deb
+Size: 8356
+MD5sum: d2977b5ccb810a4d1d6806a93a36e1d6
+SHA1: 24af2c654377d52cd3ca8d8dca126877f6e2a425
+SHA256: 629231d107f5e24c29852d7cac278dbb44349bb836892be09e5c1f4c893528ce
+Section: misc
+Priority: optional
+Description: Mojo Framework Loader for webOS
+ The Mojo framework loader provides JavaScript module loading
+ capabilities for legacy webOS Mojo applications.
+
+Package: mojomail-common
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 16866
+Filename: pool/main/mojomail-common_2.0.0-1ubuntu1_all.deb
+Size: 4664614
+MD5sum: 1b79064ff26119495065ef285d98c3db
+SHA1: 06d2a02f7a7c6137c1bff5d70fb3a9d7627be337
+SHA256: ec5073cccb3dd9cf7b22864d5c302191e3402a504cf4a7d9bc8b615d5352e57e
+Section: misc
+Priority: optional
+Description: webOS Mojomail common library
+
+Package: mojomail-imap
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 25621
+Filename: pool/main/mojomail-imap_2.0.0-1ubuntu1_all.deb
+Size: 7008208
+MD5sum: 5cd43a9da44df13ae092663e368a9397
+SHA1: b658128db8d67d9fe5f75beb7ca61b165f9fbb70
+SHA256: af5fa007f5d74c34a065dd03e0f9389dd1d3acdd1bdf9909013c1f63734d17bd
+Section: misc
+Priority: optional
+Description: webOS Mojomail IMAP service
+
+Package: mojomail-pop
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 13027
+Filename: pool/main/mojomail-pop_2.0.0-1ubuntu1_all.deb
+Size: 3672036
+MD5sum: 72474af1f3a1952ec9ade61dfd7384a8
+SHA1: 282832334a3b4487f0da234344a10c4f4bf4b3dd
+SHA256: b3b474cc4d267974c400adbefb1572d77805172b19b7dcf0ff7bcc5bb4448971
+Section: misc
+Priority: optional
+Description: webOS Mojomail POP3 service
+
+Package: mojomail-smtp
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 6695
+Filename: pool/main/mojomail-smtp_2.0.0-1ubuntu1_all.deb
+Size: 1887006
+MD5sum: 347b3f43c8f81ab05d6b8c99ee7d2e9b
+SHA1: 0ad49de2ea5ad6ea208cca3b003c5c696669d73f
+SHA256: 5b3d8846d3b22678b05c84c70ebe46530defcf5554a8a15aefec5d620de8916a
+Section: misc
+Priority: optional
+Description: webOS Mojomail SMTP service
+
+Package: mojoservice-frameworks
+Version: 1.1-3+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 386
+Filename: pool/main/mojoservice-frameworks_1.1-3+git_all.deb
+Size: 77424
+MD5sum: 7e067cc598505fa5fd7e4e46f5b33660
+SHA1: e87e6c2b7944815d6ce7c6a691d36a878347b3fc
+SHA256: 686e5572e557819b6d05f6f531bec986bcb6725db5b053c042360b52fcb3522d
+Section: misc
+Priority: optional
+Description: Mojo Service Frameworks for webOS
+ JavaScript frameworks for building webOS Mojo services,
+ providing service infrastructure and utilities.
+
+Package: mojoservicelauncher
+Version: 3.0.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 66
+Depends: nodejs, nodejs-module-webos-dynaload, nodejs-module-webos-pmlog, nodejs-module-webos-sysbus
+Filename: pool/main/mojoservicelauncher_3.0.2-1ubuntu1_amd64.deb
+Size: 13676
+MD5sum: 12c7b72d30448a13d1b389e059ad8ad4
+SHA1: 6f1be6bddb9d94fca0f0ee72ed424d3b4cdb8a5e
+SHA256: bc207ce112b62d2660210c8d0b1b291c65780fd299d92aa8b0c964f6e40c5dcb
+Section: web
+Priority: optional
+Homepage: https://github.com/webosose/mojoservicelauncher
+Description: webOS Node.js service launcher
+ Component responsible for launching Node.js services
+ in webOS/LuneOS environment.
+
+Package: nmeaparser
+Version: 1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 118
+Filename: pool/main/nmeaparser_1.0-1ubuntu1_amd64.deb
+Size: 18532
+MD5sum: c28edf688bdf9a2f3085c8926b681d5c
+SHA1: fa9780200200774017710482bf0f9bf82501ab7c
+SHA256: 8abf7f15d11a42237c8bff03da85f6395056b834196f05b94ee191a2424fbdbb
+Section: misc
+Priority: optional
+Description: NMEA GPS parser library
+
+Package: nodejs-module-webos-dynaload
+Version: 3.0.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 49
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libnode109 (>= 18.19.1+dfsg), libstdc++6 (>= 13.1)
+Filename: pool/main/nodejs-module-webos-dynaload_3.0.2-1ubuntu1_amd64.deb
+Size: 12974
+MD5sum: 6c623f68da92467b26a3334313de9988
+SHA1: bd345d8a1d982f1ccda2f6439bc77a03874aabfb
+SHA256: 28a79286355daef625ffcfd907c0ef0260b96366f3fefcc7ebb36935437bf4be
+Section: web
+Priority: optional
+Homepage: https://github.com/nicofrand/nodejs-module-webos-dynaload
+Description: webOS Node.js dynamic loading module
+ Node.js native module for dynamically loading native modules
+ in webOS/LuneOS environment.
+
+Package: nodejs-module-webos-pmlog
+Version: 3.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 36
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libnode109 (>= 18.19.1+dfsg), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/nodejs-module-webos-pmlog_3.0.1-1ubuntu1_amd64.deb
+Size: 7838
+MD5sum: 042a373cc5ca082074675421c90f0718
+SHA1: d2b4fbc9b28f2befee824e89cad0702f21294356
+SHA256: 17f9a77e67e2276bdc1a182e2901f9868e1a94566dac6df8c82dbcc46937a290
+Section: web
+Priority: optional
+Homepage: https://github.com/nicofrand/nodejs-module-webos-pmlog
+Description: webOS Node.js logging module
+ Node.js native module for logging via PmLogLib
+ in webOS/LuneOS environment.
+
+Package: nodejs-module-webos-service
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 38
+Depends: nodejs
+Filename: pool/main/nodejs-module-webos-service_0.0.1-1ubuntu1_all.deb
+Size: 8138
+MD5sum: f1ad51828c201f92e4e78dabded8cfb6
+SHA1: a8aa0863785d86abb6e166f1abf57419b97515f2
+SHA256: dcedfbeae344ec43ee40dd18450ea17a92c63a891d243e156869cf5d1801e177
+Section: web
+Priority: optional
+Homepage: https://github.com/nicofrand/nodejs-module-webos-service
+Description: webOS Node.js service library
+ JavaScript library for creating webOS/LuneOS services
+ using Node.js.
+
+Package: nodejs-module-webos-sysbus
+Version: 2.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 134
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libnode109 (>= 18.19.1+dfsg), libstdc++6 (>= 13.1)
+Filename: pool/main/nodejs-module-webos-sysbus_2.0.1-1ubuntu1_amd64.deb
+Size: 37606
+MD5sum: fe8a5167280ecdeb46a039994455a64d
+SHA1: 01a37cef2ae58e19263161b7c512598589b41aac
+SHA256: 2fab6eefdbdcc24ae2007ef24ee1e92f28bacb82b28d875aa3b01903f5e22f57
+Section: web
+Priority: optional
+Homepage: https://github.com/nicofrand/nodejs-module-webos-sysbus
+Description: webOS Node.js system bus module
+ Node.js native module for accessing Luna Service Bus
+ in webOS/LuneOS environment.
+
+Package: notificationmgr
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 464
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libglibmm-2.4-1t64 (>= 2.66.7), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libxml++2.6-2v5 (>= 2.42.3)
+Filename: pool/main/notificationmgr_1.0.0-1ubuntu1_amd64.deb
+Size: 147586
+MD5sum: 85a23e63d879ecfc941960a2b224aa92
+SHA1: af3041f3c890c5ae29f9475bf63fdf13100277de
+SHA256: b764c5ef9bbec9a5d9652972c810754090f2afd26c46b49cbd2bf268c208cd46
+Section: misc
+Priority: optional
+Description: webOS Notification Manager
+ Notification management service for webOS/LuneOS. Manages system
+ notifications and alerts via Luna Service Bus.
+
+Package: novacomd
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 138
+Depends: libc6 (>= 2.34), libnyx (>= 7.3.0)
+Filename: pool/main/novacomd_2.0.0-1ubuntu1_amd64.deb
+Size: 47794
+MD5sum: 1426972ef2e30687f52d0808a8ff1504
+SHA1: 0a3f76e8b7b052bcde866ab4b06b4232280c45fd
+SHA256: 090a8fece7b1825ae96703b10703326c69fe8b391dba7225cd99fbb3129ec868
+Section: misc
+Priority: optional
+Description: Nova communication daemon
+
+Package: nyx-utils
+Version: 1.5.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 374
+Depends: libnyx (>= 7.3.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libstdc++6 (>= 13.1)
+Filename: pool/main/nyx-utils_1.5.0-1ubuntu1_amd64.deb
+Size: 68570
+MD5sum: 23f4c54eadfce7213d78179f9b7c9624
+SHA1: 2b986c00af26e2be089d789db8a26a214c32cac1
+SHA256: 97662d47df5bb1f2b6b8ebe6693e447500b20f0c649fe077bfea902082f9a3b3
+Section: admin
+Priority: optional
+Description: webOS hardware abstraction command-line utilities
+ NYX utilities provide command-line tools for accessing webOS
+ hardware abstraction features.
+
+Package: org.mer.app.fingerterm
+Version: 1.3.6-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 13505
+Filename: pool/main/org.mer.app.fingerterm_1.3.6-1ubuntu1_all.deb
+Size: 2060206
+MD5sum: af29fc874de46990b54fddf8691a5259
+SHA1: ca4f308aecb709cf04f16989a0697408fe79b119
+SHA256: 204d1c3e902ba669a68077fba3bef82b035a1633e3bc49868151511499d63928
+Section: misc
+Priority: optional
+Description: Fingerterm terminal emulator
+
+Package: org.webosports.app.calculator
+Version: 0.1.1+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 816
+Filename: pool/main/org.webosports.app.calculator_0.1.1+git_all.deb
+Size: 208278
+MD5sum: 5b990b9af593ffab5ccd144690a9bf95
+SHA1: b42ab0116ed36e0f76bc9393c07e42499729626f
+SHA256: 7c41ba0c6e05af8fbc5be56545a956c25aa600d09fcf624b248b8d981c2c186f
+Section: misc
+Priority: optional
+Description: LuneOS Calculator Application
+ A calculator application for LuneOS/webOS.
+
+Package: org.webosports.app.camera
+Version: 0.0.2-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 5148
+Filename: pool/main/org.webosports.app.camera_0.0.2-1ubuntu1_all.deb
+Size: 1616870
+MD5sum: f3d4448404012996772d014a307998d8
+SHA1: 111a70306d20fac8bdb203711f005c3977ea87ec
+SHA256: 57dd91b2722721777f8254aea75533d5a0156a64d80794a570febb1c4e7860b8
+Section: misc
+Priority: optional
+Description: LuneOS Camera application
+
+Package: org.webosports.app.contacts
+Version: 0.0.1+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 801
+Filename: pool/main/org.webosports.app.contacts_0.0.1+git_all.deb
+Size: 419994
+MD5sum: 68e42c9166f27f8d8bdf495b53280cd6
+SHA1: 94fa77c4e431a52793544fb6359a7d9a1ce9a8a2
+SHA256: 1fcf2833597da6db9694f8b2390cf8a29aaa0db55336e3d2d079a0f8eb238c0b
+Section: misc
+Priority: optional
+Description: LuneOS Contacts Application
+ A contacts management application for LuneOS/webOS.
+
+Package: org.webosports.app.filemanager
+Version: 1.0.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 857
+Filename: pool/main/org.webosports.app.filemanager_1.0.0+git_all.deb
+Size: 219878
+MD5sum: 20732d043c16ce38a21910795ec66fe8
+SHA1: 16edce5a2b66ada9e3635208b159f689d8c0890c
+SHA256: 92b99443462691ff626502491a05be1840c638e1968b4240712b6096404877b6
+Section: misc
+Priority: optional
+Description: LuneOS File Manager Application
+ A file manager application for LuneOS/webOS.
+
+Package: org.webosports.app.firstuse
+Version: 0.3.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 3365
+Filename: pool/main/org.webosports.app.firstuse_0.3.0-1ubuntu1_all.deb
+Size: 2213724
+MD5sum: 61ad7e604ad1a8908124468acefc94f6
+SHA1: a74522a13b0d636bef53af73e2e3bbbcf99a52b0
+SHA256: 6a88a9290b2d864d97a691e234dd11bba8a1b14b4cc4453c61dd24946e3cbc8e
+Section: misc
+Priority: optional
+Description: LuneOS First Use wizard application
+
+Package: org.webosports.app.maps
+Version: 0.0.1+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 5297
+Filename: pool/main/org.webosports.app.maps_0.0.1+git_all.deb
+Size: 854050
+MD5sum: 2dcb1579fa6df9bb53192433a507d2c1
+SHA1: 02f388f11eafe0666b13a959c286c1aac3c4e944
+SHA256: 03ee47865b32f6dcd517fabb0f841b750803744891045f9caa6e5111c8339ed0
+Section: misc
+Priority: optional
+Description: LuneOS Maps Application
+ A maps application for LuneOS/webOS.
+
+Package: org.webosports.app.memos
+Version: 1.0.7+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 765
+Filename: pool/main/org.webosports.app.memos_1.0.7+git_all.deb
+Size: 184984
+MD5sum: ea0f755f7691e80b18f0b3ce4bd63ec9
+SHA1: 9ae3d3ea8dc0fc6e6031b79e2c6d2e2eaf519fa7
+SHA256: 54428c23376e699836b3370d0f35ac8157ecfbe64503ebb64a9ff46ab3818fef
+Section: misc
+Priority: optional
+Description: LuneOS Memos Application
+ A notes/memos application for LuneOS/webOS.
+
+Package: org.webosports.app.messaging
+Version: 0.0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 818
+Filename: pool/main/org.webosports.app.messaging_0.0.1-1ubuntu1_all.deb
+Size: 349162
+MD5sum: dd438537b2469bbc1fd1acd64ad24d63
+SHA1: 8a5773a53d518bd98fc40cae89c455e488fdbcc2
+SHA256: 44631e0b4d754fa48e0d6ead00868e886a992d299824ac59f38110c5eba83a0a
+Section: misc
+Priority: optional
+Description: LuneOS Messaging application
+
+Package: org.webosports.app.messwerk
+Version: 0.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 9445
+Filename: pool/main/org.webosports.app.messwerk_0.1.0-1ubuntu1_all.deb
+Size: 2255736
+MD5sum: dbedcbb813e4118baf32ffb43f0cd2df
+SHA1: 8aba900a47440dedaa73b4f479a042bce6fb9824
+SHA256: ec97631125b6104856d771319c7ca70e4641bb9453263092aec4da1ec7c86498
+Section: misc
+Priority: optional
+Description: LuneOS Messwerk sensor application
+
+Package: org.webosports.app.pdf
+Version: 1.0.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 3433
+Filename: pool/main/org.webosports.app.pdf_1.0.0+git_all.deb
+Size: 1306448
+MD5sum: 06a258754f9433460290bf1e70d8a95a
+SHA1: c70daee4a5b181f98021e9e4a83a065689608c20
+SHA256: b216f5105c62ad84b8b1fb724fbfd4e011a8c845db4c2b0297739eee0fbe8bb5
+Section: misc
+Priority: optional
+Description: LuneOS PDF Viewer Application
+ A PDF viewer application for LuneOS/webOS.
+
+Package: org.webosports.app.phone
+Version: 0.1.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1130
+Filename: pool/main/org.webosports.app.phone_0.1.1-1ubuntu1_all.deb
+Size: 657498
+MD5sum: 5ebcfb3ba91cdfe2899762d2699db209
+SHA1: 653aebf501ecdf595422769abda623fd7a4463cc
+SHA256: 98573552f3b82c65eeb063a99f16d0bcd2476fa08b3fcc85b38035baf2f766c4
+Section: misc
+Priority: optional
+Description: LuneOS Phone application
+
+Package: org.webosports.app.photos
+Version: 0.0.1+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 909
+Filename: pool/main/org.webosports.app.photos_0.0.1+git_all.deb
+Size: 474824
+MD5sum: df4debb3ad4e4640160cc469ca446021
+SHA1: d8653a5c7c428b14e56e56f8d991b314a762a67a
+SHA256: 0c84a8eb082297698c727c62abd6b5106261e0ce39b1fef4c010b24c5c83963e
+Section: misc
+Priority: optional
+Description: LuneOS Photos Application
+ A photo gallery application for LuneOS/webOS.
+
+Package: org.webosports.app.preware
+Version: 2.0.3+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 1017
+Filename: pool/main/org.webosports.app.preware_2.0.3+git_all.deb
+Size: 363710
+MD5sum: 8b6a6655c1ac227d7088e0755983dd1d
+SHA1: 85a4bcb8df977bd1fa0619e8760dbfc2531338ac
+SHA256: 1195b51328a57f33b7c875084748663abf433b22304025251ede08c2c22b89c2
+Section: misc
+Priority: optional
+Description: Preware Package Manager for LuneOS
+ Preware is the package manager application for LuneOS/webOS,
+ allowing users to install apps, patches, and themes.
+
+Package: org.webosports.app.settings
+Version: 0.3.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1634
+Filename: pool/main/org.webosports.app.settings_0.3.0-1ubuntu1_all.deb
+Size: 880764
+MD5sum: 612e3ccf75ea82e1a75432599a762ac5
+SHA1: 983ce55c0b9f1319194f3a76176183e406aa8402
+SHA256: d7f399102ead84bb220eb29215dd388c447cacffd0f0a6d65be7d419c74c61aa
+Section: misc
+Priority: optional
+Description: LuneOS Settings application
+
+Package: org.webosports.app.settings-qml
+Version: 0.4.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1263
+Filename: pool/main/org.webosports.app.settings-qml_0.4.0-1ubuntu1_all.deb
+Size: 981688
+MD5sum: 3c37450047e3492622e4c5035a202f6d
+SHA1: ec4e33d89febd46d9d76850c62a060105d3b9669
+SHA256: 9c4948830b351197efc77aa75c04de19099bd251a5f8bccce5e8e97e430d2397
+Section: misc
+Priority: optional
+Description: LuneOS Settings QML application
+
+Package: org.webosports.app.tasks
+Version: 1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 33
+Filename: pool/main/org.webosports.app.tasks_1.0+git_all.deb
+Size: 5014
+MD5sum: 47d47bd1cef752c1cc4910501a2950e8
+SHA1: ebf3596bad5cf11112108e55836496f90cefe770
+SHA256: 230e65c4dcf9be25504798fe6202fce5972f03ecc4ebed0ba112851999dde903
+Section: misc
+Priority: optional
+Description: LuneOS Tasks Application
+ A task/todo management application for LuneOS/webOS.
+
+Package: org.webosports.app.terminal
+Version: 0.1-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 509
+Filename: pool/main/org.webosports.app.terminal_0.1-1ubuntu1_all.deb
+Size: 130948
+MD5sum: 0d684fde41f31f354a709e0b58214adc
+SHA1: cc4aa320a21a2a131b7a7fb44e4ee515152345a8
+SHA256: 2ed9977a9ff1452d94268c697d9282b99a3cb9bf1e6fe7e7e069fc25dd634a73
+Section: misc
+Priority: optional
+Description: LuneOS Terminal application
+
+Package: org.webosports.app.testr
+Version: 0.1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 1942
+Filename: pool/main/org.webosports.app.testr_0.1.0+git_all.deb
+Size: 1001742
+MD5sum: b11e580ac6c8e66644aed99bd297555c
+SHA1: 73ab3ee850d832d13ddde560704868e605f0245d
+SHA256: e528cdf39550f62781b2eb974cbebbd145b9069b5b904d9db376c4e257c5f999
+Section: misc
+Priority: optional
+Description: LuneOS Test Runner Application
+ A test runner application for LuneOS/webOS development.
+
+Package: org.webosports.cdav
+Version: 0.3.34+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 1153
+Depends: nodejs
+Filename: pool/main/org.webosports.cdav_0.3.34+git_all.deb
+Size: 430546
+MD5sum: 6fa7fde12a398bd8db113babd9018903
+SHA1: b1b66f5931cdd478965e1e897e15ce6cf8d433f0
+SHA256: 20f2969f2d7fa1e07aa7245066e2548d9ebbbc25f8afb63f95d01280a416a532
+Section: misc
+Priority: optional
+Description: LuneOS CardDAV/CalDAV Sync Service
+ Service for synchronizing contacts and calendars via
+ CardDAV and CalDAV protocols on LuneOS.
+
+Package: org.webosports.service.devmode
+Version: 0.1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 88
+Depends: nodejs
+Filename: pool/main/org.webosports.service.devmode_0.1.0+git_all.deb
+Size: 10940
+MD5sum: d765b09ee7bea5e2cd0256a9fb458039
+SHA1: 540cc31d5d60ea4b99c2ba1ac255ddb4a35b3b21
+SHA256: 1e9d461a3d5e9f11fc2c46901ca9eff9b65077ff8aba180752cd8cfbad1a8797
+Section: misc
+Priority: optional
+Description: LuneOS Developer Mode Service
+ Service for enabling and managing developer mode on LuneOS.
+
+Package: org.webosports.service.ipkg
+Version: 2.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 211
+Filename: pool/main/org.webosports.service.ipkg_2.0.0-1ubuntu1_all.deb
+Size: 59898
+MD5sum: 7c3ae0257986646ecab4da1c8a3f2fca
+SHA1: 7cc35857b8ee78edd58010e119864c3771387443
+SHA256: 4be6bdf4b36efcd0cf1c940a1fd2b127381afbd383730fc91a8f76b5413c3729
+Section: misc
+Priority: optional
+Description: LuneOS IPKG service
+
+Package: org.webosports.service.licenses
+Version: 0.1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 66
+Depends: nodejs
+Filename: pool/main/org.webosports.service.licenses_0.1.0+git_all.deb
+Size: 10888
+MD5sum: 2678b2e11605a3888e39ce759c6a3fac
+SHA1: ddeeb02cd8866d9139db91948b74edb13b26391a
+SHA256: fd4ac2d8c9808fd8304480aac5d02665a9d31f4671a01a564a7a0caee6eaa4b6
+Section: misc
+Priority: optional
+Description: LuneOS License Management Service
+ Service for managing and displaying software licenses on LuneOS.
+
+Package: org.webosports.service.lumberjack
+Version: 0.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 136
+Filename: pool/main/org.webosports.service.lumberjack_0.1.0-1ubuntu1_all.deb
+Size: 34724
+MD5sum: 3849c82fd863b547e9a8645a94ca7b82
+SHA1: 18615dd617fd1f7f3313df66077ffba9a07070f8
+SHA256: b663a7a22e5084217edbc56c31425153ae66658cd4cdc2a724ad62d7bbeb91f1
+Section: misc
+Priority: optional
+Description: LuneOS Lumberjack logging service
+
+Package: org.webosports.service.messaging
+Version: 0.1.0+git
+Architecture: all
+Maintainer: LuneOS <noreply@luneos.org>
+Installed-Size: 135
+Depends: nodejs
+Filename: pool/main/org.webosports.service.messaging_0.1.0+git_all.deb
+Size: 16192
+MD5sum: 225ba30a8a63ce8cc6f44034aba4eb79
+SHA1: ea3bb936138bc5c18ebafa635d4f15ce335f42aa
+SHA256: 1526a9c1a419c9c7e73270e30f2f51b22522e47b3ccf3e9edcfc4a10a5a635be
+Section: misc
+Priority: optional
+Description: LuneOS Messaging Backend Service
+ Backend service for SMS/MMS messaging on LuneOS.
+
+Package: org.webosports.service.update
+Version: 0.1.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 146
+Filename: pool/main/org.webosports.service.update_0.1.0-1ubuntu1_all.deb
+Size: 21874
+MD5sum: 3c96e18358d8334680df30fac9b0f19e
+SHA1: 6d94f99a6b368c2ad18b86f322c49f693dee0f86
+SHA256: 3d09891d4370683a2f41f141119f84c406ba8a0b1b6f1eadfd2b8d0a29fb3de2
+Section: misc
+Priority: optional
+Description: LuneOS Update service
+
+Package: pdm-plugin
+Version: 1.0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 62
+Depends: libgcc-s1 (>= 3.0), libstdc++6 (>= 4.6)
+Filename: pool/main/pdm-plugin_1.0.1-1ubuntu1_amd64.deb
+Size: 9768
+MD5sum: 08a5cedbd457cd14502990dc4c527536
+SHA1: 73c665e98d07a28a8c5eb6d5f245588e48c62dd7
+SHA256: 9bb53e3cd65f627c0f364aff3917a5a92566d908c301511dcc55c095ee64678e
+Section: misc
+Priority: optional
+Description: Physical device manager plugin
+
+Package: pmklogd
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 31
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
+Filename: pool/main/pmklogd_2.0.0-1ubuntu1_amd64.deb
+Size: 7338
+MD5sum: 31e2b26faba5ea2ab5e2be8f7ddf7afe
+SHA1: 693c4d8db908420d68ef6e6fbb93f3d072a1bb11
+SHA256: 6d6aee2ff544cd5a402a46fca3f9fa59cc6eeeb40364230ddbd08850ccf14dea
+Section: admin
+Priority: optional
+Description: webOS kernel logging daemon
+ PmKLogDaemon collects kernel log messages and forwards them to
+ the webOS logging system.
+
+Package: pmlogctl
+Version: 3.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 43
+Depends: libc6 (>= 2.34), libpmloglib (>= 3.3.0)
+Filename: pool/main/pmlogctl_3.0.0-1ubuntu1_amd64.deb
+Size: 13464
+MD5sum: 3e6b87a4c4631adc47c3314a01e956c9
+SHA1: c6c7c0ddfeb8b7b3ef0186ba98c4609bb0750e5b
+SHA256: ca0a2865cd9dfc82d055fadb5771d9474df165604b8c5ccd950a205c3cfac2ad
+Section: admin
+Priority: optional
+Description: webOS logging control utility
+ PmLogCtl is a command-line utility for controlling and viewing
+ webOS system logs.
+
+Package: pmlogdaemon
+Version: 3.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 81
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.75.3), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/pmlogdaemon_3.1.0-1ubuntu1_amd64.deb
+Size: 23620
+MD5sum: 98df068be918c02d363b561652c69ec7
+SHA1: 2ccd0b7d3de7ffe79ef694cf705872593d3062af
+SHA256: fdc94077cf03f09ad1aa86556715bf1b1ad8213fabf41448a737f58be683b213
+Section: admin
+Priority: optional
+Description: webOS logging daemon
+ PmLogDaemon is the webOS system logging daemon that collects and
+ manages log messages from webOS services and applications.
+
+Package: qml-webos-bridge
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 385
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: pool/main/qml-webos-bridge_1.0.0-1ubuntu1_amd64.deb
+Size: 111610
+MD5sum: 17c65ae1b6bf19ebef682f288235bbc3
+SHA1: d8bfde8cde1a646635cbc99a122b958aba92c42f
+SHA256: 264a45987ce0f6cef1ce17822c9b298160a62e5e0c4b1ef232719cfa0ec27eb0
+Section: libs
+Priority: optional
+Description: QML to Luna Service bridge
+ This package provides QML bindings for Luna Service 2,
+ allowing QML applications to communicate with webOS services.
+ Includes service models for application management, system services,
+ notifications, and settings.
+
+Package: qml-webos-components
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 521
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpmloglib (>= 3.3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 13.1), qt6-base-abi (= 6.4.2)
+Filename: pool/main/qml-webos-components_1.0.0-1ubuntu1_amd64.deb
+Size: 103932
+MD5sum: cc82b29baddf6f0dc99504f2175ad4eb
+SHA1: 22218417f9777587a4713f95ece45815236af489
+SHA256: 6b31e178aeb9084841c47012fa162ba3028d3866ba2e3d87f04dd8ebe231f2fc
+Section: libs
+Priority: optional
+Description: QML components for webOS
+ A collection of QML plugins for webOS including:
+ - PmLog: Logging plugin
+ - TextFile: File I/O plugin
+ - FpsCounter: FPS monitoring
+ - PerformanceLog: Performance logging
+ - PmTrace: Tracing support
+ - AudioService: Audio service integration
+ - WebOS.Global: Global webOS utilities
+ - WebOS.DeveloperTools: Developer debugging tools
+
+Package: qml-webos-framework
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 959
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5), libwebos-platform-interface (>= 6.0.0)
+Filename: pool/main/qml-webos-framework_1.0.0-1ubuntu1_amd64.deb
+Size: 209128
+MD5sum: eb686ea3efa42a73df3c43434ef72412
+SHA1: f55b6116255d22ac77a7be545657b0b8b7b2b01f
+SHA256: c217c41e711084d76c672e7b7a48d1b556334c3f67cc372fcad98e82e2305ff7
+Section: libs
+Priority: optional
+Description: QML framework for webOS (Eos)
+ A comprehensive QML framework for webOS applications including:
+ - Eos.Items: Visual items and shapes
+ - Eos.Controls: UI controls (buttons, sliders, etc.)
+ - Eos.Style: Visual styling
+ - Eos.Window: Window management
+ - Eos.SurfaceGroup: Surface group management
+ - Eos.VirtualKeyboardOverlay: Virtual keyboard support
+
+Package: qml6-module-connman
+Source: libconnman-qt
+Version: 1.3.3-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 222
+Depends: libconnman-qt6-1 (= 1.3.3-1ubuntu1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: pool/main/qml6-module-connman_1.3.3-1ubuntu1_amd64.deb
+Size: 44104
+MD5sum: 4c9109d92e337508bda328e2142e6a99
+SHA1: 2a492d012cc824fad6fd1aaa7719e8376af358ae
+SHA256: b48cd0d8ffc7c4b647fcca0307f3a8ac3e14b3d9ec2d15c5d7607ccacb634386
+Section: libs
+Priority: optional
+Homepage: https://github.com/nicofrand/libconnman-qt
+Description: QML module for ConnMan
+ QML module for managing network connections through ConnMan.
+
+Package: qml6-module-ofono
+Source: libqofono
+Version: 0.123-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 376
+Depends: libqofono-qt6-0 (= 0.123-1ubuntu1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: pool/main/qml6-module-ofono_0.123-1ubuntu1_amd64.deb
+Size: 58752
+MD5sum: 3fb951ec76a4d3ea9ed2907a383cd5f1
+SHA1: 782ab6b6accf7dcaddcdd4d2a70b232d83af35d6
+SHA256: 48271d2842f8856d0ea773aac0f3d9e57fbc5764430c7b93fba3f1ad124d6f6f
+Section: libs
+Priority: optional
+Homepage: https://github.com/nicofrand/libqofono
+Description: QML module for oFono (Qt6)
+ QML module providing Qt bindings for the oFono telephony stack.
+
+Package: qml6-module-voicecall
+Source: voicecall
+Version: 0.7.14-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 304
+Depends: libvoicecall0 (= 0.7.14-1ubuntu1), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6qml6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: pool/main/qml6-module-voicecall_0.7.14-1ubuntu1_amd64.deb
+Size: 86102
+MD5sum: 9f098b7d1e7169626542b78916c3a3ed
+SHA1: 038e6b24ab788a4c6aa145a68c49fdc9c3ff66fe
+SHA256: 7134f1e38547f84a3b865271ca31820d0b465a8c2807d025977f842165c83dc6
+Section: comm
+Priority: optional
+Homepage: https://github.com/nicofrand/voicecall
+Description: QML module for voice calls
+ QML declarative plugin for voice call management.
+
+Package: qt-features-webos-dev
+Source: qt-features-webos
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 28
+Filename: pool/main/qt-features-webos-dev_1.0.0-1ubuntu1_all.deb
+Size: 4786
+MD5sum: 139f9634f2fef9034760cd6302601efb
+SHA1: 3487fa75ec85e1333edac8e67a0d93e578843a79
+SHA256: 1523a9fd61d764377038e26a38f3cf546ffe04001e39433d0abc5900e1eb3fc5
+Section: devel
+Priority: optional
+Homepage: https://github.com/webosose/qt-features-webos
+Description: webOS Qt Features - development files
+ Header files and development tools for webOS Qt features.
+ This package provides qweboskeyextension.h for webOS key mapping.
+
+Package: qt6-plugin-generic-vboxtouch
+Source: qt-plugin-generic-vboxtouch
+Version: 1.1.4-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 90
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: pool/main/qt6-plugin-generic-vboxtouch_1.1.4-1ubuntu1_amd64.deb
+Size: 26702
+MD5sum: 2b8f0e4a6e1e4e2c47911c59fd865505
+SHA1: 28ce746c835fba6dd163930e4d3d7ba0f1945b00
+SHA256: 1e450d5403a4fc4b639faa911887ae88db0cc652b9d8e44a1c0a9eb1a51fd57f
+Section: libs
+Priority: optional
+Homepage: https://github.com/AsteroidOS/qt-plugin-generic-vboxtouch
+Description: Qt6 VirtualBox touch screen plugin
+ This Qt6 plugin provides touch screen support for VirtualBox
+ virtual machines, enabling touch input emulation for testing
+ mobile applications in a virtualized environment.
+
+Package: qtlocation-luneos-plugin
+Version: 6.3.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 72
+Filename: pool/main/qtlocation-luneos-plugin_6.3.0-1ubuntu1_amd64.deb
+Size: 19260
+MD5sum: 87d3c8e2417641e9b85c61b07784be03
+SHA1: 967450e9e924c393d1fa344f7f79291f181a2509
+SHA256: 6a780fc7841aca02c47331a1598ad5dc14ce795fbef9c9b300db3a6ef2bc9f61
+Section: misc
+Priority: optional
+Description: Qt location plugin for LuneOS
+
+Package: qtwayland-webos-plugins
+Source: qtwayland-webos
+Version: 6.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos-dev@example.com>
+Installed-Size: 221
+Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6waylandclient6 (>= 6.4.0), libqt6waylandcompositor6 (>= 6.2.2), libqt6waylandeglclienthwintegration6 (>= 6.2.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libwayland-webos-client (>= 1.0.0), libwebos-platform-interface (= 6.0.0-1ubuntu1), libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.4.2)
+Filename: pool/main/qtwayland-webos-plugins_6.0.0-1ubuntu1_amd64.deb
+Size: 49336
+MD5sum: e5ed5ca340eb05f5cea5d68e3013057a
+SHA1: 5f2afa0d46b28ce352827b8bac2300bf34122774
+SHA256: 069c923908ec8712947c80255658ea66fc2d8f6039b5bb00b408d0ea8a6c385c
+Section: libs
+Priority: optional
+Homepage: https://github.com/webosose/qtwayland-webos
+Description: Qt Wayland plugins for webOS
+ Qt Wayland platform plugins for webOS including:
+  - webos-wayland-egl platform plugin
+  - webos shell integration plugin
+  - wayland input context plugin
+
+Package: sam
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 727
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.58.0), libicu74 (>= 74.1-1~), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/sam_2.0.0-1ubuntu1_amd64.deb
+Size: 227104
+MD5sum: bf5bafd5757dbb0a694f679ade052786
+SHA1: a2c9bb388216fd80a4e779d5280097fd412dd312
+SHA256: c49bf815635fa95eb84fe68b6c48547b9eebce241baf8a158a2ff8453fc49ad9
+Section: misc
+Priority: optional
+Description: webOS System & Application Manager
+ System and Application Manager for webOS/LuneOS. Manages application
+ lifecycle, launching, and system integration via Luna Service Bus.
+
+Package: serial-forward
+Version: 1.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 76
+Depends: libc6 (>= 2.38)
+Filename: pool/main/serial-forward_1.1-1ubuntu1_amd64.deb
+Size: 13290
+MD5sum: ed3afa267131c0faf1459a290b9441b4
+SHA1: 4effeeec9ced483176728d13cc849f622472d54c
+SHA256: 20615189b202708f0b915c3b036ed652d368c59f86722632f1ade13d5351c630
+Section: misc
+Priority: optional
+Description: Serial port forwarding utility
+
+Package: settingsservice
+Version: 1.0.22-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 1142
+Depends: libbson-1.0-0t64 (>= 1.26.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1)
+Filename: pool/main/settingsservice_1.0.22-1ubuntu1_amd64.deb
+Size: 411840
+MD5sum: 5e13da88c94e91de8e4b16e1c72a6734
+SHA1: 2cb3dad27f049a31bcaa14e3378712aba72f69b7
+SHA256: 281851155dab75b0aca2cca32ebe1915b09cf34042d55d26a3c6eb9c5cba7894
+Section: misc
+Priority: optional
+Description: webOS Settings Service
+ Settings management service for webOS/LuneOS. Provides system-wide
+ settings storage and retrieval via Luna Service Bus.
+
+Package: settingsservice-conf
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 205
+Filename: pool/main/settingsservice-conf_1.0.0-1ubuntu1_all.deb
+Size: 14196
+MD5sum: b85d9884560a7ad63c3e00c71786b8be
+SHA1: e9318e75021324d881f8f7b24016d607732cf9ff
+SHA256: 6085767ad18aa3551a13dfca2723c88257b0223d869e7f77c5bc8ecc6c870422
+Section: misc
+Priority: optional
+Description: webOS Settings Service Configuration
+ Default settings and configuration files for the webOS/LuneOS
+ settings service.
+
+Package: sleepd
+Version: 2.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 168
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.75.3), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0), libpmloglib (>= 3.3.0), libsqlite3-0 (>= 3.5.9), libxml2 (>= 2.7.4)
+Filename: pool/main/sleepd_2.0.0-1ubuntu1_amd64.deb
+Size: 53270
+MD5sum: cdcb591b2a973d4d1d103ad296659fa2
+SHA1: 00ab4563b7702c9183503bdb9ebd5044f0d61b20
+SHA256: 5ad14fe84cbd24a8a32f84d8d3fb47c399c1318ce029fd9763cf331ee9e4a2a9
+Section: misc
+Priority: optional
+Description: webOS Sleep/Power Management Daemon
+ Sleep and power management daemon for webOS/LuneOS. Manages device
+ suspend/resume, power events, and system alarms via Luna Service Bus.
+
+Package: storaged
+Version: 2.2.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.14.0), libjson-c5 (>= 0.15), libluna-service2 (>= 3.21.2), libnyx (>= 7.3.0)
+Filename: pool/main/storaged_2.2.0-1ubuntu1_amd64.deb
+Size: 14636
+MD5sum: 4783897ea07710a39c7d25143a702381
+SHA1: 8c91c165c9690d68c07821e3f4c1af281d8f04b9
+SHA256: 04a9f3fff31439f48b7293fe52014596f41102cfae208f1c75d2a151fb90a463
+Section: misc
+Priority: optional
+Description: webOS Storage Management Daemon
+ Storage management daemon for webOS/LuneOS. Manages storage devices,
+ disk mode, and provides storage information via Luna Service Bus.
+
+Package: umediaserver
+Version: 1.0.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 2126
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.38), libconfig++9v5 (>= 1.5-0.4~), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.32.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 13.1)
+Filename: pool/main/umediaserver_1.0.0-1ubuntu1_amd64.deb
+Size: 521456
+MD5sum: a834293cf8beb9fd334a0c3321df9bcc
+SHA1: 253c159a0acb82e4e5471d176b1aa9a788388442
+SHA256: e7952c43a8b0d50ce4adaec5c2561c8bfc9e1071a23892290c0a022438949345
+Section: misc
+Priority: optional
+Description: WebOS Universal Media Server
+ Universal Media Server for LuneOS providing media playback
+ services and pipeline management.
+
+Package: vmwgfx-layout
+Version: 0.1-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 55
+Depends: libc6 (>= 2.34)
+Filename: pool/main/vmwgfx-layout_0.1-1ubuntu1_amd64.deb
+Size: 9034
+MD5sum: a8ae800d6bdc8ee31fd00fb60524b0c7
+SHA1: cd10ced994963de4273dbe6b239ce56a538240fd
+SHA256: 7f95923f3c4b9499984f6c3f103b9b5b6f3af9af4a521665b5a6c9299b12c83c
+Section: misc
+Priority: optional
+Description: VMware graphics layout tool
+
+Package: voicecall
+Version: 0.7.14-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 302
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqofono-qt6-0 (>= 0.123), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.1.2), libqt6multimedia6 (>= 6.2.1), libstdc++6 (>= 5), libvoicecall0 (>= 0.7.14)
+Filename: pool/main/voicecall_0.7.14-1ubuntu1_amd64.deb
+Size: 65222
+MD5sum: 139635aa0bd695c66943355c7924b290
+SHA1: 317b5007337feb23d8f57977d5cda66cba084e53
+SHA256: cce0f2c1eca3c03553cfa986fc6aa8a6fd9e9b58f73f3714b6f0a6cbd5da0db9
+Section: comm
+Priority: optional
+Homepage: https://github.com/nicofrand/voicecall
+Description: Voice call manager daemon
+ Voicecall provides call management and routing functionality,
+ integrating with oFono for cellular calls.
+
+Package: wca-support-api-dev
+Source: wca-support-api
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 22
+Filename: pool/main/wca-support-api-dev_1.0.0-1ubuntu1_all.deb
+Size: 3218
+MD5sum: 2f4a1438ab2c7a4f52fda38bed323f4e
+SHA1: 2af22c6c8f75138169bb59422951fc9c10db01bc
+SHA256: f0fa2dff763e3d8a05ba5275a513f2f19156abfbd47ab46882d3e69ca7381957
+Section: libdevel
+Priority: optional
+Multi-Arch: foreign
+Description: webOS Connectivity Adapter Support API (development)
+ Header files and pkg-config for webOS Connectivity Adapter Support API.
+
+Package: webos-connman-adapter
+Version: 1.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 356
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.79.0), libluna-prefs (>= 3.0.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), libpmloglib (>= 3.3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libwca-support1 (>= 1.0.0), connman
+Filename: pool/main/webos-connman-adapter_1.1.0-1ubuntu1_amd64.deb
+Size: 106772
+MD5sum: aa1eb5db68ac9d717a638d80f63e29ee
+SHA1: b3b9bb1d3379236f27dd20bc3223b4a04c6ee8c1
+SHA256: add975a1388db82e5a64fe4d3933cf2e40aad31eaf657e63c3c21a66d02e8b69
+Section: net
+Priority: optional
+Description: webOS ConnMan Adapter
+ ConnMan adapter service for webOS connectivity management.
+
+Package: webos-fontconfig-files
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 61
+Filename: pool/main/webos-fontconfig-files_1.0.0-1ubuntu1_all.deb
+Size: 6272
+MD5sum: 211b4871b25dc2a957829c228c66f54f
+SHA1: 3d06b130d7db7902f83bffc522e8539c05aa2fc6
+SHA256: 9ce3a7b3da925531440784e39743debdd8385a7647b74574895284268953f9e2
+Section: misc
+Priority: optional
+Description: webOS font configuration files
+
+Package: webos-initscripts
+Version: 3.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1661
+Filename: pool/main/webos-initscripts_3.0.0-1ubuntu1_all.deb
+Size: 312000
+MD5sum: 8cc2c7dd63aaeb59a5bbdc19bdf1cee0
+SHA1: aa4740fba9a886ee14d1fce4a04998cb39c59298
+SHA256: c8ffc66939e9ab27b3f0ed1a33f5118bd995d7dfaf222b8f478eaef4c8e0d029
+Section: misc
+Priority: optional
+Description: webOS init scripts
+
+Package: webos-keyboard
+Version: 0.99.2-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS <luneos@example.com>
+Installed-Size: 857
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libluna-service2 (>= 3.21.2), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6network6t64 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5.2), maliit-framework-webos (>= 0.99.0)
+Filename: pool/main/webos-keyboard_0.99.2-1ubuntu1_amd64.deb
+Size: 250060
+MD5sum: 873b6e86f820ce674d8fdee2fa19e953
+SHA1: 689807072ad77159bc20fcc87e592b24fe7d4f93
+SHA256: 157a040266f0324799389d88c5cb6ae8c5cab0313cba7714398a8bf1fca5d16a
+Section: misc
+Priority: optional
+Description: WebOS On-screen Keyboard
+ Virtual keyboard for LuneOS using the Maliit input method framework.
+ Includes support for multiple languages and keyboard layouts.
+
+Package: webos-nettools
+Version: 1.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.16.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0)
+Filename: pool/main/webos-nettools_1.1.0-1ubuntu1_amd64.deb
+Size: 18264
+MD5sum: bd3846ac6ceabdca080079efe194a485
+SHA1: f5e4c186cb60fef9127b5583c83f3b4d0c068a57
+SHA256: dc09d4d7b790fbb2f09be7b7330375312f816eeacc4f0eb4b65eac7fb8ad0b0b
+Section: misc
+Priority: optional
+Description: webOS network tools
+
+Package: webos-system-update
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 1383
+Filename: pool/main/webos-system-update_1.0.0-1ubuntu1_all.deb
+Size: 425616
+MD5sum: 979d6e9186558176b006306df6115622
+SHA1: e7fb40a7376599312ef11e0aa76112b184555022
+SHA256: 17b7b63e01c54362c069c14bb75630d77f9661f913ae535e474e6c674bfa0b0c
+Section: misc
+Priority: optional
+Description: webOS system update service
+
+Package: webos-systemsounds
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 4568
+Filename: pool/main/webos-systemsounds_1.0.0-1ubuntu1_all.deb
+Size: 3090532
+MD5sum: b8244f53fa53f3533214bd45b0c2e778
+SHA1: e1c0a8d2594b8209b41f8e64799f32bbfb071c3d
+SHA256: 4b3cb4e1a94d52619edaf98bf0ba9489ff97f8f57b6c816ac8fd1d1ca8a60232
+Section: misc
+Priority: optional
+Description: webOS system sounds
+
+Package: webos-telephonyd
+Version: 0.1.0-1ubuntu1
+Architecture: amd64
+Maintainer: LuneOS Team <info@luneos.org>
+Installed-Size: 373
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.79.0), libluna-prefs (>= 3.0.0), libluna-service2 (>= 3.21.2), libpbnjson (>= 2.15.0), ofono
+Filename: pool/main/webos-telephonyd_0.1.0-1ubuntu1_amd64.deb
+Size: 88206
+MD5sum: 4aba724529d8d3c314f1adb9129b292c
+SHA1: 087efe8d4d130d01da28b65b8af0918b2c23b076
+SHA256: e35338afa530f00c6be7686282fd97be9172cb00d00400ec15f32b683268d89f
+Section: misc
+Priority: optional
+Homepage: https://github.com/webOS-ports/webos-telephonyd
+Description: webOS Telephony Daemon
+ Provides telephony services for webOS/LuneOS using oFono backend.
+ Integrates mobile phone capabilities into the Luna Service Bus.
+
+Package: webos-users-groups
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <potalot@gmail.com>
+Installed-Size: 9
+Filename: pool/main/webos-users-groups_1.0.0-1ubuntu1_all.deb
+Size: 1492
+MD5sum: 2be9e5831badbb6a955ae1038b8d0de6
+SHA1: 2cbcf3f66a80066d1bb104127a70b3e99ab78a5d
+SHA256: a706a9b4e73af6647dd809ab03187cdaf07df74b7f24ffbeb285ffb275732b20
+Section: admin
+Priority: optional
+Description: User and group configuration for webOS/LuneOS
+ Creates system users and groups required by webOS/LuneOS services:
+  - radio, graphics, log, security, sdcard, usb, drm users
+  - Adds system user to input, disk, audio, video, netdev groups
+
+Package: webos-wayland-protocols
+Source: webos-wayland-extensions
+Version: 1.0.0-1ubuntu1
+Architecture: all
+Maintainer: LuneOS Ports <webos-ports@webos-ports.org>
+Installed-Size: 84
+Filename: pool/main/webos-wayland-protocols_1.0.0-1ubuntu1_all.deb
+Size: 14064
+MD5sum: b21b3df1be2951ce373c6b72fb92227a
+SHA1: c23be6e0100c3d4acae433704c9ba79e929e528b
+SHA256: 63ec229af5b90aff52308fd07c42c90e82cf900aac938d5bb8d4336e083d5a95
+Section: libs
+Priority: optional
+Description: webOS Wayland Protocol XML files
+ XML protocol definition files for webOS Wayland extensions.
+

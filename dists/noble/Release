@@ -1,0 +1,25 @@
+Origin: LuneOS PPA
+Label: LuneOS
+Suite: noble
+Codename: noble
+Version: 24.04
+Architectures: amd64
+Components: main
+Description: LuneOS Ubuntu PPA - Package repository for LuneOS on Ubuntu
+Date: Tue, 20 Jan 2026 23:14:02 +0000
+MD5Sum:
+ 51cfbb0445abeef105ecdeb591f43334              226 Release
+ 212ceb4ac00f870330aad34c1e08ea99           137401 main/binary-amd64/Packages
+ 341dd27e58648630c304ae901d88a0c6            36325 main/binary-amd64/Packages.gz
+SHA1:
+ 1d62cb2879c12ed8072af1a6a54bf65f3f1018bf              226 Release
+ 251a054c7a2e3b09596b85aa51b0ce9dc8b7cbb4           137401 main/binary-amd64/Packages
+ 6998b5803e8dfbd347e6edcfdd6d506a8849cb2b            36325 main/binary-amd64/Packages.gz
+SHA256:
+ bbf8cba1c3f89c84dc0e5c9404a0a008906729ed600303ca966e2a9658986f51              226 Release
+ d2440df298230221480bfec83c87225cf3bdaadc8b7153099daf203bd86c038b           137401 main/binary-amd64/Packages
+ 6fd1edfee9a581f5d63d9def8fe53ec937982d47fa45ae527a6770d19171aa76            36325 main/binary-amd64/Packages.gz
+SHA512:
+ 63cf5a1c97f07ec2c3fe512746fcedf38db42a04a9236e76f8c0abcb6324cfe3af8dcdeca4df00ed3984eb2901926ddc1feb77559f5b4b8901ecb58e1c22a2db              226 Release
+ 5b88069532fd374a13328d50fc96b2daa4d16ae76beead73c3182bf33a6de8de55abf4d330990b81a96fe144afd73928e44434eecc617ccf309e2d6a0f3cb4d0           137401 main/binary-amd64/Packages
+ ea5d67ce4ecc940f3f9161466432d3f03ab6f82d68c20eff805ee865aa4c9dc6cd7797b4411397ab02581046f2a395660394a035ac5fd925beaf781427e7c959            36325 main/binary-amd64/Packages.gz
