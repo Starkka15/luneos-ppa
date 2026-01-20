@@ -14,7 +14,7 @@ echo "deb [trusted=yes] https://starkka15.github.io/luneos-ppa noble main" | sud
 sudo apt update
 
 # Install LuneOS meta package (installs all components)
-sudo apt install luneos-core
+sudo apt install luneos-desktop
 ```
 
 ## Manual Package Installation
