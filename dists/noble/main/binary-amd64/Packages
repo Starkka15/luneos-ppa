@@ -2336,6 +2336,24 @@ Description: LuneOS Desktop Environment
  including the Luna Surface Manager compositor, system services,
  and all LuneOS applications along with required Ubuntu dependencies.
 
+Package: luneos-session
+Version: 1.0.0
+Architecture: all
+Maintainer: LuneOS Team <luneos@webosports.org>
+Depends: luna-surfacemanager, luna-surfacemanager-conf, systemd
+Conflicts: gdm3, lightdm, sddm
+Filename: pool/main/luneos-session.deb
+Size: 2188
+MD5sum: 2e7f98f613e8ded2e5e5d73496f2638e
+SHA1: 2c10ad5d5319875ca0ef5556eaa68bb878ab2e9d
+SHA256: 79e76a484f4ec05f58065949f3813c60ba486c41cdf0daf76889e9da0200e395
+Section: misc
+Priority: optional
+Description: LuneOS Session and Display Manager
+ Provides systemd service files to start the Luna Surface Manager
+ compositor directly at boot, replacing traditional display managers
+ like GDM. This package makes LuneOS the default desktop environment.
+
 Package: maliit-framework-webos
 Version: 0.99.0-1ubuntu1
 Architecture: amd64
