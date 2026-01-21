@@ -1,0 +1,14 @@
+{
+    "exeName":"/usr/sbin/audiofocusmanager",
+    "allowedNames": ["com.webos.service.audiofocusmanager"],
+    "type": "regular",
+    "trustLevel" : "oem",
+    "permissions": [
+        {
+            "service":"com.webos.service.audiofocusmanager",
+            "outbound":[
+                "com.webos.service.account"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/bin/mojomail-smtp",
+    "trustLevel": "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.smtp"],
+    "permissions": [
+        {
+            "service":"com.palm.smtp",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

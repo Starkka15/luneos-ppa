@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.preware",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.preware-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.preware-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

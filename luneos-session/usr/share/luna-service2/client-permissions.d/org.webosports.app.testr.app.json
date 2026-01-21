@@ -1,0 +1,12 @@
+{
+    "org.webosports.app.testr-*": [
+        "appmanager.management",
+        "database.management",
+        "database.operation",
+        "location.query",
+        "luna-sysmgr.operation",
+        "mediacontroller.query",
+        "systemsettings.query",
+        "systemsettings.management"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.videoplayer",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.videoplayer-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.videoplayer-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

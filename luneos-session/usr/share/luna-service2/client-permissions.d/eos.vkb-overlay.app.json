@@ -1,0 +1,5 @@
+{
+    "eos.vkb-overlay-*": [
+        "application.operation"
+    ]
+}

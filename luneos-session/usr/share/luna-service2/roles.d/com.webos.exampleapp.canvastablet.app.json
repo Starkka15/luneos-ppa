@@ -1,0 +1,16 @@
+{
+    "exeName": "/usr/palm/applications/qml-webos-framework/file:///usr/palm/applications/com.webos.exampleapp.tabletevent/com.webos.exampleapp.canvastablet",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.exampleapp.canvastablet*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.exampleapp.canvastablet",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

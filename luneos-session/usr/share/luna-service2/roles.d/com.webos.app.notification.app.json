@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.notification",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.notification-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.notification-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

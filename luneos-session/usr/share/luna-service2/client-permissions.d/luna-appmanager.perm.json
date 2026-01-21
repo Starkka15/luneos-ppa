@@ -1,0 +1,49 @@
+{
+    "luna-appmanager": [
+        "all"
+    ],
+    "com.palm.applicationManager": [
+        "all",
+        "application.launcher",
+        "systemsettings.query"
+    ],
+    "com.palm.applicationManager-webappmgr": [
+        "all",
+        "application.launcher",
+        "systemsettings.query"
+    ],
+    "org.webosports.bootmgr": [
+        "accountsservice.management",
+        "application.launcher",
+        "configurator.management",
+        "database.operation",
+        "systemsettings.query",
+        "luna-sysmgr.operation"
+    ],
+    "com.palm.systemmanager-prefs*": [
+        "application.launcher",
+        "networkconnection.query",
+        "networkconnection.management",
+        "settings.query",
+        "systemconfig.query",
+        "systemsettings.query",
+        "wifi.query",
+        "wifi.management"
+    ],
+    "com.palm.systemmanager-localeprefs*": [
+        "application.launcher",
+        "networkconnection.query",
+        "networkconnection.management",
+        "settings.query",
+        "systemconfig.query",
+        "systemsettings.query",
+        "wifi.query",
+        "wifi.management"
+    ],
+    "com.palm.eventreporter.LunaAppManager": [
+        "database.operation"
+    ],
+    "org.webosports.bootmgr-displayblocker": [
+        "luna-sysmgr.operation"
+    ]
+}

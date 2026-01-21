@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/bin/python2.7",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.media.client.*"],
+    "permissions": [
+        {
+            "service":"com.webos.media.client.*",
+            "outbound":["com.webos.media"]
+        }
+    ]
+}

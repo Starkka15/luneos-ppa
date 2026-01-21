@@ -1,0 +1,27 @@
+{
+    "mojomail-imap.operation": [
+        "com.palm.imap/ping",
+        "com.palm.imap/status",
+        "com.palm.imap/validateAccount",
+        "com.palm.imap/accountCreated",
+        "com.palm.imap/accountEnabled",
+        "com.palm.imap/accountUpdated",
+        "com.palm.imap/credentialsChanged",
+        "com.palm.imap/accountDeleted",
+        "com.palm.imap/simpleSendEmail",
+        "com.palm.imap/sendMail",
+        "com.palm.imap/saveDraft",
+        "com.palm.imap/syncOutbox",
+        "com.palm.imap/syncAccount",
+        "com.palm.imap/syncFolder",
+        "com.palm.imap/syncUpdate",
+        "com.palm.imap/downloadMessage",
+        "com.palm.imap/downloadAttachment",
+        "com.palm.imap/searchFolder",
+        "com.palm.imap/sentEmails",
+        "com.palm.imap/startIdle",
+        "com.palm.imap/wakeupIdle",
+        "com.palm.imap/draftSaved",
+        "com.palm.imap/magicWand"
+    ]
+}

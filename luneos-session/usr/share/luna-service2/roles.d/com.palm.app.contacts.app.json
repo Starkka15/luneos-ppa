@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.app.contacts",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.app.contacts-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.app.contacts-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

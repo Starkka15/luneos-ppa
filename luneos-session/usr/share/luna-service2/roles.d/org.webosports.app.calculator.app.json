@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.calculator",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.calculator-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.calculator-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

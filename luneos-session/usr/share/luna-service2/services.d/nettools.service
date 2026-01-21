@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.nettools
+Exec=/usr/sbin/webos-nettools
+Type=dynamic

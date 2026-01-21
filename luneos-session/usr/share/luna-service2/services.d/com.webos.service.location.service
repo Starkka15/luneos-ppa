@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.location
+Exec=/usr/bin/location
+Type=dynamic

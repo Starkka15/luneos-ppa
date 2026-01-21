@@ -1,0 +1,9 @@
+{
+    "imaccountvalidator.operation": [
+        "com.palm.imaccountvalidator/validateAccount",
+        "com.palm.imaccountvalidator/getEvent",
+        "com.palm.imaccountvalidator/getOptions",
+        "com.palm.imaccountvalidator/answerEvent",
+        "com.palm.imaccountvalidator/logout"
+    ]
+}

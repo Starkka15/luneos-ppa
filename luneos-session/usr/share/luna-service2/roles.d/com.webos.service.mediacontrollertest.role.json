@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/opt/webos/tests/com.webos.service.mediacontroller/com.webos.service.mediacontrollertest",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.service.mediacontrollertest"],
+    "permissions": [
+        {
+            "service": "com.webos.service.mediacontrollertest",
+            "outbound": ["*"]
+        }
+    ]
+}

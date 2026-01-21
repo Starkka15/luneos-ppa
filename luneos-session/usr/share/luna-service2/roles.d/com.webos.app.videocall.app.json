@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.videocall",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.videocall-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.videocall-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

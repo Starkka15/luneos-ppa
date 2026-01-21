@@ -1,0 +1,8 @@
+{
+    "intent.operation": [
+        "com.webos.service.intent/query",
+        "com.webos.service.intent/start",
+        "com.webos.service.intent/sendResult",
+        "com.webos.service.intent/subscribeResult"
+    ]
+}

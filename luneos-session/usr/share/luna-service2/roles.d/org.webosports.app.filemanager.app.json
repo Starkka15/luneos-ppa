@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.filemanager",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.filemanager-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.filemanager-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

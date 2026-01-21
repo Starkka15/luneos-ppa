@@ -1,0 +1,6 @@
+{
+    "com.webos.bootManager": [
+        "application.operation",
+        "application.launcher"
+    ]
+}

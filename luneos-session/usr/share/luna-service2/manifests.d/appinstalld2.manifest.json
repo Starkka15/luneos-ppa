@@ -1,0 +1,19 @@
+{
+    "id": "appinstalld2",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.appinstalld.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.appinstalld.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.appinstalld.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.appinstalld.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/appinstalld.groups.json"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "com.palm.universalsearch": [
+        "application.operation",
+        "appmanager.management",
+        "networkconnection.management",
+        "networkconnection.query",
+        "settings.query",
+        "servicebus.signal",
+        "systemconfig.query",
+        "systemsettings.query",
+        "wifi.query",
+        "wifi.management"
+    ]
+}

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.webosports.service.certmgr
+Exec=/usr/sbin/certmgrd
+Type=static

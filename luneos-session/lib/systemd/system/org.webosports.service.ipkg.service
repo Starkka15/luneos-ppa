@@ -1,0 +1,15 @@
+[Unit]
+Description=WebOS Ports ipkg service
+Requires=ls-hubd.service
+After=ls-hubd.service
+
+[Service]
+Type=simple
+Restart=on-failure
+Environment=APPS=/media/cryptofs/apps
+# Remove erroneously large list database cache files
+ExecStartPre=-/bin/sh -c '[ -d ${APPS}/usr/lib/ipkg/lists ] && find $APPS/usr/lib/ipkg/lists -size +10240k -delete'
+ExecStart=/usr/sbin/org.webosports.service.ipkg
+
+[Install]
+WantedBy=multi-user.target

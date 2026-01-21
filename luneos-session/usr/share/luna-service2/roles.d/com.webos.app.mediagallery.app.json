@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.mediagallery",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.mediagallery-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.mediagallery-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

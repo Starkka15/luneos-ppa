@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.mediacontroller
+Exec=/usr/sbin/com.webos.service.mediacontroller
+Type=static

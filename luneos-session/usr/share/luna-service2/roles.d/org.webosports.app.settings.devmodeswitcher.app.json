@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.devmodeswitcher",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.devmodeswitcher-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.devmodeswitcher-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

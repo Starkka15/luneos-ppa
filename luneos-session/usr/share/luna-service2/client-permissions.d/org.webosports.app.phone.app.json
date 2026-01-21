@@ -1,0 +1,18 @@
+{
+    "org.webosports.app.phone-*": [
+        "application.operation",
+        "audio.operation",
+        "audio.management",
+        "database.operation",
+        "luna-sysmgr.operation",
+        "networkconnection.query",
+        "networkconnection.management",
+        "systemsettings.management",
+        "systemsettings.query",
+        "telephony.query",
+        "tweaks-service.operation",
+        "wifi.query",
+        "wifi.management",
+        "application.operation"
+    ]
+}

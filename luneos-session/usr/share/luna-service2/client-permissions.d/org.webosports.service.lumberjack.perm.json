@@ -1,0 +1,7 @@
+{
+    "org.webosports.service.lumberjack": [ 
+        "lumberjack-service.operation",
+        "application.operation"
+    ]
+}
+

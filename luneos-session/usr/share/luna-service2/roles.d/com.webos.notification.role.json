@@ -1,0 +1,27 @@
+{
+    "exeName":"/usr/sbin/notificationmgr",
+    "trustLevel" : "oem",
+    "type": "regular",
+    "allowedNames": ["com.webos.notification"],
+    "permissions": [
+        {
+            "service":"com.webos.notification",
+            "outbound":[
+                "com.palm.bus",
+                "com.webos.settingsservice",
+                "com.palm.db",
+                "com.webos.service.eventmonitor",
+                "com.webos.service.tv.systemproperty",
+                "com.palm.systemservice",
+                "com.webos.applicationManager",
+                "com.webos.appinstaller",
+                "com.webos.surfacemanager*",
+                "com.webos.app.notification*",
+                "com.webos.monitor*",
+                "com.palm.webappmanager",
+                "com.webos.lunasend-*"
+            ]
+        }
+    ]
+}
+

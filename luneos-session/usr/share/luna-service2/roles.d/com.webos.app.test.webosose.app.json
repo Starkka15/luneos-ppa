@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.test.webosose",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.test.webosose-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.test.webosose-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

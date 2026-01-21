@@ -1,0 +1,17 @@
+{
+    "id": "com.palm.media.playlist.file:1",
+    "owner": "org.webosports.service.mediaindexer",
+    "extends": [
+        "com.palm.media.file:1"
+    ],
+    "indexes": [
+        {
+            "name": "path",
+            "props": [
+                {
+                    "name": "path"
+                }
+            ]
+        }
+    ]
+}

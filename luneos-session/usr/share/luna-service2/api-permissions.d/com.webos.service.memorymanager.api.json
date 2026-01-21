@@ -1,0 +1,9 @@
+{
+    "memorymanager.query": [
+        "com.webos.service.memorymanager/getMemoryStatus",
+        "com.webos.service.memorymanager/getManagerEvent"
+    ],
+    "memorymanager.management": [
+        "com.webos.service.memorymanager/requireMemory"
+    ]
+}

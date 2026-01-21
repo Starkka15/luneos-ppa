@@ -1,0 +1,7 @@
+{
+    "com.webos.service.intent": [
+        "application.launcher",
+        "application.operation",
+        "account.query"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "com.palm.app.accounts-*": [
+        "accountsservice.management",
+        "accountsservice.operation",
+        "activity.operation",
+        "application.operation",
+        "cdav-service.operation",
+        "database.operation",
+        "imaccountvalidator.operation",
+        "keymanager-service.operation",
+        "mojomail-imap.operation",
+        "mojomail-pop.operation",
+        "mojomail-smtp.operation",
+        "networkconnection.query",
+        "networkconnection.management",
+        "settings.query",
+        "tempdatabase.operation",
+        "wifi.query",
+        "wifi.management"
+    ],
+    "com.palm.app.accounts": [
+        "accountsservice.management",
+        "accountsservice.operation",
+        "activity.operation",
+        "application.operation",
+        "cdav-service.operation",
+        "database.operation",
+        "imaccountvalidator.operation",
+        "keymanager-service.operation",
+        "mojomail-imap.operation",
+        "mojomail-pop.operation",
+        "mojomail-smtp.operation",
+        "networkconnection.query",
+        "networkconnection.management",
+        "settings.query",
+        "tempdatabase.operation",
+        "wifi.query",
+        "wifi.management"
+    ]
+}

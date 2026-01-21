@@ -1,0 +1,88 @@
+{
+    "id": "com.palm.media.misc.file:1",
+    "owner": "org.webosports.service.mediaindexer",
+    "extends": [
+        "com.palm.media.file:1"
+    ],
+    "indexes": [
+        {
+            "name": "path",
+            "props": [
+                {
+                    "name": "path"
+                }
+            ]
+        },
+        {
+            "name": "byRev",
+            "props": [
+                {
+                    "name": "_rev"
+                }
+            ]
+        },
+	    {
+            "name": "byExt",
+            "props": [
+                {
+                    "name": "extension"
+                }
+            ]
+        },
+        {
+            "name": "byPathAndRev",
+            "props": [
+                {
+                    "name": "path"
+                },
+                {
+                    "name": "_rev"
+                }
+            ]
+        },
+        {
+            "name": "searchKeyIndex",
+            "props": [
+                {
+                    "name": "searchKey",
+                    "collate": "primary",
+                    "tokenize": "default"
+                }
+            ]
+        },
+        {
+            "name": "searchKeyIndexOnExtension",
+            "props": [
+                {
+                    "name": "extension"
+                },
+                {
+                    "name": "searchKey",
+                    "collate": "primary",
+                    "tokenize": "default"
+                }
+            ]
+        },
+        {
+            "name": "listIndexOnExtension",
+            "props": [
+                {
+                    "name": "extension"
+                },
+                {
+                    "name": "name",
+                    "collate": "primary"
+                }
+            ]
+        },
+        {
+            "name": "listIndex",
+            "props": [
+                {
+                    "name": "name",
+                    "collate": "primary"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "exeName": "/usr/palm/applications/qml-webos-framework/file:///usr/palm/applications/com.webos.exampleapp.tabletevent/com.webos.exampleapp.tabletevent",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.exampleapp.tabletevent*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.exampleapp.tabletevent",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

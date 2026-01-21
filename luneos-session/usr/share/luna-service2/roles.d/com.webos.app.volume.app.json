@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.volume",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.volume-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.volume-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

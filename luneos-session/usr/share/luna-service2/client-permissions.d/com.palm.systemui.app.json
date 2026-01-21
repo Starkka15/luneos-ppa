@@ -1,0 +1,8 @@
+{
+    "com.palm.systemui-*": [
+        "all"
+    ],
+    "com.palm.systemui": [
+        "all"
+    ]
+}

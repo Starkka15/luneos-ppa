@@ -1,0 +1,7 @@
+{
+    "com.webos.service.memorymanager": [
+        "application.launcher",
+        "application.operation",
+        "account.query"
+    ]
+}

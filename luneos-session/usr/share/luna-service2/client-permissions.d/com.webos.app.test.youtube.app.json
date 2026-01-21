@@ -1,0 +1,9 @@
+{
+    "com.webos.app.test.youtube-*": [
+        "mediapipeline.resourcemanagement",
+        "mediapipeline.operation",
+        "mediacontroller.operation",
+        "mediacontroller.query",
+        "mediacontroller.management"
+    ]
+}

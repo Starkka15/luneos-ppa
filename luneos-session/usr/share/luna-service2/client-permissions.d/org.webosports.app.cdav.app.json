@@ -1,0 +1,7 @@
+{
+    "org.webosports.app.cdav-*": [
+        "cdav-service.operation",
+        "activity.operation",
+        "database.operation"
+    ]
+}

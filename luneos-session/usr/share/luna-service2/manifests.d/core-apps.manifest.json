@@ -1,0 +1,16 @@
+{
+    "id": "core-apps",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.app.accounts.app.json",
+        "/usr/share/luna-service2/roles.d/com.palm.app.calendar.app.json",
+        "/usr/share/luna-service2/roles.d/com.palm.app.clock.app.json",
+        "/usr/share/luna-service2/roles.d/com.palm.app.email.app.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.palm.app.accounts.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.app.calendar.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.app.clock.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.app.email.app.json"
+    ]
+}

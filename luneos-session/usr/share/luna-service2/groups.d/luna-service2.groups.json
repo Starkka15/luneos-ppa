@@ -1,0 +1,7 @@
+{
+    "allowedNames": ["*"],
+
+    "all": ["oem"],
+    "service.communication": ["dev"],
+    "service.monitor": ["oem"]
+}

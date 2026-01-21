@@ -1,0 +1,5 @@
+{
+    "eos.bare-*": [
+        "application.operation"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "org.webosports.app.settings-*": [
+        "audio.operation",
+        "audio.management",
+        "certmgr-service.operation",
+        "database.operation",
+        "devmode-service.operation",
+        "license-service.operation",
+        "luna-sysmgr.operation",
+        "networkconnection.management",
+        "networkconnection.query",
+        "systemsettings.management",
+        "systemsettings.query",
+        "telephony.management",
+        "time.management",
+        "universalsearch.operation",
+        "update-service.operation",
+        "wifi.management",
+        "wifi.query"
+    ]
+}

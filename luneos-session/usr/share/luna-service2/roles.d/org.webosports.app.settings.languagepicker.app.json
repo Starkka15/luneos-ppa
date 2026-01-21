@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.languagepicker",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.languagepicker-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.languagepicker-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

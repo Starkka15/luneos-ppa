@@ -1,0 +1,13 @@
+{
+    "org.webosports.app.preware-*": [
+        "applicationinstall.management",
+        "application.operation",
+        "application.launcher",
+        "appmanager.management",
+        "ipkg-service.operation",
+        "networkconnection.management",
+        "networkconnection.query",
+        "wifi.management",
+        "wifi.query"
+    ]
+}

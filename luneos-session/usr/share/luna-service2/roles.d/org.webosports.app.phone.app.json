@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.phone",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.phone-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.phone-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

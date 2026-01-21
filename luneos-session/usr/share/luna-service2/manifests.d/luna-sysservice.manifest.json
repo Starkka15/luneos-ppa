@@ -1,0 +1,19 @@
+{
+    "id": "luna-sysservice",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.systemservice.service.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.systemservice.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.systemservice.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.systemservice.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.systemservice.groups.json"
+    ]
+}

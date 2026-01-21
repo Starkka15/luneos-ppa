@@ -1,0 +1,26 @@
+{
+    "id": "com.webos.service.mediarecorder",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.sample.record.test.app.json",
+        "/usr/share/luna-service2/roles.d/com.webos.pipeline.record.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.service.mediarecorder.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.pipeline.record.service",
+        "/usr/share/luna-service2/services.d/com.webos.service.mediarecorder.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.pipeline.record.api.json",
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.mediarecorder.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.sample.record.test.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.pipeline.record.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediarecorder.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.pipeline.record.groups.json",
+        "/usr/share/luna-service2/groups.d/com.webos.service.mediarecorder.groups.json"
+    ]
+}

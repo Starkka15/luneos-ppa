@@ -1,0 +1,8 @@
+{
+    "certmgr-service.operation": [
+        "org.webosports.service.certmgr/listAll",
+        "org.webosports.service.certmgr/install",
+        "org.webosports.service.certmgr/remove"
+    ]
+}
+

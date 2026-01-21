@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.test.webrtc",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.test.webrtc-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.test.webrtc-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

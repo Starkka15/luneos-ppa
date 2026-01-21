@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.firstuse",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.firstuse-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.firstuse-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

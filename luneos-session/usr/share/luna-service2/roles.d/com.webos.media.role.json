@@ -1,0 +1,31 @@
+{
+    "exeName":"/usr/sbin/umediaserver",
+    "trustLevel" : "oem",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.media",
+        "com.webos.pipelinectrl.*"
+    ],
+    "permissions": [
+        {
+            "service":"com.webos.media",
+            "outbound":[
+                "com.webos.service.avoutput",
+                "com.webos.service.audio",
+                "com.webos.service.videooutput",
+                "com.webos.surfacemanager",
+                "com.webos.applicationManager",
+                "com.webos.media.client.*",
+                "com.webos.pipeline.*",
+                "com.webos.rm.client.*",
+                "com.webos.ums-status"
+            ]
+        },
+        {
+            "service":"com.webos.pipelinectrl.*",
+            "outbound":[
+                "com.webos.pipeline.*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.exhibitionpreferences",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.exhibitionpreferences-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.exhibitionpreferences-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

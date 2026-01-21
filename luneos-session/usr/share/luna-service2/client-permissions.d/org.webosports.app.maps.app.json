@@ -1,0 +1,7 @@
+{
+    "org.webosports.app.maps-*": [
+        "appmanager.management",
+        "download.management",
+        "location.query"
+    ]
+}

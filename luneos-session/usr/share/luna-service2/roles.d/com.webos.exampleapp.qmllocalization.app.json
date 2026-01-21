@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.exampleapp.qmllocalization",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.exampleapp.qmllocalization-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.exampleapp.qmllocalization-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

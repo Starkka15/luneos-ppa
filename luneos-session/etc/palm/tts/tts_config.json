@@ -1,0 +1,21 @@
+{
+    "engine" : {
+        "tts_engine" : "google",
+        "audio_engine" : "pulse",
+        "audio_type" : "male",
+        "displayCount" : 2
+    },
+    "google" : {
+        "def_language" : "en_US",
+        "out_format" : "wav",
+        "url" : "..."
+    },
+    "pulse" : {
+        "pitch" : 128,
+        "rate" : 0
+    },
+    "alsa" : {
+        "pitch" : 128,
+        "rate" : 0
+    }
+}

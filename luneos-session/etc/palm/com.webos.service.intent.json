@@ -1,0 +1,25 @@
+{
+    "handlers": {
+        "bareapp" : [
+            {
+                "actions": ["action_test"]
+            }
+        ],
+        "com.webos.app.enactbrowser": [
+            {
+                "actions": ["action_url", "action_uri"],
+                "uris": ["http://youtube.com", "http://", "https://"]
+            }
+        ],
+        "com.example.app.iotivity": [
+            {
+                "actions": ["action_iot"]
+            }
+        ],
+        "com.palm.app.settings": [
+            {
+                "actions": ["action_setting"]
+            }
+        ]
+    }
+}

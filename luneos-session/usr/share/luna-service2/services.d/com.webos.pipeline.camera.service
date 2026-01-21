@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.pipeline.camera.*;com.webos.rm.client.*
+Exec=/usr/sbin/g-camera-pipeline
+Type=static

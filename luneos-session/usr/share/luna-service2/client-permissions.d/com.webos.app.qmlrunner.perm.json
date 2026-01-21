@@ -1,0 +1,10 @@
+{
+    "com.webos.app.qmlrunner-*": [
+        "application.launcher",
+        "application.operation",
+        "settings.management",
+        "settings.query",
+        "systemconfig.management",
+        "systemconfig.query"
+    ]
+}

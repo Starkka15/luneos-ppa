@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.updates",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.updates-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.updates-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

@@ -1,0 +1,9 @@
+{
+    "allowedNames" : ["com.webos.service.systemservice"],
+    "systemsettings.management" : ["oem"],
+    "systemsettings.query" : ["oem"],
+    "software.query" : ["dev"],
+    "time.management" : ["oem"],
+    "time.query" : ["dev"],
+    "image.management" : ["dev"]
+}

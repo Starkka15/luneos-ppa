@@ -1,0 +1,16 @@
+{
+    "exeName":"/usr/bin/luna-prefs-service",
+    "trustLevel" : "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.preferences"],
+    "permissions": [
+        {
+            "service":"com.palm.preferences",
+            "outbound":[
+                "com.palm.*",
+                "com.webos.*",
+                "org.webosports.*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.launcher",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.launcher-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.launcher-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

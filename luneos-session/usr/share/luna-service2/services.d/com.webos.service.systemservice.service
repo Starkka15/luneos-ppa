@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.systemservice;com.webos.service.image
+Exec=/usr/sbin/LunaSysService
+Type=static

@@ -1,0 +1,9 @@
+{
+        "allowedNames": [
+            "com.webos.pipeline*",
+            "com.webos.pipeline.camera.*",
+            "com.webos.rm.client*"
+        ],
+        "camerapipeline.resourcemanagement": ["oem"],
+        "camerapipeline.operation": ["oem"]
+}

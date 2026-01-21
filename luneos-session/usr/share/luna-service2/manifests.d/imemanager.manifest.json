@@ -1,0 +1,19 @@
+{
+    "id": "imemanager",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.ime.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.ime.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.ime.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.ime.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.ime.groups.json"
+    ]
+}

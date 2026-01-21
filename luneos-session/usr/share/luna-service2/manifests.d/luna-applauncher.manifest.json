@@ -1,0 +1,10 @@
+{
+    "id": "luna-applauncher",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.launcher.app.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.palm.launcher.app.json"
+    ]
+}

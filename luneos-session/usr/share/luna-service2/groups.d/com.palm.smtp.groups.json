@@ -1,0 +1,4 @@
+{
+ "allowedNames": ["com.palm.smtp"],
+ "mojomail-smtp.operation": ["dev"]
+}

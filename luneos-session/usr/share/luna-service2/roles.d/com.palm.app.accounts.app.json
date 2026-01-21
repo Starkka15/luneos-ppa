@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.app.accounts",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.app.accounts-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.app.accounts-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

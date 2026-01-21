@@ -1,0 +1,19 @@
+{
+    "id": "com.webos.service.hfp",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.hfp.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.hfp.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.hfp.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.hfp.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.hfp.groups.json"
+    ]
+}

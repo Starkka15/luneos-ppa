@@ -1,0 +1,26 @@
+{
+    "com.palm.sleep": [
+        "activity.query",
+        "activity.operation",
+        "activity.wakeup",
+        "batteryd.management",
+        "sleep.operation",
+        "sleep.management"
+    ],
+    "com.webos.service.alarm": [
+        "activity.query",
+        "activity.operation",
+        "activity.wakeup",
+        "batteryd.management",
+        "sleep.operation",
+        "sleep.management"
+    ],
+    "com.webos.service.power": [
+        "activity.query",
+        "activity.operation",
+        "activity.wakeup",
+        "batteryd.management",
+        "sleep.operation",
+        "sleep.management"
+    ]
+}

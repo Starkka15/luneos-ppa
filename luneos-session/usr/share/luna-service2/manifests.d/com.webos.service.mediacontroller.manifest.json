@@ -1,0 +1,22 @@
+{
+    "id": "com.webos.service.mediacontroller",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.mediacontroller.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.service.mediacontrollertest.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.mediacontroller.service",
+        "/usr/share/luna-service2/services.d/com.webos.service.mediacontrollertest.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.mediacontroller.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediacontroller.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediacontrollertest.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.mediacontroller.groups.json"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/bin/location",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.service.location"],
+    "permissions": [
+        {
+            "service":"com.webos.service.location",
+            "inbound":["*"],
+            "outbound":["com.webos.service.telephony", "com.webos.service.wifi", "com.webos.service.wan", "com.webos.service.connectionmanager", "com.webos.settingsservice", "com.webos.lunasend-*", "com.webos.monitor*", "com.palm.display"]
+        }
+    ]
+}

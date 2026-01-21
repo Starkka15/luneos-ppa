@@ -1,0 +1,19 @@
+{
+    "id": "luna-appmanager",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/luna-appmanager.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/luna-appmanager.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/luna-appmanager.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/luna-appmanager.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/luna-appmanager.groups.json"
+    ]
+}

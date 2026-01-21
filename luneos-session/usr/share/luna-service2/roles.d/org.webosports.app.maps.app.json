@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.maps",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.maps-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.maps-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

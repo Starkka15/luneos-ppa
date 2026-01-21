@@ -1,0 +1,10 @@
+{
+  "RPI":{
+    "umiAudio":"ALSA",
+    "umiDefaultVolume":"90"
+  },
+  "qemux86":{
+    "umiAudio":"ALSA",
+    "umiDefaultVolume":"90"
+  }
+}

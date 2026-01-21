@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/sbin/peripheralmanager",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.service.peripheralmanager"],
+    "permissions": [
+        {
+            "service":"com.webos.service.peripheralmanager",
+            "outbound":[]
+        }
+    ]
+}

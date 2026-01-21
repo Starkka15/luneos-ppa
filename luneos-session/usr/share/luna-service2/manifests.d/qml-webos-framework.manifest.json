@@ -1,0 +1,22 @@
+{
+    "id": "qml-webos-framework",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.app.qmlrunner.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.exampleapp.canvastablet.app.json",
+        "/usr/share/luna-service2/roles.d/com.webos.exampleapp.qmllocalization.app.json",
+        "/usr/share/luna-service2/roles.d/com.webos.exampleapp.tabletevent.app.json",
+        "/usr/share/luna-service2/roles.d/eos.bare.app.json",
+        "/usr/share/luna-service2/roles.d/eos.vkb-overlay.app.json",
+        "/usr/share/luna-service2/roles.d/eos.widgetgallery.app.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.app.qmlrunner.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.exampleapp.canvastablet.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.exampleapp.qmllocalization.app.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.exampleapp.tabletevent.app.json",
+        "/usr/share/luna-service2/client-permissions.d/eos.bare.app.json",
+        "/usr/share/luna-service2/client-permissions.d/eos.vkb-overlay.app.json",
+        "/usr/share/luna-service2/client-permissions.d/eos.widgetgallery.app.json"
+    ]
+}

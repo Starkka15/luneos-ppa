@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/lib/db8/tests/gtest_db_media",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.db8.test.media"],
+    "permissions": [
+        {
+            "service":"com.webos.db8.test.media",
+            "outbound":["com.webos.service.attachedstoragemanager"]
+        }
+    ]
+}
+

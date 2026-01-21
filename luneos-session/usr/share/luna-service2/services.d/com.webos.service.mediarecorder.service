@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.mediarecorder
+Exec=/usr/sbin/com.webos.service.mediarecorder
+Type=static

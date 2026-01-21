@@ -1,0 +1,7 @@
+{
+    "com.webos.service.config": [
+        "boot.query",
+        "systemconfig.query",
+        "settings.query"
+    ]
+}

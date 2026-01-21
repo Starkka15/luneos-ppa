@@ -1,0 +1,24 @@
+{
+    "id": "luna-prefs",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.preferences.service.role.json"
+    ],
+    "roleFilesPub": [
+        "/usr/share/ls2/roles/pub/com.palm.preferences.json"
+    ],
+    "roleFilesPrv": [
+        "/usr/share/ls2/roles/prv/com.palm.preferences.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.palm.preferences.service",
+        "/usr/share/dbus-1/services/com.palm.preferences.service",
+        "/usr/share/dbus-1/system-services/com.palm.preferences.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.palm.preferences.api.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.palm.preferences.groups.json"
+    ]
+}

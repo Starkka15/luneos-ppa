@@ -1,12 +1,16 @@
 Package: luneos-session
-Version: 1.0.0
+Version: 1.2.0
 Section: misc
 Priority: optional
 Architecture: all
 Maintainer: LuneOS Team <luneos@webosports.org>
-Depends: luna-surfacemanager, luna-surfacemanager-conf, systemd
+Depends: luna-surfacemanager, luna-surfacemanager-conf, luna-service2-utils, libluna-service2, systemd
 Conflicts: gdm3, lightdm, sddm
-Description: LuneOS Session and Display Manager
- Provides systemd service files to start the Luna Surface Manager
- compositor directly at boot, replacing traditional display managers
- like GDM. This package makes LuneOS the default desktop environment.
+Description: LuneOS Session Configuration Bundle
+ Comprehensive configuration package for LuneOS on Ubuntu. Includes:
+ - All luna-service2 security configs (roles, manifests, permissions)
+ - Systemd service files for LuneOS daemons
+ - Palm/webOS /etc configuration files
+ - Display manager replacement (masks GDM, enables luna-surfacemanager)
+ - Automatic user addition to luneos group
+ - Fixes for Ubuntu compatibility (bash shebang for surface-manager.sh)

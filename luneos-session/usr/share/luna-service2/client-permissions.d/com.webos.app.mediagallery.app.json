@@ -1,0 +1,11 @@
+{
+    "com.webos.app.mediagallery-*": [
+        "settings",
+        "system",
+        "signals.register",
+        "application.launcher",
+        "mediaindexer.operation",
+        "notification.operation",
+        "application.operation"
+    ]
+}

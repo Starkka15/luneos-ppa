@@ -1,0 +1,19 @@
+{
+    "id": "audio-service",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/org.webosports.service.audio.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/org.webosports.service.audio.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/org.webosports.service.audio.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/org.webosports.service.audio.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/org.webosports.service.audio.groups.json"
+    ]
+}

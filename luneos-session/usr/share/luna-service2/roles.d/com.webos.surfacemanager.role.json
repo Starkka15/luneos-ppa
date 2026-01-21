@@ -1,0 +1,29 @@
+{
+    "exeName":"/usr/bin/surface-manager",
+    "type": "privileged",
+    "trustLevel": "oem",
+    "allowedNames": [
+        "com.webos.surfacemanager*", 
+        "org.webosports.notifications"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.surfacemanager*",
+            "outbound": [
+                "com.lge.*",
+                "com.palm.*",
+                "com.webos.*",
+                "org.webosports.*"
+            ]
+        },
+        {
+            "service": "org.webosports.notifications",
+            "outbound": [
+                "com.lge.*",
+                "com.palm.*",
+                "com.webos.*",
+                "org.webosports.*"
+            ]
+        }
+    ]
+}

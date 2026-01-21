@@ -1,0 +1,15 @@
+{
+    "exeName":"/usr/sbin/com.webos.service.intent",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.service.intent"],
+    "permissions": [
+        {
+            "service":"com.webos.service.intent",
+            "outbound": [
+                "com.webos.service.applicationmanager",
+                "com.webos.service.account"
+            ]
+        }
+    ]
+}

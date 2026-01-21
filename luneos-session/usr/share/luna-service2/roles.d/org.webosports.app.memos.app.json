@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.memos",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.memos-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.memos-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

@@ -1,0 +1,12 @@
+{
+    "org.webosports.service.update": [
+        "activity.operation",
+        "activity.query",
+        "download.management",
+        "networkconnection.query",
+        "notification.management",
+        "notification.operation",
+        "systemsettings.query",
+        "update-service.operation"
+    ]
+}

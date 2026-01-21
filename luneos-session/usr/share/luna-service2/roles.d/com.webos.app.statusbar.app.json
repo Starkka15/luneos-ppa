@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.statusbar",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.statusbar-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.statusbar-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

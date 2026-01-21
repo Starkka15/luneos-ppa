@@ -1,0 +1,7 @@
+{
+    "org.webosports.app.filemanager-*": [
+        "application.launcher",
+        "filemanager-service.operation",
+        "activity.operation"
+    ]
+}

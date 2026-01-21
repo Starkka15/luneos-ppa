@@ -1,0 +1,16 @@
+{
+    "exeName": "/usr/palm/applications/waydroid/waydroid.sh",
+    "type": "regular",
+    "allowedNames": [
+        "id.waydro.container*"
+    ],
+    "permissions": [
+        {
+            "service": "id.waydro.container",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

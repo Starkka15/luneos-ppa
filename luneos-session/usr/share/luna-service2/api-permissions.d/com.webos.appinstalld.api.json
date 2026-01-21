@@ -1,0 +1,11 @@
+{
+    "applicationinstall.management": [
+        "com.webos.appInstallService/install",
+        "com.webos.appInstallService/remove",
+        "com.webos.appInstallService/status"
+    ],
+    "applicationinstall.devmode": [
+        "com.webos.appInstallService/dev/install",
+        "com.webos.appInstallService/dev/remove"
+    ]
+}

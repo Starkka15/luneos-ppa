@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "patternProperties": {
+        "^[-_.a-zA-Z0-9]+$": { // group like "media.query"
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^(?:[-_.a-zA-Z0-9]*[*]?)(?:\/[-_.a-zA-Z0-9\/]*[*]?)?$"
+            }
+        }
+    }
+}

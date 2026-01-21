@@ -1,0 +1,3 @@
+{
+    "com.webos.service.hfp": ["bluetooth.query","bluetooth.management","bluetooth.operation","account.query","audio.operation"]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "webos-nettools",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/nettools.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/nettools.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/nettools.api.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/nettools.groups.json"
+    ]
+}

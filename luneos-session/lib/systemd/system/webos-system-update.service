@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the webOS system update
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/luna-next/environment.conf
+ExecStart=/usr/sbin/webos-system-update /usr/bin/run-update.sh
+StandardOutput=syslog
+RemainAfterExit=No
+
+[Install]
+WantedBy=system-update.target

@@ -1,0 +1,14 @@
+{
+    "com.palm.app.clock-*": [
+        "application.launcher",
+        "activity.operation",
+        "settings.query",
+        "database.operation"
+    ],
+    "com.palm.app.clock": [
+        "application.launcher",
+        "activity.operation",
+        "settings.query",
+        "database.operation"
+    ]
+}

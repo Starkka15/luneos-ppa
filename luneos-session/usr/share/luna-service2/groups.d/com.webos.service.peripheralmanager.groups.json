@@ -1,0 +1,9 @@
+{
+        "allowedNames" : ["com.webos.service.peripheralmanager"],
+        "peripheralmanager.query" : ["dev"],
+        "peripheralmanager.gpio.operation" : ["oem"],
+        "peripheralmanager.uart.operation" : ["oem"],
+        "peripheralmanager.spi.operation" : ["oem"],
+        "peripheralmanager.i2c.operation" : ["oem"]
+
+}

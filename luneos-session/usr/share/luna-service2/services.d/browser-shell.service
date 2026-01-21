@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=browser-shell
+Exec=/usr/bin/browser-shell/browser_shell
+Type=static

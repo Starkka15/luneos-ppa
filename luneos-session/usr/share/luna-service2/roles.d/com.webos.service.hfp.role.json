@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/webos-hfp-service",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.service.hfp"],
+    "permissions": [
+        {
+            "service":"com.webos.service.hfp",
+            "inbound":["*"],
+            "outbound":["com.webos.service.bluetooth2","com.webos.service.account", "com.webos.service.audio"]
+        }
+    ]
+}

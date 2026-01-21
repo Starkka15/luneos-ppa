@@ -1,0 +1,14 @@
+{
+    "appId": "org.webosports.service.tweaks.prefs",
+    "allowedNames": ["org.webosports.service.tweaks.prefs"],
+    "trustLevel" : "oem",
+    "type": "privileged",
+    "permissions": [
+        {
+            "service":"org.webosports.service.tweaks.prefs",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}
+

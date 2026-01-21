@@ -1,0 +1,7 @@
+{
+    "com.webos.exampleapp.qmllocalization-*": [
+        "boot.query",
+        "settings.query",
+        "application.operation"
+    ]
+}

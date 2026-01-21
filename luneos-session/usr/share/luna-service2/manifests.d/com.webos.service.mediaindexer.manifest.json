@@ -1,0 +1,23 @@
+{
+    "id": "com.webos.service.mediaindexer",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.mediaindexer.role.json",
+        "/usr/share/luna-service2/roles.d/mediaindexerclient_apitest.role.json",
+        "/usr/share/luna-service2/roles.d/mediaindexerclient_test.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.mediaindexer.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.mediaindexer.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediaindexer.client.db.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediaindexer.client.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediaindexer.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.mediaindexer.groups.json"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/sensorfwd",
+    "type": "privileged",
+    "trustLevel": "oem",
+    "allowedNames": ["com.nokia.SensorService"],
+    "permissions": [
+        {
+            "service":"com.nokia.SensorService",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

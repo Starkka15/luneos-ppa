@@ -1,0 +1,6 @@
+{
+    "com.webos.service.mediacontroller*": [
+        "mediacontroller.management",
+        "account.query"
+    ]
+}

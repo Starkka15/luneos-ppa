@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.vpn",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.vpn-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.vpn-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.tts
+Exec=/usr/sbin/tts-service
+Type=dynamic

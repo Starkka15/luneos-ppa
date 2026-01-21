@@ -1,0 +1,8 @@
+{
+    "org.webosports.app.pdf-*": [
+        "database.operation",
+        "database.management",
+        "mediapermissions-service.operation",
+        "tempdatabase.operation"
+    ]
+}

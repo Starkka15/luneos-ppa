@@ -1,0 +1,20 @@
+{
+    "id": "luna-service2",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.lunasend.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.lunasendpub.role.json",
+        "/usr/share/luna-service2/roles.d/ls-monitor.role.json"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.bus.api.json",
+        "/usr/share/luna-service2/api-permissions.d/luna-service2.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/luna-service2.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.webos.service.bus.groups.json",
+        "/usr/share/luna-service2/groups.d/luna-service2.groups.json"
+    ]
+}

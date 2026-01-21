@@ -1,0 +1,16 @@
+{
+    "appId": "bareapp",
+    "type": "regular",
+    "allowedNames": [
+        "bareapp-*"
+    ],
+    "permissions": [
+        {
+            "service": "bareapp-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

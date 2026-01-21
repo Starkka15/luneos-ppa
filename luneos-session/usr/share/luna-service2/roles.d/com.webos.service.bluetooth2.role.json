@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/sbin/webos-bluetooth-service",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.service.bluetooth2"],
+    "permissions": [
+        {
+            "service":"com.webos.service.bluetooth2",
+            "outbound":["com.webos.service.account" , "com.webos.service.pdm", "com.webos.service.db", "com.webos.service.mediacontroller", "com.webos.monitor*", "com.webos.service.hfp"]
+        }
+    ]
+}

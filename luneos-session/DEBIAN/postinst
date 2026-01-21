@@ -1,6 +1,32 @@
 #!/bin/bash
 set -e
 
+# Fix surface-manager.sh shebang (uses 'source' which is bash-specific, not POSIX sh)
+STARTUP_SCRIPT="/usr/share/luna-surfacemanager/startup/surface-manager.sh"
+if [ -f "$STARTUP_SCRIPT" ]; then
+    if head -1 "$STARTUP_SCRIPT" | grep -q "^#!/bin/sh"; then
+        sed -i '1s|#!/bin/sh|#!/bin/bash|' "$STARTUP_SCRIPT"
+        echo "Fixed surface-manager.sh shebang for bash compatibility"
+    fi
+fi
+
+# Create ls-hubd PID directory
+mkdir -p /var/run/ls2
+
+# Create luneos group if it doesn't exist
+if ! getent group luneos > /dev/null 2>&1; then
+    groupadd -r luneos
+    echo "Created luneos group"
+fi
+
+# Add all human users (UID >= 1000) to luneos group
+for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
+    if ! id -nG "$user" 2>/dev/null | grep -qw luneos; then
+        usermod -aG luneos "$user" 2>/dev/null || true
+        echo "Added $user to luneos group"
+    fi
+done
+
 # Mask display managers (disable isn't enough - they can still be started by dependencies)
 systemctl mask gdm3.service 2>/dev/null || true
 systemctl mask gdm.service 2>/dev/null || true

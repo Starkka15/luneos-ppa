@@ -1,0 +1,53 @@
+{
+    "exeName":"/usr/sbin/LunaAppManager",
+    "trustLevel" : "oem",
+    "type": "privileged",
+    "allowedNames": ["", "com.palm.appinstaller", "com.palm.applicationManager", "com.palm.eventreporter.LunaAppManager", "org.webosports.bootmgr", "com.palm.applicationManager-webappmgr", "com.palm.systemmanager-prefs-*", "com.palm.systemmanager-localeprefs-*", "org.webosports.bootmgr-displayblocker"],
+    "permissions": [
+        {
+            "service":"",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.appinstaller",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.applicationManager",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.applicationManager-webappmgr",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.eventreporter.LunaAppManager",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"org.webosports.bootmgr",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"org.webosports.bootmgr-displayblocker",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.systemmanager-prefs-*",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.systemmanager-localeprefs-*",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

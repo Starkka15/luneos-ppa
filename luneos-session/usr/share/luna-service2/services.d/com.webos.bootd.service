@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.bootManager
+Exec=/usr/sbin/bootd
+Type=static

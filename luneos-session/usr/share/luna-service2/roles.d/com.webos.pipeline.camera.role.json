@@ -1,0 +1,30 @@
+{
+    "exeName":"/usr/sbin/g-camera-pipeline",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": [
+        "com.webos.pipeline*",
+        "com.webos.pipeline.camera.*",
+        "com.webos.rm.client*",
+        "com.webos.pipeline.ipc*"
+    ],
+    "permissions": [
+        {
+            "service":"com.webos.pipeline*",
+            "outbound": ["com.webos.media", "com.webos.service.camera2"]
+        },
+        {
+            "service":"com.webos.pipeline.camera.*",
+            "inbound" : ["com.webos.service.camera2.display-*"],
+            "outbound": []
+        },
+        {
+            "service":"com.webos.rm.client*",
+            "outbound": ["com.webos.media"]
+        },
+        {
+            "service":"com.webos.pipeline.ipc*",
+            "outbound": ["com.webos.service.camera2"]
+        }
+    ]
+}

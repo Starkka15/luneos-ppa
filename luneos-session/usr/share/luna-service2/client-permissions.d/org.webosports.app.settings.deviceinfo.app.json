@@ -1,0 +1,11 @@
+{
+    "org.webosports.app.settings.deviceinfo-*": [
+        "networkconnection.query",
+        "networkconnection.management",
+        "preferences.systempropertyquery",
+        "update-service.operation",
+        "wifi.query",
+        "wifi.management",
+        "application.operation"
+    ]
+}

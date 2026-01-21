@@ -1,0 +1,6 @@
+{
+    "allowedNames" : ["com.webos.notification"],
+    "notification.operation" : ["dev"],
+    "notification.management" : ["oem"]
+}
+

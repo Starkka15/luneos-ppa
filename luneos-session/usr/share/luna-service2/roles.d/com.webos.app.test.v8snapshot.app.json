@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.test.v8snapshot",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.test.v8snapshot-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.test.v8snapshot-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

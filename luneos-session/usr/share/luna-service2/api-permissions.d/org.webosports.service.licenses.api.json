@@ -1,0 +1,7 @@
+{
+    "license-service.operation": [
+        "org.webosports.service.licenses/listPackages",
+        "org.webosports.service.licenses/listLicensesForPackage",
+        "org.webosports.service.licenses/getLicenseTextForPackage"
+    ]
+}

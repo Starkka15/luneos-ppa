@@ -1,0 +1,20 @@
+{
+    "exeName":"/usr/sbin/ls-monitor",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.monitor*"],
+    "permissions": [
+        {
+            "service":"com.webos.monitor*",
+            "outbound":["*"]
+        },
+        {
+            "service":"com.palm.monitor*",
+            "outbound":["*"]
+        },
+        {
+            "service":"org.webosports.monitor*",
+            "outbound":["*"]
+        }
+    ]
+}

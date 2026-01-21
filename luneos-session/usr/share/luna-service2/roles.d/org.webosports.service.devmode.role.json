@@ -1,0 +1,13 @@
+{
+    "appId": "org.webosports.service.devmode",
+    "allowedNames": ["org.webosports.service.devmode"],
+    "trustLevel" : "oem",
+    "type": "regular",
+    "permissions": [
+        {
+            "inbound": ["*"],
+            "outbound": ["*"],
+            "service": "org.webosports.service.devmode"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "media.query": [
+    "com.webos.media/getActivePipelines",
+    "com.webos.media/getDisplayId",
+    "com.webos.media/getForegroundAppInfo",
+    "com.webos.media/getPipelineState"
+  ],
+  "media.devutility": [
+    "com.webos.media/trackAppProcesses"
+  ],
+  "media.operation": [
+    "com.webos.media/acquire",
+    "com.webos.media/reacquire",
+    "com.webos.media/attach",
+    "com.webos.media/load",
+    "com.webos.media/pause",
+    "com.webos.media/play",
+    "com.webos.media/registerPipeline",
+    "com.webos.media/release",
+    "com.webos.media/seek",
+    "com.webos.media/setPlayRate",
+    "com.webos.media/setVolume",
+    "com.webos.media/startCameraRecord",
+    "com.webos.media/stopCameraRecord",
+    "com.webos.media/subscribe",
+    "com.webos.media/takeCameraSnapshot",
+    "com.webos.media/tryAcquire",
+    "com.webos.media/unload",
+    "com.webos.media/unregisterPipeline",
+    "com.webos.media/unsubscribe",
+    "com.webos.media/notifyActivity",
+    "com.webos.media/notifyBackground",
+    "com.webos.media/notifyForeground",
+    "com.webos.media/notifyPipelineStatus"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "eos.vkb-overlay",
+    "type": "regular",
+    "allowedNames": [
+        "eos.vkb-overlay-*"
+    ],
+    "permissions": [
+        {
+            "service": "eos.vkb-overlay-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

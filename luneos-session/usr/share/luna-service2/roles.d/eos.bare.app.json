@@ -1,0 +1,16 @@
+{
+    "appId": "eos.bare",
+    "type": "regular",
+    "allowedNames": [
+        "eos.bare-*"
+    ],
+    "permissions": [
+        {
+            "service": "eos.bare-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

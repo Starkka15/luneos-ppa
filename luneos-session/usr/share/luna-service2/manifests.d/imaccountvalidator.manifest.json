@@ -1,0 +1,19 @@
+{
+    "id": "imaccountvalidator",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.imaccountvalidator.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.palm.imaccountvalidator.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.palm.imaccountvalidator.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.palm.imaccountvalidator.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.palm.imaccountvalidator.groups.json"
+    ]
+}

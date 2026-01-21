@@ -1,0 +1,4 @@
+{
+ "allowedNames": ["com.palm.imap"],
+ "mojomail-imap.operation": ["dev"]
+}

@@ -1,0 +1,5 @@
+{
+    "allowedNames" : ["com.webos.appInstallService"],
+    "applicationinstall.management": ["oem"],
+    "applicationinstall.devmode": ["dev"]
+}

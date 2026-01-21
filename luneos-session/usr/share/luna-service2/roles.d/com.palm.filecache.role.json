@@ -1,0 +1,13 @@
+{
+"exeName":"/usr/sbin/filecache",
+"trustLevel": "oem",
+"type": "regular",
+"allowedNames": ["com.palm.filecache"],
+"permissions": [
+{
+    "service":"com.palm.filecache",
+    "inbound":["", "com.palm.*", "com.webos.*", "org.webosports.*"],
+    "outbound":["", "com.palm.*", "com.webos.*", "org.webosports.*"]
+}
+]
+}

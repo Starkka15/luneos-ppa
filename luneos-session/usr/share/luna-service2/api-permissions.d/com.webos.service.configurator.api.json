@@ -1,0 +1,8 @@
+{
+    "configurator.management": [
+        "com.palm.configurator/rescan",
+        "com.palm.configurator/run",
+        "com.palm.configurator/scan",
+        "com.palm.configurator/unconfigure"
+    ]
+}

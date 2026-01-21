@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.bluetooth",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.bluetooth-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.bluetooth-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "luna-service2-security-conf",
+    "version": "1.0.0",
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/ares-cli.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/ares-cli.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/ares-cli.groups.json"
+    ]
+}

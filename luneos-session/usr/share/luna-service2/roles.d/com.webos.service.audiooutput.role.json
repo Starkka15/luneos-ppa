@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/audiooutputd",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.service.audiooutput"],
+    "permissions": [
+        {
+            "service":"com.webos.service.audiooutput",
+            "outbound":[
+            ]
+        }
+    ]
+}

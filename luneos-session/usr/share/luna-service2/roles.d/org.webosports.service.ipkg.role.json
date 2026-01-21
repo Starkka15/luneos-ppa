@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/org.webosports.service.ipkg",
+    "trustLevel" : "oem",
+    "type": "privileged",
+    "allowedNames": ["org.webosports.service.ipkg"],
+    "permissions": [
+        {
+            "service":"org.webosports.service.ipkg",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

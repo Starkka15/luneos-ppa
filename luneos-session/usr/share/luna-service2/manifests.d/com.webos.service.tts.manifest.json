@@ -1,0 +1,19 @@
+{
+    "id": "com.webos.service.tts",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.webos.service.tts.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.webos.service.tts.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.tts.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.tts.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/tts.groups.json"
+    ]
+}

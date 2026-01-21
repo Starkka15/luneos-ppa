@@ -1,0 +1,9 @@
+{
+    "org.webosports.app.messaging-*": [
+        "accountsservice.management",
+        "accountsservice.operation",
+        "database.operation",
+        "messaging-service.operation",
+        "tempdatabase.operation"
+    ]
+}

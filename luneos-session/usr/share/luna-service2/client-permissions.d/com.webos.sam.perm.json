@@ -1,0 +1,15 @@
+{
+    "com.webos.applicationManager" : [
+        "applicationinstall.management",
+        "applicationinstall.devmode",
+        "boot.query",
+        "systemconfig.query",
+        "database.operation",
+        "surfacemanager.query",
+        "memorymanager.management",
+        "notification.operation",
+        "settings.query",
+        "settings.management",
+        "webapplication.management"
+    ]
+}

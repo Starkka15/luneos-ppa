@@ -1,0 +1,14 @@
+{
+    "exeName":"/usr/sbin/bootd",
+    "trustLevel": "oem",
+    "type": "regular",
+    "allowedNames": ["com.webos.bootManager"],
+    "permissions": [
+        {
+            "service":"com.webos.bootManager",
+            "outbound": [
+                "*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "sensorfw",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.nokia.SensorService.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.nokia.SensorService.service"
+    ]
+}

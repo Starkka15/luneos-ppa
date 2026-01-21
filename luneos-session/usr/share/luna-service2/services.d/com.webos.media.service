@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.media;com.webos.pipelinectrl.*
+Exec=/usr/sbin/umediaserver
+Type=static

@@ -1,0 +1,7 @@
+{
+    "com.webos.app.videocall-*": [
+        "application.launcher",
+        "application.operation",
+        "applicationinstall.management"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "exeName":"/usr/sbin/appinstalld",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.appInstallService"],
+    "permissions": [
+        {
+            "service":"com.webos.appInstallService",
+            "outbound":[
+                "*"
+            ]
+        }
+    ]
+}

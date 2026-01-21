@@ -1,0 +1,13 @@
+{
+   "clientPermissionFiles": [
+       "/usr/share/luna-service2/client-permissions.d/com.webos.service.mediacontrollertest.perm.json"
+   ],
+   "serviceFiles": [
+       "/usr/share/luna-service2/services.d/com.webos.service.mediacontrollertest.service"
+   ],
+   "version": "1.0.0",
+   "roleFiles": [
+       "/usr/share/luna-service2/roles.d/com.webos.service.mediacontrollertest.role.json"
+   ],
+   "id": "com.webos.service.mediacontrollertest"
+}

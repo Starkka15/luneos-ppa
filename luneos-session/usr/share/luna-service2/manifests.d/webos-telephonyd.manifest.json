@@ -1,0 +1,19 @@
+{
+    "id": "webos-telephonyd",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/webos-telephonyd.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/webos-telephonyd.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/webos-telephonyd.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/webos-telephonyd.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/webos-telephonyd.groups.json"
+    ]
+}

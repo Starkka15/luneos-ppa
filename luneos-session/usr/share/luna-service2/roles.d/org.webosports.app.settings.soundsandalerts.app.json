@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.soundsandalerts",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.soundsandalerts-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.soundsandalerts-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

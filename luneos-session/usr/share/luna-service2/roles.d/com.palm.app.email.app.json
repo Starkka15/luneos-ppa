@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.app.email",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.app.email-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.app.email-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

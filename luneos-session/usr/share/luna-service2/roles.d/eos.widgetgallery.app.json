@@ -1,0 +1,16 @@
+{
+    "appId": "eos.widgetgallery",
+    "type": "regular",
+    "allowedNames": [
+        "eos.widgetgallery-*"
+    ],
+    "permissions": [
+        {
+            "service": "eos.widgetgallery-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

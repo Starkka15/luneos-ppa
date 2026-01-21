@@ -1,0 +1,83 @@
+{
+    "exeName":"/usr/bin/node",
+    "trustLevel": "oem",
+    "type": "privileged",
+    "allowedNames": ["*"],
+    "permissions": [
+        {
+            "service": "*",
+            "inbound": [],
+            "outbound": []
+        },
+        {
+            "service": "com.palm.keymanager",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "com.palm.mediapermissions",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "com.palm.service.accounts",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "com.palm.service.calendar.reminders",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "com.palm.service.contacts",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "com.palm.service.contacts.linker",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.cdav",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.devmode",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.filemanager",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.licenses",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.messaging",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.tweaks.prefs",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.service.update",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        },
+        {
+            "service": "",
+            "inbound": ["*"],
+            "outbound": ["*"]
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+        "peripheralmanager.query": [
+                "com.webos.service.peripheralmanager/gpio/list",
+                "com.webos.service.peripheralmanager/uart/list",
+                "com.webos.service.peripheralmanager/uart/getBaudrate",
+                "com.webos.service.peripheralmanager/gpio/getDirection",
+                "com.webos.service.peripheralmanager/spi/list",
+                "com.webos.service.peripheralmanager/i2c/list"
+        ],
+        "peripheralmanager.gpio.operation": [
+                "com.webos.service.peripheralmanager/gpio/setValue",
+                "com.webos.service.peripheralmanager/gpio/getValue",
+                "com.webos.service.peripheralmanager/gpio/open",
+                "com.webos.service.peripheralmanager/gpio/close",
+                "com.webos.service.peripheralmanager/gpio/getPollingFd",
+                "com.webos.service.peripheralmanager/gpio/setDirection"
+        ],
+        "peripheralmanager.uart.operation": [
+                "com.webos.service.peripheralmanager/uart/write",
+                "com.webos.service.peripheralmanager/uart/read",
+                "com.webos.service.peripheralmanager/uart/open",
+                "com.webos.service.peripheralmanager/uart/close",
+                "com.webos.service.peripheralmanager/uart/getPollingFd",
+                "com.webos.service.peripheralmanager/uart/setBaudrate"
+        ],
+        "peripheralmanager.spi.operation": [
+                "com.webos.service.peripheralmanager/spi/open",
+                "com.webos.service.peripheralmanager/spi/setMode",
+                "com.webos.service.peripheralmanager/spi/setFrequency",
+                "com.webos.service.peripheralmanager/spi/setBitJustification",
+                "com.webos.service.peripheralmanager/spi/setBitsPerWord",
+                "com.webos.service.peripheralmanager/spi/transfer",
+                "com.webos.service.peripheralmanager/spi/writeByte",
+                "com.webos.service.peripheralmanager/spi/writeBuffer",
+                "com.webos.service.peripheralmanager/spi/setDelay",
+                "com.webos.service.peripheralmanager/spi/close"
+        ],
+        "peripheralmanager.i2c.operation": [
+                "com.webos.service.peripheralmanager/i2c/write",
+                "com.webos.service.peripheralmanager/i2c/read",
+                "com.webos.service.peripheralmanager/i2c/writeRegByte",
+                "com.webos.service.peripheralmanager/i2c/getPollingFd",
+                "com.webos.service.peripheralmanager/i2c/readRegByte",
+                "com.webos.service.peripheralmanager/i2c/writeRegWord",
+                "com.webos.service.peripheralmanager/i2c/readRegWord",
+                "com.webos.service.peripheralmanager/i2c/writeRegBuffer",
+                "com.webos.service.peripheralmanager/i2c/readRegBuffer",
+                "com.webos.service.peripheralmanager/i2c/open",
+                "com.webos.service.peripheralmanager/i2c/close"
+        ]
+}

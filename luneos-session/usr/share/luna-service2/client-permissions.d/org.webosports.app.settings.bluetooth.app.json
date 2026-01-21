@@ -1,0 +1,5 @@
+{
+    "org.webosports.app.settings.bluetooth-*": [
+        "application.operation"
+    ]
+}

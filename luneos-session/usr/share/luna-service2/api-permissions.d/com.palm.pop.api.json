@@ -1,0 +1,19 @@
+{
+    "mojomail-pop.operation": [
+        "com.palm.pop/parseEmlMessage",
+        "com.palm.pop/validateAccount",
+        "com.palm.pop/accountCreated",
+        "com.palm.pop/accountEnabled",
+        "com.palm.pop/accountUpdated",
+        "com.palm.pop/accountDeleted",
+        "com.palm.pop/credentialsChanged",
+        "com.palm.pop/syncFolder",
+        "com.palm.pop/syncAccount",
+        "com.palm.pop/moveToSentFolder",
+        "com.palm.pop/moveEmail",
+        "com.palm.pop/downloadMessage",
+        "com.palm.pop/downloadAttachment",
+        "com.palm.pop/ping",
+        "com.palm.pop/status"
+    ]
+}

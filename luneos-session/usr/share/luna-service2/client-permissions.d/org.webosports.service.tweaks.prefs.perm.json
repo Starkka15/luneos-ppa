@@ -1,0 +1,8 @@
+{
+    "org.webosports.service.tweaks.prefs": [ 
+        "activity.operation",
+        "database.operation",
+        "tweaks-service.operation"
+    ]
+}
+

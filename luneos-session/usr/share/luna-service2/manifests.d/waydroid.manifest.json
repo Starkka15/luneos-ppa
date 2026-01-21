@@ -1,0 +1,13 @@
+{
+    "id": "waydroid",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/id.waydro.container.app.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/dbus-1/system-services/id.waydro.Container.service"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/id.waydro.container.app.json"
+    ]
+}

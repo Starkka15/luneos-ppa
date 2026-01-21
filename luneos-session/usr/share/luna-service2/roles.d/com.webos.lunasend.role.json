@@ -1,0 +1,16 @@
+{
+    "exeName":"/usr/bin/luna-send",
+    "type": "privileged",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.lunasend-*", "*"],
+    "permissions": [
+        {
+            "service": "com.webos.lunasend-*",
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.lunasend-*",
+            "outbound": ["*"]
+        }
+    ]
+}

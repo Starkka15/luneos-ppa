@@ -1,0 +1,19 @@
+{
+    "id": "mojomail-imap",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.imap.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.palm.imap.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.palm.imap.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.palm.imap.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.palm.imap.groups.json"
+    ]
+}

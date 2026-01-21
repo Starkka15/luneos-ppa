@@ -1,0 +1,34 @@
+{
+    "id": "app-services",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.service.accounts.role.json",
+        "/usr/share/luna-service2/roles.d/com.palm.service.calendar.reminders.role.json",
+        "/usr/share/luna-service2/roles.d/com.palm.service.contacts.linker.role.json",
+        "/usr/share/luna-service2/roles.d/com.palm.service.contacts.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.palm.service.accounts.service",
+        "/usr/share/luna-service2/services.d/com.palm.service.calendar.reminders.service",
+        "/usr/share/luna-service2/services.d/com.palm.service.contacts.linker.service",
+        "/usr/share/luna-service2/services.d/com.palm.service.contacts.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.palm.service.accounts.api.json",
+        "/usr/share/luna-service2/api-permissions.d/com.palm.service.calendar.reminders.api.json",
+        "/usr/share/luna-service2/api-permissions.d/com.palm.service.contacts.api.json",
+        "/usr/share/luna-service2/api-permissions.d/com.palm.service.contacts.linker.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.palm.service.accounts.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.service.calendar.reminders.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.service.contacts.linker.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.palm.service.contacts.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/com.palm.service.accounts.groups.json",
+        "/usr/share/luna-service2/groups.d/com.palm.service.calendar.reminders.groups.json",
+        "/usr/share/luna-service2/groups.d/com.palm.service.contacts.groups.json",
+        "/usr/share/luna-service2/groups.d/com.palm.service.contacts.linker.groups.json"
+    ]
+}

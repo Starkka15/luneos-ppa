@@ -1,0 +1,24 @@
+[
+  {
+      "type": "db.kind",
+      "object": "org.webosports.tweaks:1",
+      "caller": "org.webosports.app.tweaks",
+      "operations": {
+          "create": "allow",
+          "read": "allow",
+          "update": "allow",
+          "delete": "allow"
+      }
+  },
+  {
+      "type": "db.kind",
+      "object": "org.webosports.tweaks:1",
+      "caller": "org.webosports.service.tweaks.prefs",
+      "operations": {
+          "create": "allow",
+          "read": "allow",
+          "update": "allow",
+          "delete": "allow"
+      }
+  }
+]

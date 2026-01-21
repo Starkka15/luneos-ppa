@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.webosports.service.mediaindexer
+Exec=/usr/sbin/mediaindexer
+Type=static

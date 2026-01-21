@@ -1,0 +1,14 @@
+{
+    "com.palm.smtp": [
+        "accountsservice.management",
+        "accountsservice.operation",
+        "activity.operation",
+        "activity.query",
+        "database.operation",
+        "filecache.operation",
+        "mojomail-imap.operation",
+        "mojomail-pop.operation",
+        "mojomail-smtp.operation",
+        "tempdatabase.operation"
+    ]
+}

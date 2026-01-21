@@ -1,0 +1,16 @@
+{
+    "mojomail-smtp.operation": [
+        "com.palm.smtp/ping",
+        "com.palm.smtp/status",
+        "com.palm.smtp/validateAccount",
+        "com.palm.smtp/accountCreated",
+        "com.palm.smtp/accountEnabled",
+        "com.palm.smtp/accountUpdated",
+        "com.palm.smtp/credentialsChanged",
+        "com.palm.smtp/accountDeleted",
+        "com.palm.smtp/simpleSendEmail",
+        "com.palm.smtp/sendMail",
+        "com.palm.smtp/saveDraft",
+        "com.palm.smtp/syncOutbox"
+    ]
+}

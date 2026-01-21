@@ -1,0 +1,5 @@
+{
+    "org.webosports.app.calculator-*": [
+        "devmode-service.operation"
+    ]
+}

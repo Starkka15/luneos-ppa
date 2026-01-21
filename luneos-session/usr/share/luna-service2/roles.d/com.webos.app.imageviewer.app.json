@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.imageviewer",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.imageviewer-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.imageviewer-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

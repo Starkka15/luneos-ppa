@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/PmLogDaemon",
+    "trustLevel" : "oem",
+    "type": "regular",
+    "allowedNames": ["com.webos.pmlogd"],
+    "permissions":
+    [
+        {
+            "service":"com.webos.pmlogd",
+            "outbound":["com.webos.service.config", "com.webos.settingsservice", "com.webos.service.sdx", "com.webos.service.attachedstoragemanager", "com.webos.service.tvpower"]
+        }
+    ]
+}

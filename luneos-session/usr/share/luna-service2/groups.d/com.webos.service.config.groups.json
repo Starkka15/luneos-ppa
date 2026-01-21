@@ -1,0 +1,5 @@
+{
+    "allowedNames": ["com.webos.service.config"],
+    "systemconfig.query" : ["dev"],
+    "systemconfig.management" : ["oem"]
+}

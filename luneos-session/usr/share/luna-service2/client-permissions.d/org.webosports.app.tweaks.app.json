@@ -1,0 +1,9 @@
+{
+    "org.webosports.app.tweaks-*": [
+        "activity.operation",
+        "database.operation",
+        "ipkg-service.operation",
+        "systemsettings.management",
+        "tweaks-service.operation"
+    ]
+}

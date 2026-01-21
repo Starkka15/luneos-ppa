@@ -1,0 +1,38 @@
+{
+    "ipkg-service.operation": [
+        "org.webosports.service.ipkg/status",
+        "org.webosports.service.ipkg/version",
+        "org.webosports.service.ipkg/restart",
+        "org.webosports.service.ipkg/update",
+        "org.webosports.service.ipkg/restartLuna",
+        "org.webosports.service.ipkg/restartJava",
+        "org.webosports.service.ipkg/restartDevice",
+        "org.webosports.service.ipkg/getMachineName",
+        "org.webosports.service.ipkg/setAuthParams",
+        "org.webosports.service.ipkg/getConfigs",
+        "org.webosports.service.ipkg/downloadFeed",
+        "org.webosports.service.ipkg/getListFile",
+        "org.webosports.service.ipkg/getControlFile",
+        "org.webosports.service.ipkg/getStatusFile",
+        "org.webosports.service.ipkg/getAppinfoFile",
+        "org.webosports.service.ipkg/getPackageInfo",
+        "org.webosports.service.ipkg/getDirListing",
+        "org.webosports.service.ipkg/setConfigState",
+        "org.webosports.service.ipkg/addConfig",
+        "org.webosports.service.ipkg/deleteConfig",
+        "org.webosports.service.ipkg/extractControl",
+        "org.webosports.service.ipkg/install",
+        "org.webosports.service.ipkg/installSvc",
+        "org.webosports.service.ipkg/installCli",
+        "org.webosports.service.ipkg/replace",
+        "org.webosports.service.ipkg/replaceSvc",
+        "org.webosports.service.ipkg/replaceCli",
+        "org.webosports.service.ipkg/remove",
+        "org.webosports.service.ipkg/impersonate",
+        "org.webosports.service.ipkg/listApps",
+        "org.webosports.service.ipkg/installStatus",
+        "org.webosports.service.ipkg/addResource",
+        "org.webosports.service.ipkg/swapResource"
+    ]
+}
+

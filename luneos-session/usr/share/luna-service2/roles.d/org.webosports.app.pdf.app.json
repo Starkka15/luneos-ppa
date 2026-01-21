@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.pdf",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.pdf-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.pdf-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

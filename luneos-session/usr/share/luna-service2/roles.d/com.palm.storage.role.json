@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/storaged",
+    "trustLevel": "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.storage"],
+    "permissions": [
+        {
+            "service":"com.palm.storage",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

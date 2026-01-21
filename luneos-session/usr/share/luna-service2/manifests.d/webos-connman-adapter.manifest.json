@@ -1,0 +1,19 @@
+{
+    "id": "webos-connman-adapter",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/webos-connman-adapter.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/webos-connman-adapter.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/webos-connman-adapter.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/webos-connman-adapter.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/webos-connman-adapter.groups.json"
+    ]
+}

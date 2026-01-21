@@ -1,0 +1,1086 @@
+[
+    {
+        "category": "",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "locale",
+        "ui": {
+            "active": true,
+            "displayName": "locale",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "file": "/etc/palm/locale.json"
+        },
+        "vtype": "File"
+    },
+    {
+        "category": "",
+        "dbtype": "G",
+        "dimension": [],
+        "hasCountryVar": true,
+        "key": "localeInfo",
+        "ui": {
+            "active": true,
+            "displayName": "localeInfo",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+        {
+        "category": "lock",
+        "dbtype": "S",
+        "dimension": [],
+        "key": "applockPerApp",
+        "ui": {
+            "active": true,
+            "displayName": "applockPerApp",
+            "visible": true,
+            "widget": "none"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": true,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": false,
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "lock",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "parentalControl",
+        "ui": {
+            "active": true,
+            "displayName": "parentalControl",
+            "visible": true,
+            "widget": "none"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": true,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": false,
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "sound",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "soundOutputList",
+        "ui": {
+            "active": true,
+            "displayName": "soundOutputList",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "volatile": false,
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "sound",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "soundInputList",
+        "ui": {
+            "active": true,
+            "displayName": "soundInputList",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "volatile": false,
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "network",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "bleAdvertisingOnOff",
+        "ui": {
+            "active": true,
+            "displayName": "bleAdvertisingOnOff",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": "on",
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": "off",
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "network",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "deviceName",
+        "ui": {
+            "active": true,
+            "displayName": "deviceName",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "network",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "wifiConnection",
+        "ui": {
+            "active": true,
+            "displayName": "wifiConnection",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "network",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "wiredConnection",
+        "ui": {
+            "active": true,
+            "displayName": "wiredConnection",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "option",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "country",
+        "ui": {
+            "active": true,
+            "displayName": "country",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "file": "/etc/palm/countryList.json"
+        },
+        "vtype": "File"
+    },
+    {
+        "category": "option",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "countryRegion",
+        "ui": {
+            "active": true,
+            "displayName": "countryRegion",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "file": "/etc/palm/countryRegionList.json"
+        },
+        "vtype": "File"
+    },
+    {
+        "category": "option",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "menuLanguage",
+        "ui": {
+            "active": true,
+            "displayName": "menuLanguage",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "option",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "smartServiceCountryCode2",
+        "ui": {
+            "active": true,
+            "displayName": "smartServiceCountryCode2",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "option",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "smartServiceCountryCode3",
+        "ui": {
+            "active": true,
+            "displayName": "smartServiceCountryCode3",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "picture",
+        "dbtype": "G",
+        "dimension": [
+        ],
+        "key": "pictureMode",
+        "ui": {
+            "active": true,
+            "displayName": "pictureMode",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": "mode1",
+                    "visible": false
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "picture",
+        "dbtype": "G",
+        "dimension": [
+            "pictureMode"
+        ],
+        "key": "brightness",
+        "ui": {
+            "active": true,
+            "displayName": "brightness",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "range": {
+                "interval": 1,
+                "max": 100,
+                "min": 0
+            }
+        },
+        "vtype": "Range"
+    },
+    {
+        "category": "picture",
+        "dbtype": "G",
+        "dimension": [
+            "pictureMode"
+        ],
+        "key": "color",
+        "ui": {
+            "active": true,
+            "displayName": "color",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "range": {
+                "interval": 1,
+                "max": 100,
+                "min": 0
+            }
+        },
+        "vtype": "Range"
+    },
+    {
+        "category": "time",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "autoClock",
+        "ui": {
+            "active": true,
+            "displayName": "autoClock",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": "on",
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": "off",
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "VideoMode",
+        "ui": {
+            "active": true,
+            "displayName": "VideoMode",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "SoundMode",
+        "ui": {
+            "active": true,
+            "displayName": "SoundMode",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Volume",
+        "ui": {
+            "active": true,
+            "displayName": "Volume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "username",
+        "ui": {
+            "active": true,
+            "displayName": "username",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "KeyboardType",
+        "ui": {
+            "active": true,
+            "displayName": "KeyboardType",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Language",
+        "ui": {
+            "active": true,
+            "displayName": "Language",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Calendar",
+        "ui": {
+            "active": true,
+            "displayName": "Calendar",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "TemperatureUnit",
+        "ui": {
+            "active": true,
+            "displayName": "TemperatureUnit",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "audioGuidance",
+        "ui": {
+            "active": true,
+            "displayName": "audioGuidance",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "avatarUrl",
+        "ui": {
+            "active": true,
+            "displayName": "avatarUrl",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "BackgroundApp",
+        "ui": {
+            "active": true,
+            "displayName": "BackgroundApp",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "BTDevices",
+        "ui": {
+            "active": true,
+            "displayName": "BTDevices",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Legal",
+        "ui": {
+            "active": true,
+            "displayName": "Legal",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "Off", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "Off", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "On", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "On", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "Off", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "Off", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "On", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "On", "TermsAndConditions": "On"},
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "AudioOutput",
+        "ui": {
+            "active": true,
+            "displayName": "AudioOutput",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "SoundEffectVolume",
+        "ui": {
+            "active": true,
+            "displayName": "SoundEffectVolume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "MediaVolume",
+        "ui": {
+            "active": true,
+            "displayName": "MediaVolume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Date",
+        "ui": {
+            "active": true,
+            "displayName": "Date",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session0",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Time",
+        "ui": {
+            "active": true,
+            "displayName": "Time",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "VideoMode",
+        "ui": {
+            "active": true,
+            "displayName": "VideoMode",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "SoundMode",
+        "ui": {
+            "active": true,
+            "displayName": "SoundMode",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Volume",
+        "ui": {
+            "active": true,
+            "displayName": "Volume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "username",
+        "ui": {
+            "active": true,
+            "displayName": "username",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "KeyboardType",
+        "ui": {
+            "active": true,
+            "displayName": "KeyboardType",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Language",
+        "ui": {
+            "active": true,
+            "displayName": "Language",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Calendar",
+        "ui": {
+            "active": true,
+            "displayName": "Calendar",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "TemperatureUnit",
+        "ui": {
+            "active": true,
+            "displayName": "TemperatureUnit",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "audioGuidance",
+        "ui": {
+            "active": true,
+            "displayName": "audioGuidance",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "avatarUrl",
+        "ui": {
+            "active": true,
+            "displayName": "avatarUrl",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "BackgroundApp",
+        "ui": {
+            "active": true,
+            "displayName": "BackgroundApp",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "BTDevices",
+        "ui": {
+            "active": true,
+            "displayName": "BTDevices",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Legal",
+        "ui": {
+            "active": true,
+            "displayName": "Legal",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": true,
+        "values": {
+            "arrayExt": [
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "Off", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "Off", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "On", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "Off", "PrivacyPolicy": "On", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "Off", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "Off", "TermsAndConditions": "On"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "On", "TermsAndConditions": "Off"},
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "value": {"UserAgreement": "On", "PrivacyPolicy": "On", "TermsAndConditions": "On"},
+                    "visible": true
+                }
+            ]
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "AudioOutput",
+        "ui": {
+            "active": true,
+            "displayName": "AudioOutput",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "SoundEffectVolume",
+        "ui": {
+            "active": true,
+            "displayName": "SoundEffectVolume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "MediaVolume",
+        "ui": {
+            "active": true,
+            "displayName": "MediaVolume",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Date",
+        "ui": {
+            "active": true,
+            "displayName": "Date",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    },
+    {
+        "category": "Session1",
+        "dbtype": "G",
+        "dimension": [],
+        "key": "Time",
+        "ui": {
+            "active": true,
+            "displayName": "Time",
+            "visible": true,
+            "widget": "None"
+        },
+        "valueCheck": false,
+        "values": {
+            "arrayExt": []
+        },
+        "vtype": "ArrayExt"
+    }
+]
+

@@ -1,0 +1,64 @@
+{
+    "installSteps": [{
+           "status": "Unknown",
+           "action": "IpkParseNeeded"
+        },
+        {
+           "status": "IpkParseComplete",
+           "action": "GetIpkInfoNeeded"
+        },
+        {
+           "status": "GetIpkInfoComplete",
+           "action": "AppCloseNeeded"
+        },
+        {
+           "status": "AppCloseComplete",
+           "action": "IpkInstallNeeded"
+        },
+        {
+           "status": "IpkInstallComplete",
+           "action": "ServiceInstallNeeded"
+        },
+        {
+           "status": "ServiceInstallComplete",
+           "action": "InstallSmackNeeded"
+        },
+        {
+           "status": "InstallSmackComplete",
+           "action": "InstallComplete"
+        }
+    ],
+    "removeSteps": [{
+           "status": "Unknown",
+           "action": "AppCloseNeeded"
+        },
+        {
+           "status": "AppCloseComplete",
+           "action": "RemoveNeeded"
+        },
+        {
+           "status": "RemoveStarted",
+           "action": "RemoveJailNeeded"
+        },
+        {
+           "status": "RemoveJailComplete",
+           "action": "RemoveSmackNeeded"
+        },
+        {
+           "status": "RemoveSmackComplete",
+           "action": "ServiceUninstallNeeded"
+        },
+        {
+           "status": "ServiceUninstallComplete",
+           "action": "IpkRemoveNeeded"
+        },
+        {
+           "status": "IpkRemoveComplete",
+           "action": "DataRemoveNeeded"
+        },
+        {
+           "status": "DataRemoveComplete",
+           "action": "RemoveComplete"
+        }
+    ]
+}

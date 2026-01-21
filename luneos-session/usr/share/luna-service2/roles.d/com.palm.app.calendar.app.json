@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.app.calendar",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.app.calendar-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.app.calendar-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

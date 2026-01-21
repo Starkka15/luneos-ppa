@@ -1,0 +1,12 @@
+{
+  "all": [
+    "*/*"
+  ],
+  "service.communication": [
+    "*/com/palm/luna/private/ping",
+    "*/com/palm/luna/private/cancel"
+  ],
+  "service.monitor": [
+    "*/com/palm/luna/private/*"
+  ]
+}

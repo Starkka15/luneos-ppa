@@ -1,0 +1,44 @@
+{
+    "com.palm.webappmanager": [
+        "activity.operation",
+        "application.launcher",
+        "application.operation",
+        "memorymanager.query",
+        "networkconnection.query",
+        "notification.operation",
+        "settings.query"
+    ],
+    "com.webos.chromium.audio*": [
+        "audio.operation",
+        "audio.query"
+    ],
+    "com.webos.chromium.camera*": [
+        "camera.operation",
+        "camera.query"
+    ],
+    "com.webos.chromium.service_worker": [
+        "application.launcher"
+    ],
+    "com.webos.notification.client*": [
+        "notification.operation",
+        "notification.management",
+        "webapplication.push"
+    ],
+    "com.webos.rm.client.*": [
+        "media.operation"
+    ],
+    "com.webos.settingsservice.client-*": [
+        "application.launcher",
+        "application.operation",
+        "settings.query",
+        "networkconnection.query"
+    ],
+    "com.webos.chromium.installablemanager.*": [
+        "applicationinstall.management",
+        "application.operation"
+    ],
+    "com.webos.chromium.pwa.*": [
+        "application.launcher",
+        "application.operation"
+    ]
+}

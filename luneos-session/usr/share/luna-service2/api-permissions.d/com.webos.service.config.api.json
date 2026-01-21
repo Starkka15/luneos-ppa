@@ -1,0 +1,9 @@
+{
+  "systemconfig.query" : [
+      "com.webos.service.config/getConfigs"
+  ],
+  "systemconfig.management" : [
+      "com.webos.service.config/setConfigs",
+      "com.webos.service.config/reconfigure"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.textassist",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.textassist-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.textassist-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

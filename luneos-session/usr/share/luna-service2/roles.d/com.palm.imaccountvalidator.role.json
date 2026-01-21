@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/imaccountvalidator",
+    "trustLevel": "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.imaccountvalidator"],
+    "permissions": [
+        {
+            "service":"com.palm.imaccountvalidator",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

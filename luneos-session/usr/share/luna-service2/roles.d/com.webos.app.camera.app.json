@@ -1,0 +1,16 @@
+{
+    "appId": "com.webos.app.camera",
+    "type": "regular",
+    "allowedNames": [
+        "com.webos.app.camera-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.app.camera-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

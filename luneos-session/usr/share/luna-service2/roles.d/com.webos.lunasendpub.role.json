@@ -1,0 +1,16 @@
+{
+    "exeName":"/usr/bin/luna-send-pub",
+    "type": "devmode",
+    "trustLevel": "dev",
+    "allowedNames": ["*"],
+    "permissions": [
+        {
+            "service": "com.webos.lunasendpub-*",
+            "outbound": ["*"]
+        },
+        {
+            "service": "org.webosports.lunasend-*",
+            "outbound": ["*"]
+        }
+    ]
+}

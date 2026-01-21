@@ -1,0 +1,20 @@
+{
+  "servicebus.configuration": [
+    "com.webos.service.bus/addManifestsDir",
+    "com.webos.service.bus/removeManifestsDir",
+    "com.webos.service.bus/addOneManifest",
+    "com.webos.service.bus/removeOneManifest"
+  ],
+  "servicebus.signal": [
+    "com.webos.service.bus/signal/publish/*"
+  ],
+  "servicebus.communication": [
+    "com.webos.service.bus/isCallAllowed",
+    "com.webos.service.bus/getServiceAPIVersions",
+    "com.webos.service.bus/queryServicePermissions",
+    "com.webos.service.bus/signal/subscribe/*",
+    "com.webos.service.bus/signal/registerServerStatus",
+    "com.webos.service.bus/signal/addmatch",
+    "com.webos.service.bus/signal/registerServiceCategory"
+  ]
+}

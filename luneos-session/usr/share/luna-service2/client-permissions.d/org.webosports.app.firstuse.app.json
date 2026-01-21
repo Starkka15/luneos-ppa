@@ -1,0 +1,14 @@
+{
+    "org.webosports.app.firstuse-*": [
+        "ipkg-service.operation",
+        "networkconnection.query",
+        "networkconnection.management",
+        "systemsettings.management",
+        "systemsettings.query",
+        "telephony.query",
+        "telephony.management",
+        "wifi.query",
+        "wifi.management",
+        "application.operation"
+    ]
+}

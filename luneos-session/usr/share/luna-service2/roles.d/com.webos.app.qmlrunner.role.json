@@ -1,0 +1,16 @@
+{
+    "exeName":"/usr/bin/qml-runner",
+    "type": "privileged",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.app.qmlrunner-*", "com.webos.media.client.*", ""],
+    "permissions": [
+        {
+            "service": "com.webos.app.qmlrunner-*",
+            "outbound": ["com.webos.applicationManager", "com.webos.service.config", "com.webos.settingsservice"]
+        }, {
+            "service": "com.webos.media.client.*",
+            "inbound": ["com.webos.media"],
+            "outbound": ["com.webos.media"]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "boot.query" : [
+        "com.webos.bootManager/getBootStatus"
+    ],
+    "boot.management" : [
+        "com.webos.bootManager/generateSignal"
+    ]
+}

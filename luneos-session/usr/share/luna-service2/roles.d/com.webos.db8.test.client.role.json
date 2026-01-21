@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/lib/db8/tests/gtest_dbclient",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.db8.test.client"],
+    "permissions": [
+        {
+            "service":"com.webos.db8.test.client",
+            "outbound":["com.palm.db"]
+        }
+    ]
+}

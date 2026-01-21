@@ -1,0 +1,16 @@
+{
+    "exeName":"/usr/sbin/simulated_pipeline",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.pipeline.*"],
+    "permissions": [
+        {
+            "service":"com.webos.pipeline.*",
+            "outbound":[
+                "com.webos.media",
+                "com.webos.pipelinectrl.*",
+                "com.webos.media.client.*"
+            ]
+        }
+    ]
+}

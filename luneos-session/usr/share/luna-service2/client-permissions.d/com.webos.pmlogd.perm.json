@@ -1,0 +1,3 @@
+{
+	"com.webos.pmlogd": [ "systemconfig.query","diagnostics.logging" ]
+}

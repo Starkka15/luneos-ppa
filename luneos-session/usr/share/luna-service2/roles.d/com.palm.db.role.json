@@ -1,0 +1,20 @@
+{
+"exeName":"/usr/sbin/mojodb-luna",
+"trustLevel": "oem",
+"type": "regular",
+"allowedNames": ["com.palm.db","com.palm.tempdb","com.webos.mediadb","com.webos.epgdb","com.webos.keymgrdb"],
+"permissions": [
+{
+"service":"com.palm.db",
+"outbound":["com.webos.*", "com.palm.*", "org.webosports.*"]},
+{
+"service":"com.palm.tempdb",
+"outbound":["com.webos.*", "com.palm.*", "org.webosports.*"]},
+{
+"service":"com.webos.mediadb",
+"outbound":["com.webos.*", "com.palm.*", "org.webosports.*"]},
+{
+"service":"com.webos.epgdb",
+"outbound":["com.webos.*", "com.palm.*", "org.webosports.*"]}
+]
+}

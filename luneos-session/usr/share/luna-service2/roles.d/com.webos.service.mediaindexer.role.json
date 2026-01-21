@@ -1,0 +1,35 @@
+{
+    "exeName":"/usr/sbin/com.webos.service.mediaindexer",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": [
+        "com.webos.service.mediaindexer",
+        "com.webos.service.mediaindexer.media",
+        "com.webos.service.mediaindexer.devices",
+        "com.webos.service.mediaindexer.settings"
+    ],
+    "permissions": [
+        {
+            "service": "com.webos.service.mediaindexer",
+            "outbound": [ 
+                "com.webos.service.pdm",
+                "com.webos.mediadb",
+                "com.webos.settingsservice",
+                "com.webos.service.mediaindexer.client*",
+                "com.webos.app.*"
+            ]
+        },
+        {
+            "service": "com.webos.service.mediaindexer.media",
+            "outbound": [ "com.webos.mediadb" ]
+        },
+        {
+            "service": "com.webos.service.mediaindexer.devices",
+            "outbound": [ "com.webos.mediadb" ]
+        },
+        {
+            "service": "com.webos.service.mediaindexer.settings",
+            "outbound": [ "com.webos.mediadb" ]
+        }
+    ]
+}

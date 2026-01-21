@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/LunaUniversalSearchMgr",
+    "trustLevel" : "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.universalsearch"],
+    "permissions": [
+        {
+            "service":"com.palm.universalsearch",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

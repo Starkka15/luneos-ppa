@@ -1,0 +1,28 @@
+{
+    "id": "db8",
+    "version": "1.0.0",
+    "roleFiles": [
+        "/usr/share/luna-service2/roles.d/com.palm.db.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.db8.test.client.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.db8.test.lunaservice.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.db8.test.media.role.json",
+        "/usr/share/luna-service2/roles.d/com.webos.db8.test.stress.role.json"
+    ],
+    "serviceFiles": [
+        "/usr/share/luna-service2/services.d/com.palm.db.service",
+        "/usr/share/luna-service2/services.d/com.palm.tempdb.service",
+        "/usr/share/luna-service2/services.d/com.webos.db8.test.lunaservice.service",
+        "/usr/share/luna-service2/services.d/com.webos.mediadb.service"
+    ],
+    "apiPermissionFiles": [
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.db.api.json",
+        "/usr/share/luna-service2/api-permissions.d/com.webos.service.db.test.api.json"
+    ],
+    "clientPermissionFiles": [
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.db.perm.json",
+        "/usr/share/luna-service2/client-permissions.d/com.webos.service.db.test.perm.json"
+    ],
+    "groupsFiles": [
+        "/usr/share/luna-service2/groups.d/db8.groups.json"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "org.webosports.app.settings.networksettings-*": [
+        "networkconnection.query",
+        "networkconnection.management",
+        "telephony.management",
+        "telephony.query",
+        "wifi.query",
+        "wifi.management",
+        "application.operation"
+    ]
+}

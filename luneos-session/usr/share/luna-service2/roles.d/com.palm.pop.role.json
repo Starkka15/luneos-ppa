@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/bin/mojomail-pop",
+    "trustLevel": "oem",
+    "type": "regular",
+    "allowedNames": ["com.palm.pop"],
+    "permissions": [
+        {
+            "service":"com.palm.pop",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

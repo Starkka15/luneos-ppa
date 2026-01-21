@@ -1,0 +1,8 @@
+{
+    "com.webos.app.test.webrtc-*": [
+        "audio.operation",
+        "media.operation",
+        "mediapipeline.resourcemanagement",
+        "mediapipeline.operation"
+    ]
+}

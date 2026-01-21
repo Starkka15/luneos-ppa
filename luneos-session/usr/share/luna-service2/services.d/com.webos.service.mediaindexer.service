@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.webos.service.mediaindexer
+Exec=/usr/sbin/com.webos.service.mediaindexer
+Type=static

@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.messaging",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.messaging-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.messaging-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

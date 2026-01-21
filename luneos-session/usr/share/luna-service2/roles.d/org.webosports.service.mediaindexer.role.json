@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/mediaindexer",
+    "trustLevel": "oem",
+    "type": "privileged",
+    "allowedNames": ["org.webosports.service.mediaindexer"],
+    "permissions": [
+        {
+            "service":"org.webosports.service.mediaindexer",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.settings.backup",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.settings.backup-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.settings.backup-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

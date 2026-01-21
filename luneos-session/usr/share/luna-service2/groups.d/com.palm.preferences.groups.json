@@ -1,0 +1,7 @@
+{
+    "allowedNames" : ["com.palm.preferences"],
+    "preferences.systempropertyquery" : ["dev"],
+    "preferences.applicationpropertyquery" : ["oem"],
+    "preferences.operation" : ["dev"],
+    "preferences.management" : ["oem"]
+}

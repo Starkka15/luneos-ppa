@@ -1,0 +1,13 @@
+{
+    "exeName":"/usr/sbin/certmgrd",
+    "trustLevel": "oem",
+    "type": "privileged",
+    "allowedNames": ["org.webosports.service.certmgr"],
+    "permissions": [
+        {
+            "service":"org.webosports.service.certmgr",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

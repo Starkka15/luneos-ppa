@@ -1,0 +1,16 @@
+{
+    "appId": "com.palm.systemui",
+    "type": "regular",
+    "allowedNames": [
+        "com.palm.systemui-*"
+    ],
+    "permissions": [
+        {
+            "service": "com.palm.systemui-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

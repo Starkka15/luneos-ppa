@@ -1,0 +1,11 @@
+{
+    "com.webos.settingsservice": [
+        "database.management", "database.operation", "application.operation", "service.monitor"
+    ],
+    "com.lge.settingsservice": [
+        "database.management", "database.operation", "application.operation", "service.monitor"
+    ],
+    "com.webos.service.settings": [
+        "database.management", "database.operation", "application.operation", "service.monitor"
+    ]
+}

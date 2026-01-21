@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.palm.appinstaller;com.palm.applicationManager;com.palm.eventreporter.LunaAppManager;org.webosports.bootmgr;org.webosports.bootmgr-displayblocker
+Exec=/usr/sbin/LunaAppManager
+Type=static

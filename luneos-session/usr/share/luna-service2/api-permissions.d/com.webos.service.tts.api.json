@@ -1,0 +1,8 @@
+{
+    "tts.operation": [
+        "com.webos.service.tts/speak",
+        "com.webos.service.tts/stop",
+        "com.webos.service.tts/getStatus",
+        "com.webos.service.tts/getAvailableLanguages"
+    ]
+}

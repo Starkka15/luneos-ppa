@@ -1,0 +1,16 @@
+{
+    "appId": "org.webosports.app.cdav",
+    "type": "regular",
+    "allowedNames": [
+        "org.webosports.app.cdav-*"
+    ],
+    "permissions": [
+        {
+            "service": "org.webosports.app.cdav-*",
+            "outbound": [
+                "*"
+            ]
+        }
+    ],
+    "trustLevel": "oem"
+}

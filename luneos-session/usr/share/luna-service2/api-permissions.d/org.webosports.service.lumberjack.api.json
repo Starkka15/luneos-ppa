@@ -1,0 +1,18 @@
+{
+    "lumberjack-service.operation": [
+        "org.webosports.service.lumberjack/status",
+        "org.webosports.service.lumberjack/version",
+        "org.webosports.service.lumberjack/getLogging",
+        "org.webosports.service.lumberjack/setLogging",
+        "org.webosports.service.lumberjack/clearMessages",
+        "org.webosports.service.lumberjack/getMessages",
+        "org.webosports.service.lumberjack/tailMessages",
+        "org.webosports.service.lumberjack/killTailMessages",
+        "org.webosports.service.lumberjack/dbusCapture",
+        "org.webosports.service.lumberjack/killDBusCapture",
+        "org.webosports.service.lumberjack/ls2Monitor",
+        "org.webosports.service.lumberjack/killLs2Monitor",
+        "org.webosports.service.lumberjack/listApps",
+        "org.webosports.service.lumberjack/getStats"
+    ]
+}

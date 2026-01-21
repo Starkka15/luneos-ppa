@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/bin/ums-status",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.ums-status.*"],
+    "permissions": [
+        {
+            "service":"com.webos.ums-status.*",
+            "outbound":["com.webos.media"]
+        }
+    ]
+}

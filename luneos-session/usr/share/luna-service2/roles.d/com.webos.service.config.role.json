@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/sbin/configd",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.service.config"],
+    "permissions": [
+        {
+            "service":"com.webos.service.config",
+            "outbound": ["*"]
+        }
+    ]
+}

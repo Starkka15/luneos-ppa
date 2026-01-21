@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/sbin/cec-service",
+    "type": "regular",
+    "trustLevel" : "oem",
+    "allowedNames": ["com.webos.service.cec"],
+    "permissions": [
+        {
+            "service":"com.webos.service.cec",
+            "outbound":[]
+        }
+    ]
+}

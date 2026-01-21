@@ -1,0 +1,12 @@
+{
+    "exeName":"/usr/lib/db8/tests/test_db_stress",
+    "type": "regular",
+    "trustLevel": "oem",
+    "allowedNames": ["com.webos.db8.test.stress*"],
+    "permissions": [
+        {
+            "service":"com.webos.db8.test.stress*",
+            "outbound":["com.palm.db"]
+        }
+    ]
+}

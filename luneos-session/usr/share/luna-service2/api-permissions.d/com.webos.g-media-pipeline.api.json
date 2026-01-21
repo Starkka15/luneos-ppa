@@ -1,0 +1,20 @@
+{
+    "mediapipeline.resourcemanagement": [
+    "com.webos.rm.client._*/acquireComplete",
+    "com.webos.rm.client._*/policyAction"
+    ],
+    "mediapipeline.operation": [
+    "com.webos.pipeline.*/load",
+    "com.webos.pipeline.*/attach",
+    "com.webos.pipeline.*/unload",
+    "com.webos.pipeline.*/play",
+    "com.webos.pipeline.*/pause",
+    "com.webos.pipeline.*/seek",
+    "com.webos.pipeline.*/stateChange",
+    "com.webos.pipeline.*/unsubscribe",
+    "com.webos.pipeline.*/setPlayRate",
+    "com.webos.pipeline.*/setVolume",
+    "com.webos.pipeline.*/setPlane"
+    ]
+}
+
