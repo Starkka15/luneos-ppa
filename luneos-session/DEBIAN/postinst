@@ -8,7 +8,22 @@ if [ -f "$STARTUP_SCRIPT" ]; then
         sed -i '1s|#!/bin/sh|#!/bin/bash|' "$STARTUP_SCRIPT"
         echo "Fixed surface-manager.sh shebang for bash compatibility"
     fi
+    # Ensure script is executable
+    chmod +x "$STARTUP_SCRIPT"
 fi
+
+# Ensure all shell scripts in luna-surfacemanager startup are executable
+if [ -d "/usr/share/luna-surfacemanager/startup" ]; then
+    find /usr/share/luna-surfacemanager/startup -name "*.sh" -exec chmod +x {} \;
+    echo "Made luna-surfacemanager startup scripts executable"
+fi
+
+# Ensure all shell scripts in LuneOS bin directories are executable
+for dir in /usr/bin /usr/sbin /usr/libexec; do
+    if [ -d "$dir" ]; then
+        find "$dir" -maxdepth 1 -name "*.sh" -exec chmod +x {} \; 2>/dev/null || true
+    fi
+done
 
 # Create ls-hubd PID directory
 mkdir -p /var/run/ls2
@@ -27,35 +42,33 @@ for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
     fi
 done
 
-# Mask display managers (disable isn't enough - they can still be started by dependencies)
-systemctl mask gdm3.service 2>/dev/null || true
-systemctl mask gdm.service 2>/dev/null || true
-systemctl mask lightdm.service 2>/dev/null || true
-systemctl mask sddm.service 2>/dev/null || true
+# Set LuneOS as the default display manager (takes effect on reboot)
+# This is the proper Debian/Ubuntu way - no masking needed
+echo "/usr/bin/luna-surfacemanager" > /etc/X11/default-display-manager
 
-# Disable NetworkManager (LuneOS uses ConnMan)
-systemctl disable NetworkManager.service 2>/dev/null || true
-systemctl disable NetworkManager-wait-online.service 2>/dev/null || true
-
-# Enable ConnMan
-systemctl enable connman.service 2>/dev/null || true
+# Create display-manager.service symlink to luna-surfacemanager
+# This tells systemd which DM to start at boot
+ln -sf /usr/lib/systemd/system/luna-surfacemanager.service /etc/systemd/system/display-manager.service
 
 # Enable Luna Service Hub (must start before surface-manager)
-systemctl enable ls-hubd.service
+systemctl enable ls-hubd.service 2>/dev/null || true
 
 # Enable db8 services
 systemctl enable db8.service 2>/dev/null || true
 systemctl enable db8-maindb.service 2>/dev/null || true
 
-# Enable Luna Surface Manager
-systemctl enable luna-surfacemanager.service
+# Enable ConnMan (LuneOS network manager) - will take effect on reboot
+systemctl enable connman.service 2>/dev/null || true
 
-# Create symlink to graphical.target.wants
-ln -sf /usr/lib/systemd/system/luna-surfacemanager.service /etc/systemd/system/graphical.target.wants/ 2>/dev/null || true
-
-# Reload systemd
+# Reload systemd to recognize new service links
 systemctl daemon-reload
 
-echo "LuneOS session installed. Reboot to start LuneOS desktop."
+echo ""
+echo "=============================================="
+echo "LuneOS session installed successfully!"
+echo ""
+echo "IMPORTANT: Reboot to start LuneOS desktop."
+echo "Your current session will continue normally."
+echo "=============================================="
 
 exit 0
